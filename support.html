@@ -1,0 +1,169 @@
+<!-- layout.nunjucks -->
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Documentation Starter Template</title>
+	<link rel="stylesheet" href="assets/bower_components/foundation-sites/dist/css/foundation.css" />
+	<link rel="stylesheet" href="assets/css/doc-style.css">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" href="assets/bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/bower_components/prism/themes/prism.css">
+
+</head>
+<body>
+
+
+<!-- You write code for this content block in another file -->
+
+
+<!-- topbar.nunjucks -->
+
+<div class="top-bar doc-main-navigation">
+    <div class="top-bar-left">
+        <ul class="menu">
+            <a class="menu-text"><a href="/">Documentation</a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="menu">
+            <li><a href="/config.html">Configuration</a></li>
+            <li><a href="/widgets.html">Widgets</a></li>
+            <li><a href="/theme-options.html">Theme Options</a></li>
+            <li><a href="/shortcodes.html">Shortcodes</a></li>
+            <li><a href="/extras.html">Extras</a></li>
+            <li><a href="/support.html">Support</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="doc-wrapper">
+    <div class="grid-container">
+        <div class="doc-body">
+            <div class="grid-x grid-padding-x">
+
+                <div class="doc-content cell large-9" id="docs">
+                    <div class="content-inner">
+                        COnfig
+                        <section id="download-section" class="doc-section">
+    <h2 class="doc-section-title">SECTION TITLE</h2>
+    <div class="doc-section-block">
+        CONTENT
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos doloribus exercitationem
+            fugiat laboriosam maiores officia optio quis. Ad in molestias necessitatibus repellendus rerum. Asperiores
+            fugiat ipsam omnis pariatur perspiciatis!</p>
+
+        <h3 class="doc-block-title">Section Sub Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+            dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Donec quam felis.
+        </p>
+        <div class="code-block">
+            <h6>Default code example:</h6>
+            <p><code>bower install &lt;package&gt;</code></p>
+            <p><code>npm install &lt;package&gt;</code></p>
+        </div><!--//code-block-->
+
+    </div>
+</section><!--//doc-section-->
+
+<h2 class="">Support</h2>
+
+<p> If you have any questions that are beyond the scope of this help file, please check our <a
+        href="http://help.population-2.com">support website</a> .
+    Please send your <strong>Purchase Code</strong> when creating a ticket. We provide support for all
+    theme issues,
+    however we are not able to provide support for theme customizations and third-party plugins related
+    issue. </p>
+
+<p><a href="http://help.population-2.com/customer/portal/emails/new" class="button tiny   ">Get
+    support</a></p>
+
+<p>Follow this steps to get theme support:</p>
+<ol>
+    <li> Check the <a href="http://help.population-2.com/" rel="nofollow">Knowledgebase</a> . Most of
+        questions can
+        be answered in the Knowledgebase.
+    </li>
+    <li> Always perform a <strong>Search</strong> before open a ticket. Your question may already been
+        brought up
+        and has been answered.
+    </li>
+    <li> Please email us if you couldn't find any answers and send us the <strong>Site URL</strong> and
+        <strong>Purchase
+            Code</strong> .
+    </li>
+    <li> You can also send us the WordPress and FTP login info if necessary. All tickets are private,
+        only our team
+        can see the login info.
+    </li>
+</ol>
+<div class="panel">
+    <h4>How to find Purchase Code</h4>
+
+    <div class="row">
+        <div class="columns large-8"><img
+                src="http://themes.population-2.com/docs/peekaboo/images/purchase-code.png"></div>
+        <div class="columns large-4">
+            <ol>
+                <li> Go to <a href="http://themeforest.net">Themeforest.net</a> and log in to you
+                    account
+                </li>
+                <li> Click on <span class="label medium radius">Download Tab</span></li>
+                <li> Find the theme and click <span class="label medium radius">Download</span> .</li>
+                <li> Click
+                    <span class="label medium radius">License certificate &amp; purchase code</span> .
+                    The
+                    purchase code is inside this file.
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+</section>
+                    </div><!--//content-inner-->
+                </div><!--//doc-content-->
+
+                <!-- Adds the navigation partial -->
+                <!-- navigation.nunjucks -->
+
+
+<div class="doc-sidebar hidden-xs cell large-3 data-sticky-container show-for-large">
+	<nav id="doc-nav" class="sticky" data-sticky data-anchor="docs" data-sticky-on="large">
+		<ul id="doc-menu" class="vertical menu drilldown" data-magellan>
+            <li><a href="#section-one">Section One</a></li>
+            <li><a href="#section-two">Section Two</a></li>
+		</ul>
+	</nav>
+</div><!--//doc-sidebar-->
+
+            </div>
+        </div><!--//doc-body-->
+    </div><!--//container-->
+</div><!--//doc-wrapper-->
+
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="assets/bower_components/what-input/dist/what-input.min.js"></script>
+<script src="assets/bower_components/foundation-sites/dist/js/foundation.min.js"></script>
+<script>
+	$( document ).foundation();
+</script>
+
+<script src="assets/bower_components/prism/prism.js"></script>
+<script src="assets/bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+
+<script src="assets/js/app.js"></script>
+<script id="__bs_script__">//<![CDATA[
+document.write( "<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.6'><\/script>".replace( "HOST", location.hostname ) );
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,437 @@
+<!-- layout.nunjucks -->
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Documentation Starter Template</title>
+	<link rel="stylesheet" href="assets/bower_components/foundation-sites/dist/css/foundation.css" />
+	<link rel="stylesheet" href="assets/css/doc-style.css">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" href="assets/bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/bower_components/prism/themes/prism.css">
+
+</head>
+<body>
+
+
+<!-- You write code for this content block in another file -->
+
+
+<!-- topbar.nunjucks -->
+
+<div class="top-bar doc-main-navigation">
+    <div class="top-bar-left">
+        <ul class="menu">
+            <a class="menu-text"><a href="/">Documentation</a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="menu">
+            <li><a href="/config.html">Configuration</a></li>
+            <li><a href="/widgets.html">Widgets</a></li>
+            <li><a href="/theme-options.html">Theme Options</a></li>
+            <li><a href="/shortcodes.html">Shortcodes</a></li>
+            <li><a href="/extras.html">Extras</a></li>
+            <li><a href="/support.html">Support</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="doc-wrapper">
+    <div class="grid-container">
+        <div class="doc-body">
+            <div class="grid-x grid-padding-x">
+
+                <div class="doc-content cell large-9" id="docs">
+                    <div class="content-inner">
+                        COnfig
+                        <section id="download-section" class="doc-section">
+    <h2 class="doc-section-title">SECTION TITLE</h2>
+    <div class="doc-section-block">
+        CONTENT
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos doloribus exercitationem
+            fugiat laboriosam maiores officia optio quis. Ad in molestias necessitatibus repellendus rerum. Asperiores
+            fugiat ipsam omnis pariatur perspiciatis!</p>
+
+        <h3 class="doc-block-title">Section Sub Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+            dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Donec quam felis.
+        </p>
+        <div class="code-block">
+            <h6>Default code example:</h6>
+            <p><code>bower install &lt;package&gt;</code></p>
+            <p><code>npm install &lt;package&gt;</code></p>
+        </div><!--//code-block-->
+
+    </div>
+</section><!--//doc-section-->
+
+
+<h2 class="">Widgets</h2>
+
+<p>Peekaboo theme comes with Custom Widgets. Navigate to
+    <span class="label medium radius">Appearance</span> &gt;
+    <span class="label medium radius">Widgets</span> to customize the widgets. The Widgets panel on the
+    left side shows
+    all available widgets. The panels on the right are all widgets areas.</p>
+
+<h4>Adding a widget</h4>
+
+<p>Drag and drop the widget from the left panel to the right panel.</p>
+
+<h4>Removing the widget</h4>
+
+<p>Drag the widget back to the left panel (Available Widgets panel). If you want to keep the widget
+    setting for future
+    use, drag it to the Inactive Widgets instead of the Available Widgets panel. It will save your
+    widget settings for
+    future use.</p>
+
+<p><img src="img/widgets.png" alt=""/></p>
+<hr>
+<a id="widget_ad" class="anchor-top-s"></a>
+
+<h3>Ad Widget</h3>
+
+<div class="row">
+    <div class="columns large-6"><p><img alt="" src="img/widgets-ad.png"></p></div>
+    <div class="columns large-6"><p>A widget to display advertisement banners.</p>
+
+        <h5>Options:</h5>
+        <ul>
+            <li><strong>Title:</strong> Title of the widget ( Optional )</li>
+            <li><strong>Image source URL:</strong> The URL of the image, e.g.
+                <tt>http://themeforest.net/img/ad.jpg</tt></li>
+            <li><strong>Ad link:</strong> The URL destination, e.g. <tt>http://themeforest.net/</tt>
+            </li>
+        </ul>
+    </div>
+</div>
+<hr>
+<a id="widget_contact" class="anchor-top-s"></a>
+
+<h3>Contact Widget</h3>
+
+<div class="row">
+    <div class="columns large-6">
+        <p><img alt="" src="img/widget-contact.png"></p>
+
+    </div>
+    <div class="columns large-6">
+        <p>A widget to display contact information.</p>
+
+        <h5>Options:</h5>
+        <ul>
+            <li><strong>Title:</strong> Title of the widget.</li>
+            <li><strong>Contact info:</strong> Details of your contact info. , e.g. address, phone
+                number, etc.
+            </li>
+            <li><strong>Google Map embed code:</strong> Google map share embed code of your contact
+                info. Insert the
+                email code, with <code>&lt;iframe&gt;&lt;/iframe&gt;</code> iframe tag.
+                <p><img alt="" src="img/widget-googlemaps.png"></p>
+            </li>
+            <li>
+                <p><strong>Map Title:</strong> Title next to the map pin icon. </p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<hr>
+<a id="widget_download" class="anchor-top-s"></a>
+
+<h3>Download Widget</h3>
+
+<div class="row">
+    <div class="columns large-6">
+        <p><img alt="" src="img/widget-download.png"></p>
+    </div>
+    <div class="columns large-6">
+        <p>A widget to display a download link.</p>
+
+        <h4>Options:</h4>
+        <ul>
+            <li><strong>Title:</strong> Title of the widget.</li>
+            <li><strong>Subtitle:</strong> Subtitle of the widget.</li>
+            <li><strong>URL:</strong> Link to downloadable file.</li>
+        </ul>
+
+    </div>
+</div>
+
+<hr>
+
+<a id="widget_latest_post" class="anchor-top-s"></a>
+
+<h3>Latest Post Widget</h3>
+
+<div class="row">
+    <div class="columns large-6"><p><img alt="" src="img/widget-latest-posts.png"></p></div>
+    <div class="columns large-6"><p>A widget to displays latest posts from certain category.</p>
+        <h4>Options:</h4>
+        <ul>
+            <li><strong>Title:</strong> Title of the widget.</li>
+            <li><strong>Category ID:</strong> Category ID of the posts you want to display.</li>
+            <li><strong>Number of posts:</strong> Number of posts you want to display.</li>
+        </ul>
+    </div>
+</div>
+<hr>
+
+<a id="widget_map" class="anchor-top-s"></a>
+
+<h3>Map Widget</h3>
+
+<div class="row">
+    <div class="columns large-6">
+        <p><img alt="" src="img/widget-map.png"></p>
+    </div>
+    <div class="columns large-6">
+        <p>A widget to display a link to Google Map in modal window.</p>
+        <h4>Options:</h4>
+        <ul>
+            <li><strong>Title:</strong> Title of the widget.</li>
+            <li><strong>Google map link (without iframe):</strong> Google map link of your destination.
+                <strong>Insert
+                    the email version code, not the embed version.</strong>
+
+                <p><img alt="" src="img/widget-googlemaps.png"></p>
+            </li>
+        </ul>
+    </div>
+</div>
+<hr>
+
+<a id="widget_popular_post" class="anchor-top-s"></a>
+
+<h3>Popular Posts Widget</h3>
+
+<div class="row">
+    <div class="columns large-6">
+        <p><img alt="" src="img/widget-popular-post.png"></p>
+
+    </div>
+    <div class="columns large-6">
+        <p>A widget to display the posts with most comments.</p>
+        <h4>Options:</h4>
+        <ul>
+            <li><strong>Title</strong> : Title of the widget.</li>
+            <li><strong>Number of posts</strong> : Number of posts you want to display.</li>
+        </ul>
+    </div>
+</div>
+<hr>
+
+<a id="widget_single_post" class="anchor-top-s"></a>
+
+<h3>Single Post Widget</h3>
+
+<div class="row">
+    <div class="columns large-6"><p><img alt="" src="img/widget-single-post.png">
+    </p>
+    </div>
+    <div class="columns large-6"><p>A widget to display the content of a particular post or page.</p>
+
+        <h4>Options:</h4>
+        <ul>
+            <li><strong>Title:</strong> Title of the widget ( optional ).</li>
+            <li><strong>Type of content:</strong> Post or Page.</li>
+            <li><strong>ID:</strong> Page or post ID.</li>
+        </ul>
+    </div>
+</div>
+<hr>
+
+<a id="widget_social" class="anchor-top-s"></a>
+
+<h3>Social Media Widget</h3>
+
+<div class="row">
+    <div class="columns large-6"><p><img alt="" src="img/widget-social.png">
+    </p>
+    </div>
+    <div class="columns large-6"><p>A widget to display the links to all of your social media
+        profiles.</p>
+    </div>
+</div>
+
+
+<hr>
+<a id="widget_testimonial" class="anchor-top-s"></a>
+
+<h3>Testimonial Widget</h3>
+
+<div class="row">
+    <div class="columns large-6"><p><img alt="" src="img/widget-testimonial.png">
+    </p>
+    </div>
+    <div class="columns large-6"><p>A widget to display the Testimonial posts.</p>
+
+        <h4>Options:</h4>
+        <ul>
+            <li><strong>Title:</strong> Title of the widget ( Optional )</li>
+            <li><strong>Number of Testimonials:</strong> Amount of Testimonial posts you want to show.
+            </li>
+            <li><strong>URL:</strong>URL where the title links to. e.g. <tt>http://themeforest.net/</tt>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<hr>
+<a id="widget_twitter" class="anchor-top-s"></a>
+
+<h3>Twitter Widget</h3>
+
+<div class="row">
+    <div class="columns large-6">
+        <p><img alt="" src="img/widget-tweets.png"></p>
+
+    </div>
+    <div class="columns large-6">
+
+        <p>A widget to display latest tweets.</p>
+
+        <h4>Options:</h4>
+        <ul>
+            <li><strong>Title:</strong> Title of the widget.</li>
+            <li><strong>Username:</strong> Twitter account user name.</li>
+            <li><strong>Number of tweets:</strong> Number of tweets that will be displayed.</li>
+            <li><strong>Consumer Key, Consumer Secret, Access Token, Access Token Secret:</strong> OAuth
+                settings and
+                your access token.
+            </li>
+        </ul>
+        <p class="warning">Only one Twitter widget can be displayed in a page. You can not have twitter
+            widget in both
+            sidebar and footer. </p>
+    </div>
+    <div class="columns large-12">
+        <div class="panel callout">
+
+
+            <h4>How To Setup The Twitter Widget</h4>
+            <ol>
+                <li>Go <a href="https://dev.twitter.com/apps">https://dev.twitter.com/apps</a> and sign
+                    in.
+                </li>
+                <li>Click <span class="label medium radius">Create A New Application</span> button.</li>
+                <li>Fill out all the required fields. The name and description can be anything. Leave
+                    the Callback URL
+                    field empty.
+                </li>
+                <li>Click <span class="label medium radius">Create your Twitter application</span></li>
+                <li> After creating the app, click <span class="label medium radius">Create My Access Token</span>
+                    button to generate OAuth access token.
+                </li>
+                <li> Then you will see all 4 items you need; <strong> consumer key, consumer secret,
+                    access token,
+                    access token
+                    secret. </strong></li>
+                <li> Copy and paste OAuth setting (Consumer key & Consumer secret) and Access token
+                    (Access token &
+                    Access token secret) to the corresponding twitter widget fields
+                    in <span class="label medium radius">Appearance</span> &gt;
+                    <span class="label medium radius">Widgets</span>.
+                </li>
+                <li>Save the widget setting.</li>
+            </ol>
+
+
+        </div>
+    </div>
+</div>
+
+
+<hr>
+<a id="widget_video" class="anchor-top-s"></a>
+
+<h3>Video Widget</h3>
+
+<div class="row">
+    <div class="columns large-6">
+
+        <p><img alt="" src="img/widget-video.png"></p>
+    </div>
+    <div class="columns large-6">
+
+        <p>A widget to display a video hosted on other sites like YouTube and Vimeo. </p>
+
+        <h4>Options:</h4>
+        <ul>
+            <li><strong>Title</strong>: Title of the widget.</li>
+            <li><strong>Embed Code</strong>: Iframe embed code.<br>
+                Example: <br>
+                <dl>
+                    <dt>Vimeo</dt>
+                    <dd><code> &lt;iframe src=&quot;http://player.vimeo.com/video/25997002?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot;
+                        width=&quot;244&quot; height=&quot;137&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+                    </code></dd>
+                </dl>
+                <dl>
+                    <dt>YouTube</dt>
+                    <dd><code> &lt;iframe width=&quot;243&quot; height=&quot;138&quot; src=&quot;http://www.youtube.com/embed/H0YR0rC-KCA?rel=0&quot;
+                        frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+                    </code></dd>
+                </dl>
+            </li>
+            <li><strong>Caption</strong>: Short description of the video. It will be displayed below the
+                video.
+            </li>
+        </ul>
+
+
+    </div>
+
+</div>
+
+                    </div><!--//content-inner-->
+                </div><!--//doc-content-->
+
+                <!-- Adds the navigation partial -->
+                <!-- navigation.nunjucks -->
+
+
+<div class="doc-sidebar hidden-xs cell large-3 data-sticky-container show-for-large">
+	<nav id="doc-nav" class="sticky" data-sticky data-anchor="docs" data-sticky-on="large">
+		<ul id="doc-menu" class="vertical menu drilldown" data-magellan>
+            <li><a href="#section-one">Section One</a></li>
+            <li><a href="#section-two">Section Two</a></li>
+		</ul>
+	</nav>
+</div><!--//doc-sidebar-->
+
+            </div>
+        </div><!--//doc-body-->
+    </div><!--//container-->
+</div><!--//doc-wrapper-->
+
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="assets/bower_components/what-input/dist/what-input.min.js"></script>
+<script src="assets/bower_components/foundation-sites/dist/js/foundation.min.js"></script>
+<script>
+	$( document ).foundation();
+</script>
+
+<script src="assets/bower_components/prism/prism.js"></script>
+<script src="assets/bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+
+<script src="assets/js/app.js"></script>
+<script id="__bs_script__">//<![CDATA[
+document.write( "<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.6'><\/script>".replace( "HOST", location.hostname ) );
+//]]></script>
+</body>
+</html>

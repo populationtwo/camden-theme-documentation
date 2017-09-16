@@ -13,7 +13,7 @@
                 <div class="doc-content cell large-9" id="docs">
                     <div class="content-inner">
                         COnfig
-                        {% include "config.nunjucks" %}
+                        {% include "theme-options.nunjucks" %}
                     </div><!--//content-inner-->
                 </div><!--//doc-content-->
 

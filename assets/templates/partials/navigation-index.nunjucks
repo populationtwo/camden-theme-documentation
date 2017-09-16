@@ -2,19 +2,17 @@
 
 
 <div class="doc-sidebar hidden-xs cell large-3 data-sticky-container show-for-large">
-	<nav id="doc-nav" class="sticky" data-sticky data-anchor="docs" data-sticky-on="large">
-		<ul id="doc-menu" class="vertical menu drilldown" data-magellan>
+    <nav id="doc-nav" class="sticky" data-sticky data-anchor="docs" data-sticky-on="large">
+        <ul id="doc-menu" class="vertical menu drilldown" data-magellan>
 
 
-
-                <li><a href="#wordpress_installation">WordPress Installation</a></li>
-                <li><a href="#theme_installation">Theme Installation</a></li>
-                <li><a href="#in_the_package">What’s Included in the Package</a></li>
-                <li><a href="#theme_update">How To Update Theme</a></li>
-                <li><a href="#xml_import">Demo Content</a></li>
-
+            <li><a href="#wordpress-installation">WordPress Installation</a></li>
+            <li><a href="#theme-installation">Theme Installation</a></li>
+            <li><a href="#in-the-package">What’s Included in the Package</a></li>
+            <li><a href="#how-to-update-theme">How To Update Theme</a></li>
+            <li><a href="#demo-content">Demo Content</a></li>
 
 
-		</ul>
-	</nav>
+        </ul>
+    </nav>
 </div><!--//doc-sidebar-->
