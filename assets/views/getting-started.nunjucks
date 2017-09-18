@@ -1,8 +1,8 @@
-<section class="doc-section" id="getting-started">
-    <h2 class="doc-section-title">Getting Started</h2>
+<section class="doc-section" id="getting-started" data-magellan-target="getting-started">
+    <h2 class="doc-page-title">Getting Started</h2>
     <div class="doc-section-block">
 
-        <p> Peekaboo theme can only be used with a working version of WordPress.
+        <p> Camden theme can only be used with a working version of WordPress.
 
             We strongly recommend you to do a fresh WordPress installation and integrate your content into the
             pages
@@ -14,11 +14,9 @@
                 href="http://codex.wordpress.org/Installing_WordPress">WordPress Codex</a> .
             Below are some useful WordPress information to help you get started: </p>
         <ul>
-            <li><strong><a href="http://www.siteground.com/tutorials/wordpress/">WordPress How-To For
-                Beginners</a></strong> &mdash; Basic WordPress video tutorial from Siteground.
-            </li>
-            <li><strong><a href="http://wp.tutsplus.com/sessions/wp101-basix-training/">WP101 Basix Training
-                videos</a></strong> &mdash; some great videos from WPTuts on WordPress
+            <li><strong><a href="https://code.tutsplus.com/series/beginning-with-wordpress--wp-33808">WP101 Basix
+                Training
+                videos</a></strong> &mdash; some great videos from TutsPlus on WordPress
             </li>
             <li><strong> <a href="http://codex.wordpress.org/WordPress_Lessons">WordPress Lessons</a>
             </strong> &mdash;
@@ -29,12 +27,10 @@
             </li>
         </ul>
 
-        <!--<a id="wordpress_installation" class="anchor-top"></a>-->
     </div>
 </section>
 
-
-<section class="doc-section" id="wordpress-installation">
+<section class="doc-section" id="wordpress-installation" data-magellan-target="wordpress-installation">
     <h2 class="doc-section-title">WordPress Installation</h2>
     <div class="doc-section-block">
 
@@ -45,7 +41,7 @@
                 privileges
                 for accessing and modifying it.
             </li>
-            <li> (Optional) Find and rename <tt>wp-config-sample.php</tt> to <tt>wp-config.php</tt> , then edit
+            <li> (Optional) Find and rename <code>wp-config-sample.php</code> to <code>wp-config.php</code> , then edit
                 the file
                 (see <a href="http://codex.wordpress.org/Editing_wp-config.php" title="Editing wp-config.php">Editing
                     wp-config.php</a> ) and add your database information.
@@ -53,14 +49,14 @@
             <li> Upload the WordPress files to the desired location on your web server:
                 <ul>
                     <li> If you want to integrate WordPress into the root of your domain (e.g.
-                        <tt>http://example.com/</tt>
+                        <code>http://example.com/</code>
                         ), move or upload all contents of the unzipped WordPress directory (excluding the
                         WordPress
                         directory itself) into the root directory of your web server.
                     </li>
                     <li> If you want to have your WordPress installation in its own subdirectory on your web
-                        site (e.g. <tt>http://example.com/blog/</tt>
-                        ), create the <tt>blog</tt> directory on your server and upload the contents of the
+                        site (e.g. <code>http://example.com/blog/</code>
+                        ), create the <code>blog</code> directory on your server and upload the contents of the
                         unzipped
                         WordPress package to the directory via FTP.
                     </li>
@@ -74,11 +70,11 @@
                 you uploaded the WordPress files.
                 <ul>
                     <li> If you installed WordPress in the root directory, you should visit:
-                        <tt>http://example.com/</tt>
+                        <code>http://example.com/</code>
                     </li>
-                    <li> If you installed WordPress in its own subdirectory called <tt>blog</tt> , for example,
+                    <li> If you installed WordPress in its own subdirectory called <code>blog</code> , for example,
                         you should
-                        visit: <tt>http://example.com/blog/</tt></li>
+                        visit: <code>http://example.com/blog/</code></li>
                 </ul>
             </li>
         </ol>
@@ -88,7 +84,7 @@
     </div>
 </section>
 
-<section class="doc-section" id="theme-installation">
+<section class="doc-section" id="theme-installation" data-magellan-target="theme-installation">
     <h2 class="doc-section-title">Theme Installation</h2>
     <div class="doc-section-block">
 
@@ -113,60 +109,80 @@
                 <strong>Themes</strong>
             </a> .
             </li>
-            <li> Select <strong>Install Themes</strong> .</li>
-            <li> Use the <strong>Upload</strong> link in the top sub-menu to upload <tt>peekaboo.zip</tt> that
+            <li> Click <strong>Add New</strong> .</li>
+            <li> Click <strong>Upload New</strong> and choose the theme file(.zip) that
                 you have
                 previously downloaded to your machine.
             </li>
             <li>Wait until the theme is uploaded and installed.</li>
-            <li><strong>Activate</strong> the theme.</li>
+            <li>Activate the theme.</li>
         </ol>
-        <p><img src="img/admin-panels-wp-install.png"></p>
 
         <h3 class="doc-block-title">Adding New Themes Manually (FTP)</h3>
 
-        <p> To add Peekaboo Theme to your WordPress installation, follow these basic steps: </p>
+        <p> To add a new Theme to your WordPress installation, follow these basic steps:</p>
         <ol>
-            <li> Download Peekaboo theme archive and extract the files it contains.</li>
+            <li> Download the Theme archive (.zip) and extract the files it contains.
+            </li>
             <li> There will be a few folders such as documentation. Take note of the folder of your theme name.
                 You
-                will only need to upload <tt>peekaboo</tt> folder.
+                will only need to upload <code>camden</code> folder.
             </li>
+
             <li> Start up your FTP client. We recommend using
                 <a href="http://filezilla-project.org/" class="external text"
                    rel="nofollow">FileZilla</a> since it is free and
                 cross-platform.
             </li>
             <li> Find the directory where the WordPress installed. It is usually located at
-                <tt>/public_html/wp-content/themes/</tt>
+                <code>/public_html/wp-content/themes/</code>
             </li>
-            <li> Upload the <tt>peekaboo</tt> directory to your host server.</li>
-            <li> Follow the <a href="#Selecting_the_Active_Theme" title="">instructions below</a> for selecting
-                the new
-                Theme.
+            <li> Upload the Theme files to the new directory on your host server.
+            </li>
+            <li> Follow the <a href="#Selecting_the_Active_Theme">instructions below</a> for selecting the new Theme.
             </li>
         </ol>
+
         <h3 class="doc-block-title" id="Selecting_the_Active_Theme">Selecting the Active Theme</h3>
 
-        <p>To select Peekaboo theme for your site:</p>
+        <p>To select Camden theme for your site:</p>
+
+
         <ol>
-            <li> Log in to the WordPress <a href="http://codex.wordpress.org/Administration_Panels"
-                                            title="Administration Panels">Administration Panels</a> .
+            <li> Log in to the WordPress <a href="/Administration_Panels" title="Administration Panels"
+                                            class="mw-redirect">Administration Panels</a>.
             </li>
-            <li> Select the <a
-                    href="http://codex.wordpress.org/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog"
-                    title="Administration Panels">Appearance</a> panel, then <a
-                    href="http://codex.wordpress.org/Administration_Panels#Themes"
-                    title="Administration Panels">Themes</a>
-                .
+            <li> Select the <a href="/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog"
+                               title="Administration Panels" class="mw-redirect">Appearance</a> panel, then <a
+                    href="/Administration_Panels#Themes" title="Administration Panels" class="mw-redirect">Themes</a>.
             </li>
-            <li> From the <b>Available Themes</b> section, click on Peekaboo theme.</li>
-            <li>A preview of the Theme will be shown.</li>
-            <li> To activate the Theme click the <b>Activate "Peekaboo"</b> link in the top right.</li>
+            <li> From the Themes panel, select Camden theme and click the <b>Activate</b> button.
+            </li>
         </ol>
+
         <p>Your selection should immediately become active.</p>
 
-        <h3 class="doc-block-title" id="Installing_Required_Plugins">Installing Required Plugins</h3>
+
+        <div class="callout">
+            <h5>Common 'Are you sure you want to do this?' issue</h5>
+
+            <p> If you get the <strong>“Are You Sure You Want To Do This”</strong> message when installing the
+                theme via
+                WordPress Administration Panels, please make sure that you only upload the theme file, not the
+                whole
+                package. If the error message persists, install the theme via FTP, or increase your
+                <code>max_execution_time</code> , <code>max_input_time</code> , and <code>memory_limit</code> via the
+                <code>php.ini</code>
+                .
+                Ask your hosting company if you are not comfortable modifying <code>php.ini</code> . </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="doc-section" id="plugin-installation" data-magellan-target="plugin-installation">
+    <h2 class="doc-section-title">Plugin Installation</h2>
+    <div class="doc-section-block">
 
         <p>To install the required plugins:</p>
         <ol>
@@ -177,28 +193,16 @@
                 required plugins.
             </li>
         </ol>
-        <p><img src="img/admin-panels-required-plugin-install.png"></p>
+        <p><img src="assets/images/admin-panels-required-plugin-install.png"></p>
 
-        <div class="panel radius">
-            <h4>Common 'Are you sure you want to do this?' issue</h4>
 
-            <p> If you get the <strong>“Are You Sure You Want To Do This”</strong> message when installing the
-                theme via
-                WordPress Administration Panels, please make sure that you only upload the theme file, not the
-                whole
-                package. If the error message persists, install the theme via FTP, or increase your
-                <tt>max_execution_time</tt> , <tt>max_input_time</tt> , and <tt>memory_limit</tt> via the
-                <tt>php.ini</tt>
-                .
-                Ask your hosting company if you are not comfortable modifying <tt>php.ini</tt> . </p>
-        </div>
     </div>
-    <!--<a id="in_the_package" class="anchor-top"></a>-->
 </section>
-<section class="doc-section" id="in-the-package">
+
+<section class="doc-section" id="in-the-package" data-magellan-target="in-the-package">
     <h2 class="doc-section-title">What’s Included in the Package</h2>
     <div class="doc-section-block">
-
+        <!-- TODO: Update -->
         <p> When you purchase our theme from Themeforest, you need to download the theme files from your
             Themeforest
             account. Navigate to your downloads tab on Themeforest and find the theme. Click the download button
@@ -209,8 +213,8 @@
             with a brief
             description of each item: </p>
         <ul>
-            <li><strong>Peekaboo Theme Folder</strong> – contains the <strong>peekaboo.zip</strong> and
-                peekaboo-child.zip
+            <li><strong>Camden Theme Folder</strong> – contains the <strong>camden.zip</strong> and
+                camden-child.zip
                 WordPress theme. The child theme is only for users who make code changes.
             </li>
             <li><strong>Licensing Folder</strong> – contains the licensing files, this is not your purchase code
@@ -218,10 +222,10 @@
                 need to download from Themeforest.
             </li>
         </ul>
-        <!--<a id="theme_update" class="anchor-top"></a>-->
     </div>
 </section>
-<section class="doc-section" id="how-to-update-theme">
+
+<section class="doc-section" id="how-to-update-theme" data-magellan-target="how-to-update-theme">
     <h2 class="doc-section-title">How To Update Theme</h2>
     <div class="doc-section-block">
 
@@ -237,7 +241,7 @@
             latest WordPress
             version available. </p>
 
-        <div class="panel important">
+        <div class="callout">
             <h4>Backup your WordPress site before updating</h4>
 
             <p> We strongly recommend you to <a href="http://codex.wordpress.org/Backing_Up_Your_Database">backing
@@ -253,7 +257,7 @@
 
         <h3 class="doc-block-title">Download theme files</h3>
         <ol>
-            <li> Log into your Envato account and go find <strong>Peekaboo</strong> from downloads tab.</li>
+            <li> Log into your Envato account and go find <strong>Camden</strong> from downloads tab.</li>
             <li> Click the <strong>download</strong> button next to it and download the <strong>Installable
                 WordPress
                 Theme</strong> .
@@ -262,7 +266,7 @@
         </p>
         <p> Follow the instructions below for updating via FTP or WordPress Administration Panels. </p>
 
-        <p><img src="img/installable-wp-theme.png" alt="" width="" height=""></p>
+        <p><img src="assets/images/pkb/installable-wp-theme.png" alt="" width="" height=""></p>
 
         <h3 class="doc-block-title">Uploading the new version</h3>
 
@@ -277,7 +281,7 @@
             your ZIP file
             of updated theme, most likely you will get the following error: </p>
 
-        <p><img alt="" src="img/failed-install.png"></p>
+        <p><img alt="" src="assets/images/pkb/failed-install.png"></p>
 
         <p>To avoid this error you have several choices:</p>
         <ul class="no-bullet">
@@ -299,9 +303,9 @@
                 <h5>B) Rename your current theme folder via FTP</h5>
                 <ol>
                     <li><strong>1.</strong> Log in to your site via FTP client.</li>
-                    <li><strong>2.</strong> Go to <tt>wp-content/themes</tt> and rename your current theme
+                    <li><strong>2.</strong> Go to <code>wp-content/themes</code> and rename your current theme
                         folder (e.g.
-                        <strong>peekaboo</strong> ) to something else (e.g. <strong>peekaboo-old</strong> ),
+                        <strong>camden</strong> ) to something else (e.g. <strong>camden-old</strong> ),
                         without adding
                         any spaces in the folder name.
                     </li>
@@ -343,7 +347,8 @@
         <!--<a id="xml_import" class="anchor-top"></a>-->
     </div>
 </section>
-<section class="doc-section" id="demo-content">
+
+<section class="doc-section" id="demo-content" data-magellan-target="demo-content">
     <h2 class="doc-section-title">Demo Content</h2>
     <div class="doc-section-block">
 

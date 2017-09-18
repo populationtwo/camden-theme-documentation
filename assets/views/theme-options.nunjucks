@@ -35,13 +35,13 @@
                     class="label radius medium">Save All Changes</span> to save the changes. </p>
         </div>
         <div class="columns large-6">
-            <p><img alt="" src="img/appearance-theme-options.png"></p>
+            <p><img alt="" src="assets/images/pkb/appearance-theme-options.png"></p>
         </div>
     </div>
     <div class="panel callout">
-        <p><strong>Please Note:</strong> If you are using Peekaboo theme prior to v 1.15, your theme options
+        <p><strong>Please Note:</strong> If you are using Camden theme prior to v 1.15, your theme options
             will not be
-            carried away when you upgrade to Peekaboo 2.0. This is due to an entirely new theme options
+            carried away when you upgrade to Camden 2.0. This is due to an entirely new theme options
             framework.</p>
     </div>
     <ol>
@@ -56,7 +56,7 @@
 
                     <div class="row">
                         <div class="columns large-6">
-                            <p><img src="img/theme-options-subpages-nav.png" alt=""></p>
+                            <p><img src="assets/images/pkb/theme-options-subpages-nav.png" alt=""></p>
                         </div>
                         <div class="columns large-6">
                             <p> Display sub-pages navigation in the parent pages. This sub-pages navigation
@@ -73,7 +73,7 @@
                             <p>Make the Main Navigation sticks to the header when user scroll the page.</p>
                         </div>
                         <div class="columns large-6">
-                            <p><img src="img/theme-options-sticky-nav.png" alt=""></p>
+                            <p><img src="assets/images/pkb/theme-options-sticky-nav.png" alt=""></p>
                         </div>
                     </div>
                 </li>
@@ -86,7 +86,7 @@
                                 text. </p>
                         </div>
                         <div class="columns large-6">
-                            <p><img src="img/theme-options-footnote.png" alt=""></p>
+                            <p><img src="assets/images/pkb/theme-options-footnote.png" alt=""></p>
                         </div>
                     </div>
                 </li>
@@ -98,7 +98,7 @@
                             <p>Display scroll to top button in the footer.</p>
                         </div>
                         <div class="columns large-6">
-                            <p><img src="img/theme-options-back-top-top.png" alt=""></p>
+                            <p><img src="assets/images/pkb/theme-options-back-top-top.png" alt=""></p>
                         </div>
                     </div>
                 </li>
@@ -139,12 +139,12 @@
 
                     <div class="row">
                         <div class="columns large-4">
-                            <p><img src="img/theme-options-login-logo.png" alt="">
+                            <p><img src="assets/images/pkb/theme-options-login-logo.png" alt="">
                                 <small>WordPress login logo</small>
                             </p>
                         </div>
                         <div class="columns large-8">
-                            <p><img src="img/theme-options-logo.png" alt=""> <br>
+                            <p><img src="assets/images/pkb/theme-options-logo.png" alt=""> <br>
                                 <small>Main logo</small>
                             </p>
                         </div>
@@ -307,7 +307,7 @@
                     <p>Most of the options already explained in <a href="#configuration_home_page">this
                         section</a>.</p>
 
-                    <p><img src="img/homepage-cta.png" alt=""></p>
+                    <p><img src="assets/images/pkb/homepage-cta.png" alt=""></p>
                     <ul>
                         <li>
                             <h4>Section Title</h4>
@@ -347,7 +347,7 @@
                 <li>
                     <h3 class="subheader">Headline</h3>
 
-                    <p><img src="img/homepage-headline.png" alt=""></p>
+                    <p><img src="assets/images/pkb/homepage-headline.png" alt=""></p>
 
                     <p>Most of the options already explained in <a href="#configuration_home_page">this
                         section</a>.</p>
@@ -406,7 +406,7 @@
                     <p>Most of the options already explained in <a href="#configuration_home_page">this
                         section</a>.</p>
 
-                    <p><img src="img/homepage-list-mod.png" alt=""></p>
+                    <p><img src="assets/images/pkb/homepage-list-mod.png" alt=""></p>
                     <ul>
                         <li>
                             <h4>Section Title</h4>
@@ -450,7 +450,7 @@
                         of the options already explained in <a href="#configuration_home_page">this
                             section</a>.</p>
 
-                    <p><img src="img/configuration-testimonials.png" alt=""></p>
+                    <p><img src="assets/images/pkb/configuration-testimonials.png" alt=""></p>
                     <ul>
                         <li>
                             <h4>Section Title</h4>
@@ -492,7 +492,7 @@
                 <a href="#configuration_menu">Secondary
                     Navigation</a> before modifying this options.</p>
 
-            <p><img src="img/theme-options-secondary-nav.png" alt=""></p>
+            <p><img src="assets/images/pkb/theme-options-secondary-nav.png" alt=""></p>
             <ul>
                 <li>
                     <h4>Menu Columns</h4>
@@ -563,7 +563,7 @@
                             <p>Display the slide bullet navigation in the Slider.</p>
                         </div>
                         <div class="columns large-6">
-                            <p><img src="img/theme-options-slider-nav.png" alt=""></p>
+                            <p><img src="assets/images/pkb/theme-options-slider-nav.png" alt=""></p>
                         </div>
                     </div>
                 </li>
@@ -575,7 +575,7 @@
                             <p>Display Previous / Next Navigation in the Slider.</p>
                         </div>
                         <div class="columns large-6">
-                            <p><img src="img/theme-options-slider-prev-next.png" alt=""></p>
+                            <p><img src="assets/images/pkb/theme-options-slider-prev-next.png" alt=""></p>
                         </div>
                     </div>
                 </li>
@@ -638,7 +638,7 @@
                     </p>
                 </div>
                 <div class="columns large-6">
-                    <p><img src="img/theme-options-gallery.png" alt=""></p>
+                    <p><img src="assets/images/pkb/theme-options-gallery.png" alt=""></p>
                 </div>
             </div>
         </li>
@@ -658,7 +658,7 @@
                     in the page query: <tt> http://www.webpage.com/?p=65465</tt>.
                 </div>
                 <div class="columns large-6">
-                    <p><img src="img/theme-options-404.png" alt=""></p>
+                    <p><img src="assets/images/pkb/theme-options-404.png" alt=""></p>
                 </div>
             </div>
             <div class="row">
@@ -672,7 +672,7 @@
                     http://www.webpage.com/?s=65465</tt>.
                 </div>
                 <div class="columns large-6">
-                    <p><img src="img/theme-options-search.png" alt=""></p>
+                    <p><img src="assets/images/pkb/theme-options-search.png" alt=""></p>
                 </div>
             </div>
         </li>
@@ -689,7 +689,7 @@
                         you to use.</p>
                 </div>
                 <div class="columns large-6">
-                    <p><img src="img/theme-options-social-icons.png" alt=""></p>
+                    <p><img src="assets/images/pkb/theme-options-social-icons.png" alt=""></p>
                 </div>
             </div>
         </li>

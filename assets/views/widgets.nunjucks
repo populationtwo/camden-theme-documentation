@@ -24,7 +24,7 @@
 
 <h2 class="">Widgets</h2>
 
-<p>Peekaboo theme comes with Custom Widgets. Navigate to
+<p>Camden theme comes with Custom Widgets. Navigate to
     <span class="label medium radius">Appearance</span> &gt;
     <span class="label medium radius">Widgets</span> to customize the widgets. The Widgets panel on the
     left side shows
@@ -42,14 +42,14 @@
     widget settings for
     future use.</p>
 
-<p><img src="img/widgets.png" alt=""/></p>
+<p><img src="assets/images/pkb/widgets.png" alt=""/></p>
 <hr>
 <a id="widget_ad" class="anchor-top-s"></a>
 
 <h3>Ad Widget</h3>
 
 <div class="row">
-    <div class="columns large-6"><p><img alt="" src="img/widgets-ad.png"></p></div>
+    <div class="columns large-6"><p><img alt="" src="assets/images/pkb/widgets-ad.png"></p></div>
     <div class="columns large-6"><p>A widget to display advertisement banners.</p>
 
         <h5>Options:</h5>
@@ -69,7 +69,7 @@
 
 <div class="row">
     <div class="columns large-6">
-        <p><img alt="" src="img/widget-contact.png"></p>
+        <p><img alt="" src="assets/images/pkb/widget-contact.png"></p>
 
     </div>
     <div class="columns large-6">
@@ -84,7 +84,7 @@
             <li><strong>Google Map embed code:</strong> Google map share embed code of your contact
                 info. Insert the
                 email code, with <code>&lt;iframe&gt;&lt;/iframe&gt;</code> iframe tag.
-                <p><img alt="" src="img/widget-googlemaps.png"></p>
+                <p><img alt="" src="assets/images/pkb/widget-googlemaps.png"></p>
             </li>
             <li>
                 <p><strong>Map Title:</strong> Title next to the map pin icon. </p>
@@ -101,7 +101,7 @@
 
 <div class="row">
     <div class="columns large-6">
-        <p><img alt="" src="img/widget-download.png"></p>
+        <p><img alt="" src="assets/images/pkb/widget-download.png"></p>
     </div>
     <div class="columns large-6">
         <p>A widget to display a download link.</p>
@@ -123,7 +123,7 @@
 <h3>Latest Post Widget</h3>
 
 <div class="row">
-    <div class="columns large-6"><p><img alt="" src="img/widget-latest-posts.png"></p></div>
+    <div class="columns large-6"><p><img alt="" src="assets/images/pkb/widget-latest-posts.png"></p></div>
     <div class="columns large-6"><p>A widget to displays latest posts from certain category.</p>
         <h4>Options:</h4>
         <ul>
@@ -141,7 +141,7 @@
 
 <div class="row">
     <div class="columns large-6">
-        <p><img alt="" src="img/widget-map.png"></p>
+        <p><img alt="" src="assets/images/pkb/widget-map.png"></p>
     </div>
     <div class="columns large-6">
         <p>A widget to display a link to Google Map in modal window.</p>
@@ -152,7 +152,7 @@
                 <strong>Insert
                     the email version code, not the embed version.</strong>
 
-                <p><img alt="" src="img/widget-googlemaps.png"></p>
+                <p><img alt="" src="assets/images/pkb/widget-googlemaps.png"></p>
             </li>
         </ul>
     </div>
@@ -165,7 +165,7 @@
 
 <div class="row">
     <div class="columns large-6">
-        <p><img alt="" src="img/widget-popular-post.png"></p>
+        <p><img alt="" src="assets/images/pkb/widget-popular-post.png"></p>
 
     </div>
     <div class="columns large-6">
@@ -184,7 +184,7 @@
 <h3>Single Post Widget</h3>
 
 <div class="row">
-    <div class="columns large-6"><p><img alt="" src="img/widget-single-post.png">
+    <div class="columns large-6"><p><img alt="" src="assets/images/pkb/widget-single-post.png">
     </p>
     </div>
     <div class="columns large-6"><p>A widget to display the content of a particular post or page.</p>
@@ -204,7 +204,7 @@
 <h3>Social Media Widget</h3>
 
 <div class="row">
-    <div class="columns large-6"><p><img alt="" src="img/widget-social.png">
+    <div class="columns large-6"><p><img alt="" src="assets/images/pkb/widget-social.png">
     </p>
     </div>
     <div class="columns large-6"><p>A widget to display the links to all of your social media
@@ -219,7 +219,7 @@
 <h3>Testimonial Widget</h3>
 
 <div class="row">
-    <div class="columns large-6"><p><img alt="" src="img/widget-testimonial.png">
+    <div class="columns large-6"><p><img alt="" src="assets/images/pkb/widget-testimonial.png">
     </p>
     </div>
     <div class="columns large-6"><p>A widget to display the Testimonial posts.</p>
@@ -243,7 +243,7 @@
 
 <div class="row">
     <div class="columns large-6">
-        <p><img alt="" src="img/widget-tweets.png"></p>
+        <p><img alt="" src="assets/images/pkb/widget-tweets.png"></p>
 
     </div>
     <div class="columns large-6">
@@ -309,7 +309,7 @@
 <div class="row">
     <div class="columns large-6">
 
-        <p><img alt="" src="img/widget-video.png"></p>
+        <p><img alt="" src="assets/images/pkb/widget-video.png"></p>
     </div>
     <div class="columns large-6">
 

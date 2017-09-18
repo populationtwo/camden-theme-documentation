@@ -37,7 +37,7 @@
                 window.</p>
         </div>
         <div class="columns large-7">
-            <p><img alt="" src="img/shortcode-tinymce.png"></p>
+            <p><img alt="" src="assets/images/pkb/shortcode-tinymce.png"></p>
         </div>
     </div>
     <hr>
@@ -45,7 +45,7 @@
 
     <h3 class="">Grid</h3>
 
-    <p> The grid in Peekaboo theme is based on Foundation Grid. You can get more control of the grid layout
+    <p> The grid in Camden theme is based on Foundation Grid. You can get more control of the grid layout
         by using <a
                 href="http://foundation.zurb.com/docs/v/4.3.2/components/grid.html" target="_blank">the grid
             HTML code</a>. The
@@ -148,7 +148,7 @@
 
     <div class="row">
         <div class="columns large-6">
-            <p><img src="img/shortcode-alert.png" alt=""></p>
+            <p><img src="assets/images/pkb/shortcode-alert.png" alt=""></p>
         </div>
         <div class="columns large-6">
                         <pre style="margin: 0; line-height: 125%">
@@ -185,7 +185,7 @@
     <h3>Accordion</h3>
 
     <div class="row">
-        <div class="columns large-6"><img src="img/shortcode-accordion.png" alt=""></div>
+        <div class="columns large-6"><img src="assets/images/pkb/shortcode-accordion.png" alt=""></div>
         <div class="columns large-6">
                         <pre style="margin: 0; line-height: 125%"><code>
 							[accs]
@@ -202,7 +202,7 @@
     <h3>Tabs</h3>
 
     <div class="row">
-        <div class="columns large-6"><img src="img/shortcode-tabs.png" alt=""></div>
+        <div class="columns large-6"><img src="assets/images/pkb/shortcode-tabs.png" alt=""></div>
         <div class="columns large-6">
                         <pre style="margin: 0; line-height: 125%"><code>
 							[tabs tab1=&quot;Tab 1 Title&quot; tab2=&quot;Tab 2 Title&quot; tab3=&quot;Tab 3 Title&quot;]
@@ -219,7 +219,7 @@
     <h3>Vertical Tabs</h3>
 
     <div class="row">
-        <div class="columns large-6"><img src="img/shortcode-vtabs.png" alt=""></div>
+        <div class="columns large-6"><img src="assets/images/pkb/shortcode-vtabs.png" alt=""></div>
         <div class="columns large-6">
                         <pre style="margin: 0; line-height: 125%"><code>[vtabs][tab title=&quot;Tab 1 Title&quot;]Insert
 							Tab 1 content here [/tab] [tab title=&quot;Tab 2 Title&quot;] Insert Tab 2 content here
@@ -258,7 +258,7 @@
 						</code></pre>
         </div>
         <div class="columns large-6">
-            <figure><img src="img/shortcode-buttons.png" alt="" /></figure>
+            <figure><img src="assets/images/pkb/shortcode-buttons.png" alt="" /></figure>
         </div>
     </div>
     <br>
@@ -289,7 +289,7 @@
 						</code></pre>
         </div>
         <div class="columns large-6">
-            <figure><img src="img/shortcode-buttons-arrow.png" alt="" /></figure>
+            <figure><img src="assets/images/pkb/shortcode-buttons-arrow.png" alt="" /></figure>
         </div>
     </div>
     <hr>
@@ -305,7 +305,7 @@
 
     <div class="row">
         <div class="columns large-6">
-            <figure><img src="img/clearing-shortcode.png" alt="" /></figure>
+            <figure><img src="assets/images/pkb/clearing-shortcode.png" alt="" /></figure>
         </div>
         <div class="columns large-6">
             <pre><code>[clearing size=medium] // basic example with specified thumbnail size</code></pre>
@@ -342,7 +342,7 @@
 
     <div class="row">
         <div class="columns large-6">
-            <figure><img src="img/orbit-shortcode.jpg" alt="" /></figure>
+            <figure><img src="assets/images/pkb/orbit-shortcode.jpg" alt="" /></figure>
         </div>
         <div class="columns large-6">
             <p> Placing <code>[orbit]</code> in your editor creates a responsive slider from all the images
@@ -386,7 +386,7 @@
 
     <div class="row">
         <div class="columns large-6">
-            <figure><img src="img/reveal.jpg" alt="" /></figure>
+            <figure><img src="assets/images/pkb/reveal.jpg" alt="" /></figure>
         </div>
         <div class="columns large-6">
             <pre><code>[reveal link="Link text" linkclass="button radius alert"]…[/reveal]</code></pre>
@@ -407,7 +407,7 @@
 
     <div class="row">
         <div class="columns large-6">
-            <figure><img src="img/bottom-tooltip.jpg" alt="" /></figure>
+            <figure><img src="assets/images/pkb/bottom-tooltip.jpg" alt="" /></figure>
         </div>
         <div class="columns large-6">
 						<pre><code>[tooltip position="top" title="What goes in the tip"]Text that has a
@@ -428,13 +428,13 @@
     <h3>Checklist</h3>
 
     <div class="row">
-        <div class="columns large-6"><img src="img/checklist-1.jpg" alt="" /></div>
+        <div class="columns large-6"><img src="assets/images/pkb/checklist-1.jpg" alt="" /></div>
         <div class="columns large-6">
             <pre><code>[checklist]...[/checklist]</code></pre>
         </div>
     </div>
     <div class="row">
-        <div class="columns large-6"><img src="img/checklist-2.jpg" alt="" /></div>
+        <div class="columns large-6"><img src="assets/images/pkb/checklist-2.jpg" alt="" /></div>
         <div class="columns large-6">
             <pre><code>[checklist2]...[/checklist2]</code></pre>
         </div>
@@ -445,19 +445,19 @@
     <h3>Pull quote and Blockquote</h3>
 
     <div class="row">
-        <div class="columns large-6"><img src="img/pull-quote-left.jpg" alt="" /></div>
+        <div class="columns large-6"><img src="assets/images/pkb/pull-quote-left.jpg" alt="" /></div>
         <div class="columns large-6">
             <pre><code>[pullquote_left]...[/pullquote_left]</code></pre>
         </div>
     </div>
     <div class="row">
-        <div class="columns large-6"><img src="img/pull-quote-right.jpg" alt="" /></div>
+        <div class="columns large-6"><img src="assets/images/pkb/pull-quote-right.jpg" alt="" /></div>
         <div class="columns large-6">
             <pre><code>[pullquote_right]...[/pullquote_right]</code></pre>
         </div>
     </div>
     <div class="row">
-        <div class="columns large-6"><img src="img/blockquote.jpg" alt="" /></div>
+        <div class="columns large-6"><img src="assets/images/pkb/blockquote.jpg" alt="" /></div>
         <div class="columns large-6">
             <pre><code>[quote]...[/quote]</code></pre>
         </div>

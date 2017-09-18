@@ -75,7 +75,7 @@
         </div>
     </div>
     <div class="columns large-5">
-        <p><img src="img/page-template-dropdown.png" alt=""></p>
+        <p><img src="assets/images/pkb/page-template-dropdown.png" alt=""></p>
     </div>
 </div>
 <hr>
@@ -95,7 +95,7 @@
     <li> Select <strong>A static page</strong> option for the <strong>Posts page</strong> displays</li>
     <li> Select the page you just created as the <strong>Front page</strong> .</li>
 </ol>
-<p><img src="img/setting-up-home-page.png" alt=""></p>
+<p><img src="assets/images/pkb/setting-up-home-page.png" alt=""></p>
 
 <div class="row">
     <div class="large-8 columns">
@@ -110,14 +110,14 @@
 </div>
 <h3 class="subheader" id="home_page_home_page_content">Home Page Content</h3>
 
-<p><img src="img/homepage-layout-manager.png" alt=""></p>
+<p><img src="assets/images/pkb/homepage-layout-manager.png" alt=""></p>
 <ol>
     <li>
         <h5>Featured Posts</h5>
 
         <div class="row">
             <div class="columns large-9">
-                <p><img src="img/homepage-featured-posts.png" alt=""></p>
+                <p><img src="assets/images/pkb/homepage-featured-posts.png" alt=""></p>
             </div>
         </div>
         <div class="row">
@@ -137,7 +137,7 @@
 
         <div class="row">
             <div class="columns large-9">
-                <p><img src="img/homepage-cta.png" alt=""></p>
+                <p><img src="assets/images/pkb/homepage-cta.png" alt=""></p>
 
                 <p>CTA (Call to Action) is a button or some type of graphic or teaser text meant to
                     prompt a user to
@@ -165,7 +165,7 @@
             <div class="columns large-9">
                 <p>Headline or intro text is the combination of teaser text and image or video.</p>
 
-                <p><img src="img/homepage-headline.png" alt=""></p>
+                <p><img src="assets/images/pkb/homepage-headline.png" alt=""></p>
             </div>
         </div>
         <div class="row">
@@ -185,7 +185,7 @@
 
         <div class="row">
             <div class="columns large-9">
-                <p><img src="img/homepage-list-mod.png" alt=""></p>
+                <p><img src="assets/images/pkb/homepage-list-mod.png" alt=""></p>
             </div>
         </div>
         <div class="row">
@@ -210,7 +210,7 @@
                 type. You can adjust the amount of testimonials to show from Theme Options.
             </div>
             <div class="columns large-6">
-                <p><img src="img/homepage-testimonials.png" alt=""></p>
+                <p><img src="assets/images/pkb/homepage-testimonials.png" alt=""></p>
             </div>
         </div>
     </li>
@@ -223,7 +223,7 @@
                     Page.</p>
             </div>
             <div class="columns large-6">
-                <p><img src="img/homepage-content-mod.png" alt=""></p>
+                <p><img src="assets/images/pkb/homepage-content-mod.png" alt=""></p>
             </div>
         </div>
     </li>
@@ -258,13 +258,13 @@
     <li> Select <strong>A static page</strong> option for the <strong>Posts page</strong> displays</li>
     <li> Select the page you just created as the <strong>Posts page</strong> .</li>
 </ol>
-<p><img src="img/setting-up-blog-page.png" alt=""></p>
+<p><img src="assets/images/pkb/setting-up-blog-page.png" alt=""></p>
 <hr>
 <a class="anchor-top" id="configuration_contact_page"></a>
 
 <h3 class="">Contact Page</h3>
 
-<p> Peekaboo theme comes with a Contact Page template that that fully integrate with
+<p> Camden theme comes with a Contact Page template that that fully integrate with
     <a href="http://contactform7.com/">Contact
         Form 7</a> plugin. Contact Form 7 comes with a useful set of validation methods, including email
     address validation
@@ -289,7 +289,7 @@
 </ol>
 <div class="row">
     <div class="columns large-8">
-        <p><img src="img/contact-page-info-tab.png" alt=""></p>
+        <p><img src="assets/images/pkb/contact-page-info-tab.png" alt=""></p>
     </div>
 </div>
 <h3 class="subheader">How to get Contact Form 7 ID</h3>
@@ -303,7 +303,7 @@
         &gt; <span
                 class="label medium radius">Add New</span>
 
-        <p><img src="img/contact-page-add-new.png" alt=""></p>
+        <p><img src="assets/images/pkb/contact-page-add-new.png" alt=""></p>
     </li>
     <li> Create your custom contact form and <span class="label medium radius">Save</span> it. Check the
         <a
@@ -312,7 +312,7 @@
         not familiar with it.
     </li>
     <li> Copy the <strong>Contact Form ID</strong> and go back to the Contact page you just created.
-        <p><img src="img/contact-page-form-id.png" alt=""></p>
+        <p><img src="assets/images/pkb/contact-page-form-id.png" alt=""></p>
     </li>
 </ol>
 <hr>
@@ -348,9 +348,9 @@
 </div>
 <div class="row">
     <div class="columns large-8">
-        <p><img src="img/set-featured-image-1.png" alt=""></p>
+        <p><img src="assets/images/pkb/set-featured-image-1.png" alt=""></p>
 
-        <p><img src="img/set-featured-image-2.png" alt=""></p>
+        <p><img src="assets/images/pkb/set-featured-image-2.png" alt=""></p>
     </div>
 </div>
 <hr>
@@ -394,7 +394,7 @@
     <li> Navigate to <strong>Manage Locations</strong> tab and assign your menu to a theme location.
         Click <span
                 class="label medium radius">Save Changes</span> .
-        <p><img alt="" src="img/custom-menu-location.png"></p>
+        <p><img alt="" src="assets/images/pkb/custom-menu-location.png"></p>
     </li>
 </ol>
 <h3 class="subheader">Custom Menu locations</h3>
@@ -407,7 +407,7 @@
         <p> This is the main navigation on the header. It supports up to two levels of dropdown menu
             items. </p>
 
-        <p><img alt="" src="img/custom-menu-primary.png"></p>
+        <p><img alt="" src="assets/images/pkb/custom-menu-primary.png"></p>
     </li>
     <li>
         <h5>B) Secondary Navigation</h5>
@@ -415,7 +415,7 @@
         <p> This also called <strong>Secondary Nav</strong> on the homepage. It only supports one level
             menu items. </p>
 
-        <p><img alt="" src="img/custom-menu-secondary.png"></p>
+        <p><img alt="" src="assets/images/pkb/custom-menu-secondary.png"></p>
 
         <p> You can access additional options on the Theme Options. Navigate to
             <span class="label medium radius">Appearance</span>
@@ -425,13 +425,13 @@
 
         <div class="row">
             <div class="columns large-8">
-                <p><img alt="" src="img/options-secondary-nav.png"></p>
+                <p><img alt="" src="assets/images/pkb/options-secondary-nav.png"></p>
             </div>
         </div>
         <div class="panel callout"> Make sure you insert the <strong>Navigation Label</strong> of the
             Menu items,
             otherwise it will be displayed as blank menu item.
-            <p><img src="img/menu-navigation-label.png" alt=""></p>
+            <p><img src="assets/images/pkb/menu-navigation-label.png" alt=""></p>
         </div>
     </li>
 </ul>
@@ -485,9 +485,9 @@
 
 <h3 class="subheader">Slider settings</h3>
 
-<p><img src="img/doc-slider-info-2.jpg" alt=""></p>
+<p><img src="assets/images/pkb/doc-slider-info-2.jpg" alt=""></p>
 
-<p><img src="img/doc-slider-info-1.jpg" alt=""></p>
+<p><img src="assets/images/pkb/doc-slider-info-1.jpg" alt=""></p>
 
 <h3 class="subheader">Global slider options</h3>
 
@@ -497,7 +497,7 @@
     to
     access it. </p>
 
-<p><img src="img/theme-options-slider.png" alt=""></p>
+<p><img src="assets/images/pkb/theme-options-slider.png" alt=""></p>
 
 <p> All the options will affect both the home page slider and shortcode. </p>
 <hr>
@@ -584,7 +584,7 @@
 
 <h3>Testimonials</h3>
 
-<p><img src="img/configuration-testimonials.png" alt=""></p>
+<p><img src="assets/images/pkb/configuration-testimonials.png" alt=""></p>
 
 <div class="row">
     <div class="columns large-8">
