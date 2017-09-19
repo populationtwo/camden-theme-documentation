@@ -31,7 +31,7 @@
     <div class="top-bar-right">
         <ul class="menu">
             <li><a href="/">Getting Started</a></li>
-            <li><a href="/config.html">Configuration</a></li>
+            <li><a href="/theme-setup.html">Theme Setup</a></li>
             <li><a href="/widgets.html">Widgets</a></li>
             <li><a href="/theme-options.html">Theme Options</a></li>
             <li><a href="/shortcodes.html">Shortcodes</a></li>
@@ -50,9 +50,11 @@
 
                 <div class="doc-content cell large-9" id="docs">
                     <div class="content-inner">
-                        <section class="doc-section" id="getting-started" data-magellan-target="getting-started">
+                        
+<section class="doc-section" id="getting-started" data-magellan-target="getting-started">
     <h2 class="doc-page-title">Getting Started</h2>
     <div class="doc-section-block">
+
 
         <p> Camden theme can only be used with a working version of WordPress.
 
@@ -62,11 +64,15 @@
             themes, plugins,
             database, etc. </p>
 
+        <div class="callout">
+            <p>This page contain beginners guide to WordPress theme, skip to the next page if you are already comfortable with WordPress.</p>
+        </div>
+
         <p> If you need help installing WordPress, follow the documentation in <a
                 href="http://codex.wordpress.org/Installing_WordPress">WordPress Codex</a> .
             Below are some useful WordPress information to help you get started: </p>
         <ul>
-            <li><strong><a href="https://code.tutsplus.com/series/beginning-with-wordpress--wp-33808">WP101 Basix
+            <li><strong><a href="https://code.tutsplus.com/series/beginning-with-wordpress&#45;&#45;wp-33808">WP101 Basix
                 Training
                 videos</a></strong> &mdash; some great videos from TutsPlus on WordPress
             </li>
@@ -137,144 +143,144 @@
 </section>
 
 <section class="doc-section" id="theme-installation" data-magellan-target="theme-installation">
-    <h2 class="doc-section-title">Theme Installation</h2>
-    <div class="doc-section-block">
+<h2 class="doc-section-title">Theme Installation</h2>
+<div class="doc-section-block">
 
-        <p> The first step in getting started with our themes is installing them. There are two ways to do this,
-            Theme
-            Install from <strong>Administration Panels</strong> and <strong>FTP</strong> . Sometimes
-            installation via
-            <strong>Administration Panels</strong> may not work for you, usually because of a server restriction
-            such as
-            memory. In that case, you will need to install your theme manually via <strong>FTP</strong> . </p>
+<p> The first step in getting started with our themes is installing them. There are two ways to do this,
+Theme
+Install from <strong>Administration Panels</strong> and <strong>FTP</strong> . Sometimes
+installation via
+<strong>Administration Panels</strong> may not work for you, usually because of a server restriction
+such as
+memory. In that case, you will need to install your theme manually via <strong>FTP</strong> . </p>
 
-        <h3 class="doc-block-title">Adding New Themes using the Administration Panels</h3>
-        <ol>
-            <li> Log in to the WordPress
-                <a href="http://codex.wordpress.org/Administration_Panels" target="_blank">
-                    <strong>Administration Panels</strong> </a> .
-            </li>
-            <li> Select the <a
-                    href="http://codex.wordpress.org/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog"
-                    target="_blank"> <strong>Appearance</strong> </a> panel, then <a
-                    href="http://codex.wordpress.org/Administration_Panels#Themes" target="_blank">
-                <strong>Themes</strong>
-            </a> .
-            </li>
-            <li> Click <strong>Add New</strong> .</li>
-            <li> Click <strong>Upload New</strong> and choose the theme file(.zip) that
-                you have
-                previously downloaded to your machine.
-            </li>
-            <li>Wait until the theme is uploaded and installed.</li>
-            <li>Activate the theme.</li>
-        </ol>
+<h3 class="doc-block-title">Adding New Themes using the Administration Panels</h3>
+<ol>
+<li> Log in to the WordPress
+<a href="http://codex.wordpress.org/Administration_Panels" target="_blank">
+<strong>Administration Panels</strong> </a> .
+</li>
+<li> Select the <a
+href="http://codex.wordpress.org/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog"
+target="_blank"> <strong>Appearance</strong> </a> panel, then <a
+href="http://codex.wordpress.org/Administration_Panels#Themes" target="_blank">
+<strong>Themes</strong>
+</a> .
+</li>
+<li> Click <strong>Add New</strong> .</li>
+<li> Click <strong>Upload New</strong> and choose the theme file(.zip) that
+you have
+previously downloaded to your machine.
+</li>
+<li>Wait until the theme is uploaded and installed.</li>
+<li>Activate the theme.</li>
+</ol>
 
-        <h3 class="doc-block-title">Adding New Themes Manually (FTP)</h3>
+<h3 class="doc-block-title">Adding New Themes Manually (FTP)</h3>
 
-        <p> To add a new Theme to your WordPress installation, follow these basic steps:</p>
-        <ol>
-            <li> Download the Theme archive (.zip) and extract the files it contains.
-            </li>
-            <li> There will be a few folders such as documentation. Take note of the folder of your theme name.
-                You
-                will only need to upload <code>camden</code> folder.
-            </li>
+<p> To add a new Theme to your WordPress installation, follow these basic steps:</p>
+<ol>
+<li> Download the Theme archive (.zip) and extract the files it contains.
+</li>
+<li> There will be a few folders such as documentation. Take note of the folder of your theme name.
+You
+will only need to upload <code>camden</code> folder.
+</li>
 
-            <li> Start up your FTP client. We recommend using
-                <a href="http://filezilla-project.org/" class="external text"
-                   rel="nofollow">FileZilla</a> since it is free and
-                cross-platform.
-            </li>
-            <li> Find the directory where the WordPress installed. It is usually located at
-                <code>/public_html/wp-content/themes/</code>
-            </li>
-            <li> Upload the Theme files to the new directory on your host server.
-            </li>
-            <li> Follow the <a href="#Selecting_the_Active_Theme">instructions below</a> for selecting the new Theme.
-            </li>
-        </ol>
+<li> Start up your FTP client. We recommend using
+<a href="http://filezilla-project.org/" class="external text"
+rel="nofollow">FileZilla</a> since it is free and
+cross-platform.
+</li>
+<li> Find the directory where the WordPress installed. It is usually located at
+<code>/public_html/wp-content/themes/</code>
+</li>
+<li> Upload the Theme files to the new directory on your host server.
+</li>
+<li> Follow the <a href="#Selecting_the_Active_Theme">instructions below</a> for selecting the new Theme.
+</li>
+</ol>
 
-        <h3 class="doc-block-title" id="Selecting_the_Active_Theme">Selecting the Active Theme</h3>
+<h3 class="doc-block-title" id="Selecting_the_Active_Theme">Selecting the Active Theme</h3>
 
-        <p>To select Camden theme for your site:</p>
-
-
-        <ol>
-            <li> Log in to the WordPress <a href="/Administration_Panels" title="Administration Panels"
-                                            class="mw-redirect">Administration Panels</a>.
-            </li>
-            <li> Select the <a href="/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog"
-                               title="Administration Panels" class="mw-redirect">Appearance</a> panel, then <a
-                    href="/Administration_Panels#Themes" title="Administration Panels" class="mw-redirect">Themes</a>.
-            </li>
-            <li> From the Themes panel, select Camden theme and click the <b>Activate</b> button.
-            </li>
-        </ol>
-
-        <p>Your selection should immediately become active.</p>
+<p>To select Camden theme for your site:</p>
 
 
-        <div class="callout">
-            <h5>Common 'Are you sure you want to do this?' issue</h5>
+<ol>
+<li> Log in to the WordPress <a href="/Administration_Panels" title="Administration Panels"
+class="mw-redirect">Administration Panels</a>.
+</li>
+<li> Select the <a href="/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog"
+title="Administration Panels" class="mw-redirect">Appearance</a> panel, then <a
+href="/Administration_Panels#Themes" title="Administration Panels" class="mw-redirect">Themes</a>.
+</li>
+<li> From the Themes panel, select Camden theme and click the <b>Activate</b> button.
+</li>
+</ol>
 
-            <p> If you get the <strong>“Are You Sure You Want To Do This”</strong> message when installing the
-                theme via
-                WordPress Administration Panels, please make sure that you only upload the theme file, not the
-                whole
-                package. If the error message persists, install the theme via FTP, or increase your
-                <code>max_execution_time</code> , <code>max_input_time</code> , and <code>memory_limit</code> via the
-                <code>php.ini</code>
-                .
-                Ask your hosting company if you are not comfortable modifying <code>php.ini</code> . </p>
-        </div>
-    </div>
+<p>Your selection should immediately become active.</p>
+
+
+<div class="callout">
+<h5>Common 'Are you sure you want to do this?' issue</h5>
+
+<p> If you get the <strong>“Are You Sure You Want To Do This”</strong> message when installing the
+theme via
+WordPress Administration Panels, please make sure that you only upload the theme file, not the
+whole
+package. If the error message persists, install the theme via FTP, or increase your
+<code>max_execution_time</code> , <code>max_input_time</code> , and <code>memory_limit</code> via the
+<code>php.ini</code>
+.
+Ask your hosting company if you are not comfortable modifying <code>php.ini</code> . </p>
+</div>
+</div>
 </section>
 
 
 <section class="doc-section" id="plugin-installation" data-magellan-target="plugin-installation">
-    <h2 class="doc-section-title">Plugin Installation</h2>
-    <div class="doc-section-block">
+<h2 class="doc-section-title">Plugin Installation</h2>
+<div class="doc-section-block">
 
-        <p>To install the required plugins:</p>
-        <ol>
-            <li> Log in to the WordPress <a href="http://codex.wordpress.org/Administration_Panels"
-                                            title="Administration Panels">Administration Panels</a>.
-            </li>
-            <li> Select <strong>Begin installing plugins</strong>. WordPress will download and install all the
-                required plugins.
-            </li>
-        </ol>
-        <p><img src="assets/images/admin-panels-required-plugin-install.png"></p>
+<p>To install the required plugins:</p>
+<ol>
+<li> Log in to the WordPress <a href="http://codex.wordpress.org/Administration_Panels"
+title="Administration Panels">Administration Panels</a>.
+</li>
+<li> Select <strong>Begin installing plugins</strong>. WordPress will download and install all the
+required plugins.
+</li>
+</ol>
+<p><img src="assets/images/admin-panels-required-plugin-install.png"></p>
 
 
-    </div>
+</div>
 </section>
 
 <section class="doc-section" id="in-the-package" data-magellan-target="in-the-package">
-    <h2 class="doc-section-title">What’s Included in the Package</h2>
-    <div class="doc-section-block">
-        <!-- TODO: Update -->
-        <p> When you purchase our theme from Themeforest, you need to download the theme files from your
-            Themeforest
-            account. Navigate to your downloads tab on Themeforest and find the theme. Click the download button
-            to see the
-            two options. The <strong>Main Files</strong> contain everything, and the <strong>Installable
-                WordPress
-                Theme</strong> is the WordPress theme file only. Below is a full list of what is included along
-            with a brief
-            description of each item: </p>
-        <ul>
-            <li><strong>Camden Theme Folder</strong> – contains the <strong>camden.zip</strong> and
-                camden-child.zip
-                WordPress theme. The child theme is only for users who make code changes.
-            </li>
-            <li><strong>Licensing Folder</strong> – contains the licensing files, this is not your purchase code
-                that you
-                need to download from Themeforest.
-            </li>
-        </ul>
-    </div>
+<h2 class="doc-section-title">What’s Included in the Package</h2>
+<div class="doc-section-block">
+<!-- TODO: Update -->
+<p> When you purchase our theme from Themeforest, you need to download the theme files from your
+Themeforest
+account. Navigate to your downloads tab on Themeforest and find the theme. Click the download button
+to see the
+two options. The <strong>Main Files</strong> contain everything, and the <strong>Installable
+WordPress
+Theme</strong> is the WordPress theme file only. Below is a full list of what is included along
+with a brief
+description of each item: </p>
+<ul>
+<li><strong>Camden Theme Folder</strong> – contains the <strong>camden.zip</strong> and
+camden-child.zip
+WordPress theme. The child theme is only for users who make code changes.
+</li>
+<li><strong>Licensing Folder</strong> – contains the licensing files, this is not your purchase code
+that you
+need to download from Themeforest.
+</li>
+</ul>
+</div>
 </section>
 
 <section class="doc-section" id="how-to-update-theme" data-magellan-target="how-to-update-theme">
@@ -294,7 +300,7 @@
             version available. </p>
 
         <div class="callout">
-            <h4>Backup your WordPress site before updating</h4>
+            <h5>Backup your WordPress site before updating</h5>
 
             <p> We strongly recommend you to <a href="http://codex.wordpress.org/Backing_Up_Your_Database">backing
                 up your
@@ -308,81 +314,85 @@
             method. </p>
 
         <h3 class="doc-block-title">Download theme files</h3>
+
         <ol>
-            <li> Log into your Envato account and go find <strong>Camden</strong> from downloads tab.</li>
-            <li> Click the <strong>download</strong> button next to it and download the <strong>Installable
-                WordPress
-                Theme</strong> .
+            <li> Log into your Envato account and go to Downloads page under your profile name.</li>
+            <li>Find Camden theme click <strong>Download</strong> button next to it and then click <strong>Installable
+                WordPress file only</strong>.
             </li>
         </ol>
-        </p>
+        <p><img src="assets/images/installable-wp-theme.png" alt="" width="" height=""></p>
+
         <p> Follow the instructions below for updating via FTP or WordPress Administration Panels. </p>
 
-        <p><img src="assets/images/pkb/installable-wp-theme.png" alt="" width="" height=""></p>
 
         <h3 class="doc-block-title">Uploading the new version</h3>
 
-        <p> The easiest way to update your theme is to upload it using WordPress Administration Panels in <span
-                class="label medium radius">Appearance</span> &gt; <span class="label medium radius">Themes</span>
-            &gt;
-            <span class="label medium radius">Install Themes</span> &gt; <span class="label medium radius">Upload</span>
-            .
+        <p> The easiest way to update your theme is to upload it using <strong>WordPress Administration Panels</strong>
         </p>
 
         <p> But because you already have a theme folder on your server with the same name as the folder inside
             your ZIP file
             of updated theme, most likely you will get the following error: </p>
 
-        <p><img alt="" src="assets/images/pkb/failed-install.png"></p>
+        <p><img alt="" src="assets/images/failed-install.png"></p>
 
         <p>To avoid this error you have several choices:</p>
         <ul class="no-bullet">
             <li>
-                <h5>A) Delete your current theme</h5>
+                <h5><strong>A) Delete your current theme</strong></h5>
+
                 <ol>
-                    <li><strong>1.</strong> Deactivate the theme you want to update, enabling another theme
+                    <li>Deactivate the theme you want to update, enabling another theme
                         (e.g. <strong>Twenty
-                            Twelve</strong> ) (theme can not be deleted if it is active).
+                            Seventeen</strong> ) (theme can not be deleted if it is active).
                     </li>
-                    <li><strong>2.</strong> Delete the theme.</li>
-                    <li><strong>3.</strong> Now you can go to <span class="adminlink">Install Themes</span> tab
-                        and install
-                        the updated version of the theme.
+                    <li>Delete the theme.</li>
+                    <li>Now you can go to Themes page and install the updated version of the theme.
                     </li>
                 </ol>
+                <br>
+
             </li>
+
             <li>
-                <h5>B) Rename your current theme folder via FTP</h5>
+                <h5><strong>B) Rename your current theme folder via FTP</strong></h5>
+
                 <ol>
-                    <li><strong>1.</strong> Log in to your site via FTP client.</li>
-                    <li><strong>2.</strong> Go to <code>wp-content/themes</code> and rename your current theme
+                    <li>Log in to your site via FTP client.</li>
+                    <li>Go to <code>wp-content/themes</code> and rename your current theme
                         folder (e.g.
-                        <strong>camden</strong> ) to something else (e.g. <strong>camden-old</strong> ),
+                        <strong>camden</strong> ) to something else (e.g. <strong>camden-backup</strong> ),
                         without adding
                         any spaces in the folder name.
                     </li>
-                    <li><strong>3.</strong> Go back to WordPress Administration Panel and install the new
+                    <li>Go back to WordPress Administration Panel and install the new
                         version the
                         theme.
                     </li>
+                    <li>Delete the theme you just renamed (e.g. <strong>camden-backup</strong> ) after successfully
+                        updating the theme.
+                    </li>
                 </ol>
+                <br>
             </li>
             <li>
-                <h5>C) Manually update only modified files</h5>
+                <h5><strong>C) Manually update only modified files</strong></h5>
                 <ol>
-                    <li><strong>1.</strong> If your theme was previously modified or customized, you can update
+                    <li>If your theme was previously modified or customized, you can update
                         manually
                         only files that were modified in newer versions than yours.
                     </li>
-                    <li><strong>2.</strong> Look in the <a href="">changelog</a> of your theme to see which
+                    <li>Look in the <strong>changelog</strong> of your theme to see which
                         files were
                         modified or added and replace them via FTP.
                     </li>
                 </ol>
+                <br>
             </li>
         </ul>
         <div class="panel callout">
-            <h4>What if my theme was modified?</h4>
+            <h5><strong>What if my theme was modified?</strong></h5>
             <ul>
                 <li> Update via FTP only modified files that are listed in the <strong>changelog</strong></li>
                 <li> If you don’t remember what modifications you did in your theme, just compare files from
@@ -400,55 +410,7 @@
     </div>
 </section>
 
-<section class="doc-section" id="demo-content" data-magellan-target="demo-content">
-    <h2 class="doc-section-title">Demo Content</h2>
-    <div class="doc-section-block">
 
-        <p> You can to install the demo content for your theme by uploading XML file.
-            It will import posts, pages, menus but the demo site theme settings. We have no rights to distribute
-            the stock
-            photos used in the demo site, therefore it's not included in the demo xml. </p>
-
-        <p>
-
-        <p>
-            <a href="https://gist.github.com/populationtwo/dec1a72cd7c35d134c6a" target="blank" class="button small">Get
-                demo
-                XML</a></p>
-
-        <p>Follow this steps to import the XML:</p>
-        <ol>
-            <li> Go to <span class="label medium radius">Dashboard</span> &gt; <span
-                    class="label medium radius">Tools</span> &gt; <span class="label medium radius">Import</span>
-                &gt; <span
-                        class="label medium radius">WordPress</span></li>
-            <li>Install and activate the plugin.</li>
-            <li> Choose <span class="label medium radius">Upload file and import</span></li>
-        </ol>
-
-    </div>
-</section>
-
-
-<h1>Theme Setup</h1>
-https://boxystudio.ticksy.com/article/3271/
-
-<h1>Plugin install</h1>
-https://boxystudio.ticksy.com/article/3272/
-
-<h1>Staff Page</h1>
-https://boxystudio.ticksy.com/article/3270/
-
-<h1>Slider</h1>
-https://boxystudio.ticksy.com/article/3269/
-
-<h1>Twitter API guide</h1>
-https://boxystudio.ticksy.com/article/3424/
-
-<h1>Translation</h1>
-https://boxystudio.ticksy.com/article/3235/
-
-<h1>LTR</h1>
 
                     </div><!--//content-inner-->
                 </div><!--//doc-content-->
@@ -461,14 +423,11 @@ https://boxystudio.ticksy.com/article/3235/
     <nav id="doc-nav" class="sticky" data-sticky data-anchor="docs" data-sticky-on="large">
         <ul id="doc-menu" class="vertical menu " data-magellan>
 
-
             <li><a href="#wordpress-installation">WordPress Installation</a></li>
             <li><a href="#theme-installation">Theme Installation</a></li>
             <li><a href="#plugin-installation">Plugin Installation</a></li>
             <li><a href="#in-the-package">What’s Included in the Package</a></li>
             <li><a href="#how-to-update-theme">How To Update Theme</a></li>
-            <li><a href="#demo-content">Demo Content</a></li>
-
 
         </ul>
     </nav>

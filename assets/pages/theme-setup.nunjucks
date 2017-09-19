@@ -13,12 +13,12 @@
                 <div class="doc-content cell large-9" id="docs">
                     <div class="content-inner">
                         COnfig
-                        {% include "config.nunjucks" %}
+                        {% include "theme-setup.nunjucks" %}
                     </div><!--//content-inner-->
                 </div><!--//doc-content-->
 
                 <!-- Adds the navigation partial -->
-                {% include "partials/navigation.nunjucks" %}
+                {% include "partials/navigation-theme-setup.nunjucks" %}
             </div>
         </div><!--//doc-body-->
     </div><!--//container-->

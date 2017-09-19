@@ -9,7 +9,7 @@
     <div class="top-bar-right">
         <ul class="menu">
             <li><a href="/">Getting Started</a></li>
-            <li><a href="/config.html">Configuration</a></li>
+            <li><a href="/theme-setup.html">Theme Setup</a></li>
             <li><a href="/widgets.html">Widgets</a></li>
             <li><a href="/theme-options.html">Theme Options</a></li>
             <li><a href="/shortcodes.html">Shortcodes</a></li>

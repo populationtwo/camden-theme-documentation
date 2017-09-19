@@ -5,14 +5,11 @@
     <nav id="doc-nav" class="sticky" data-sticky data-anchor="docs" data-sticky-on="large">
         <ul id="doc-menu" class="vertical menu " data-magellan>
 
-
             <li><a href="#wordpress-installation">WordPress Installation</a></li>
             <li><a href="#theme-installation">Theme Installation</a></li>
             <li><a href="#plugin-installation">Plugin Installation</a></li>
             <li><a href="#in-the-package">What’s Included in the Package</a></li>
             <li><a href="#how-to-update-theme">How To Update Theme</a></li>
-            <li><a href="#demo-content">Demo Content</a></li>
-
 
         </ul>
     </nav>
