@@ -1,4 +1,11 @@
-<section id="download-section" class="doc-section">
+<h1>Configuration</h1>
+
+<h3 class="subheader"> After installing and activating your theme it is now time to start setting up
+    your content and
+    learning more about our theme. </h3>
+
+
+<!--<section id="download-section" class="doc-section">
     <h2 class="doc-section-title">SECTION TITLE</h2>
     <div class="doc-section-block">
         CONTENT
@@ -16,572 +23,595 @@
             <h6>Default code example:</h6>
             <p><code>bower install &lt;package&gt;</code></p>
             <p><code>npm install &lt;package&gt;</code></p>
-        </div><!--//code-block-->
+        </div>
+
+    </div>
+</section>-->
+<!--//doc-section-->
+
+
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">Page Template</h2>
+    <div class="doc-section-block">
+
+        <p> A Page Template is a template which comes with your theme. WordPress can be configured to use
+            different Page
+            Templates for different Pages. You can select which Template will be used when displaying a
+            particular Page. </p>
+
+        <p> This theme comes with unique page templates which adds additional functionality to your pages. These
+            are the page
+            templates that can be found in this theme: </p>
+        <ul>
+            <li><strong>Home Page</strong> &mdash; a page template for Home Page</li>
+            <li><strong>Full Width Page</strong> &mdash; a full width page template without the sidebar.</li>
+            <li><strong>Gallery Page</strong> &mdash; a page template for Gallery Images</li>
+            <li><strong>Testimonial Page</strong> &mdash; a page template for Testimonials</li>
+            <li><strong>Contact Page</strong> &mdash; a page template with contact form</li>
+        </ul>
+        <div class="row">
+            <div class="columns large-7">
+                <h3 class="subheader">How To modify a Page Template</h3>
+                <ol>
+                    <li> Navigate to <span class="label medium radius">Pages</span> &gt;
+                        <span class="label medium radius">Add New</span>
+                    </li>
+                    <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
+                        <strong>Template</strong>
+                        dropdown.
+                    </li>
+                    <li>Select the Page Template.</li>
+                    <li> Add a title and <span class="label medium radius">Publish</span> the Page. The page
+                        will display the
+                        pre-defined content within that page template.
+                    </li>
+                </ol>
+                <div class="panel callout">
+                    <h4>What if I couldn't find the Page Attribute panel?</h4>
+
+                    <p> If you do not see this panel, look to the top right of your screen for <strong>Screen
+                        Options</strong> .
+                        Click <span class="label medium radius">Screen Options</span> and enable the checkbox
+                        next to Page
+                        Attributes. </p>
+                </div>
+            </div>
+            <div class="columns large-5">
+                <p><img src="assets/images/pkb/page-template-dropdown.png" alt=""></p>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos doloribus exercitationem
+            fugiat laboriosam maiores officia optio quis. Ad in molestias necessitatibus repellendus rerum. Asperiores
+            fugiat ipsam omnis pariatur perspiciatis!</p>
+
 
     </div>
 </section><!--//doc-section-->
 
-
-<h1>Configuration</h1>
-
-<h3 class="subheader"> After installing and activating your theme it is now time to start setting up
-    your content and
-    learning more about our theme. </h3>
-<hr>
-<a id="page_template" class="anchor-top"></a>
-
-<h3 class="">Page Template</h3>
-
-<p> A Page Template is a template which comes with your theme. WordPress can be configured to use
-    different Page
-    Templates for different Pages. You can select which Template will be used when displaying a
-    particular Page. </p>
-
-<p> This theme comes with unique page templates which adds additional functionality to your pages. These
-    are the page
-    templates that can be found in this theme: </p>
-<ul>
-    <li><strong>Home Page</strong> &mdash; a page template for Home Page</li>
-    <li><strong>Full Width Page</strong> &mdash; a full width page template without the sidebar.</li>
-    <li><strong>Gallery Page</strong> &mdash; a page template for Gallery Images</li>
-    <li><strong>Testimonial Page</strong> &mdash; a page template for Testimonials</li>
-    <li><strong>Contact Page</strong> &mdash; a page template with contact form</li>
-</ul>
-<div class="row">
-    <div class="columns large-7">
-        <h3 class="subheader">How To modify a Page Template</h3>
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">Setting Up Home Page</h2>
+    <div class="doc-section-block">
         <ol>
-            <li> Navigate to <span class="label medium radius">Pages</span> &gt;
-                <span class="label medium radius">Add New</span>
-            </li>
+            <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
+                    class="label medium radius">Add New</span></li>
             <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
-                <strong>Template</strong>
-                dropdown.
+                <strong>Template</strong> dropdown.
             </li>
-            <li>Select the Page Template.</li>
-            <li> Add a title and <span class="label medium radius">Publish</span> the Page. The page
-                will display the
-                pre-defined content within that page template.
+            <li> Select <strong>Home Page Template</strong> as the Page Template.</li>
+            <li> Add a title and <span class="label medium radius">Publish</span> the Page.</li>
+            <li> Navigate to <span class="label medium radius">Settings</span> &gt; <span
+                    class="label medium radius">Reading</span></li>
+            <li> Select <strong>A static page</strong> option for the <strong>Posts page</strong> displays</li>
+            <li> Select the page you just created as the <strong>Front page</strong> .</li>
+        </ol>
+        <p><img src="assets/images/pkb/setting-up-home-page.png" alt=""></p>
+
+        <div class="row">
+            <div class="large-8 columns">
+                <div class="flex-video">
+                    <iframe frameborder="0" src="http://player.vimeo.com/video/84864840
+?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="large-4 columns"></div>
+        </div>
+        <h3 class="subheader" id="home_page_home_page_content">Home Page Content</h3>
+
+        <p><img src="assets/images/pkb/homepage-layout-manager.png" alt=""></p>
+        <ol>
+            <li>
+                <h5>Featured Posts</h5>
+
+                <div class="row">
+                    <div class="columns large-9">
+                        <p><img src="assets/images/pkb/homepage-featured-posts.png" alt=""></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-8 columns">
+                        <div class="flex-video">
+                            <iframe frameborder="0" src="http://player.vimeo.com/video/84864839
+?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="large-4 columns"></div>
+                </div>
+            </li>
+            <li>
+                <h5>CTA</h5>
+
+                <div class="row">
+                    <div class="columns large-9">
+                        <p><img src="assets/images/pkb/homepage-cta.png" alt=""></p>
+
+                        <p>CTA (Call to Action) is a button or some type of graphic or teaser text meant to
+                            prompt a user to
+                            click it. You can customize the teaser text, the button text, and the button link.
+                            You can link the
+                            button to any URL.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-8 columns">
+                        <div class="flex-video">
+                            <iframe frameborder="0" src="http://player.vimeo.com/video/84864836
+?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="large-4 columns"></div>
+                </div>
+            </li>
+            <li>
+                <h5>Headline</h5>
+
+                <div class="row">
+                    <div class="columns large-9">
+                        <p>Headline or intro text is the combination of teaser text and image or video.</p>
+
+                        <p><img src="assets/images/pkb/homepage-headline.png" alt=""></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-8 columns">
+                        <div class="flex-video">
+                            <iframe frameborder="0" src="http://player.vimeo.com/video/84864833
+?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="large-4 columns"></div>
+                </div>
+            </li>
+            <li>
+                <h5>Definition List</h5>
+
+                <div class="row">
+                    <div class="columns large-9">
+                        <p><img src="assets/images/pkb/homepage-list-mod.png" alt=""></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-8 columns">
+                        <div class="flex-video">
+                            <iframe frameborder="0" src="http://player.vimeo.com/video/84864834
+?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="large-4 columns"></div>
+                </div>
+            </li>
+            <li>
+                <h5>Testimonials</h5>
+
+                <div class="row">
+                    <div class="columns large-6">
+                        It will display Testimonial posts from
+                        <a href="#configuration_testimonial">Testimonial</a> custom post
+                        type. You can adjust the amount of testimonials to show from Theme Options.
+                    </div>
+                    <div class="columns large-6">
+                        <p><img src="assets/images/pkb/homepage-testimonials.png" alt=""></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h5>Content</h5>
+
+                <div class="row">
+                    <div class="columns large-6">
+                        <p>It will display the content of the homepage. This is the same page as the Front
+                            Page.</p>
+                    </div>
+                    <div class="columns large-6">
+                        <p><img src="assets/images/pkb/homepage-content-mod.png" alt=""></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h5>Home Page Widgets</h5>
+
+
+                <p> The <strong>Home Page Widgets</strong> is Widget area. You can set the widgets from <span
+                        class="label medium radius">Appearance</span> &gt;
+                    <span class="label medium radius">Widgets</span>. It
+                    will display the latest post if there is no Widgets configured.</p>
+
+
             </li>
         </ol>
+
+    </div>
+</section><!--//doc-section-->
+
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">Setting Up Blog page</h2>
+    <div class="doc-section-block">
+        <ol>
+            <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
+                    class="label medium radius">Add New</span></li>
+            <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
+                <strong>Template</strong> dropdown.
+            </li>
+            <li> Select <strong>Default Template</strong> as the Page Template.</li>
+            <li> Add a title and <span class="label medium radius">Publish</span> the Page.</li>
+            <li> Navigate to <span class="label medium radius">Settings</span> &gt; <span
+                    class="label medium radius">Reading</span></li>
+            <li> Select <strong>A static page</strong> option for the <strong>Posts page</strong> displays</li>
+            <li> Select the page you just created as the <strong>Posts page</strong> .</li>
+        </ol>
+        <p><img src="assets/images/pkb/setting-up-blog-page.png" alt=""></p>
+
+    </div>
+</section><!--//doc-section-->
+
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">Contact Page</h2>
+    <div class="doc-section-block">
+
+        <p> Camden theme comes with a Contact Page template that that fully integrate with
+            <a href="http://contactform7.com/">Contact
+                Form 7</a> plugin. Contact Form 7 comes with a useful set of validation methods, including email
+            address validation
+            and CAPTCHA.
+
+        <h3 class="subheader">How to setup Contact Page</h3>
+        <ol>
+            <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
+                    class="label medium radius">Add New</span></li>
+            <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
+                <strong>Template</strong> dropdown.
+            </li>
+            <li> Select <strong>Contact Page</strong> as the Page Template.</li>
+            <li> Add a title and <span class="label medium radius">Publish</span> the Page. The page will
+                display the
+                pre-defined content within that page template.
+            </li>
+            <li> Fill the <a href="#configuration_contact_form_id">Contact Form 7 ID</a> and all other info in
+                Contact
+                Information tab.
+            </li>
+        </ol>
+        <div class="row">
+            <div class="columns large-8">
+                <p><img src="assets/images/pkb/contact-page-info-tab.png" alt=""></p>
+            </div>
+        </div>
+        <h3 class="subheader">How to get Contact Form 7 ID</h3>
+        <a class="anchor-top" id="configuration_contact_form_id"></a>
+        <ol>
+            <li> Install <a href="http://wordpress.org/plugins/contact-form-7/">Contact Form 7</a> plugin if you
+                haven't done
+                so.
+            </li>
+            <li> From WordPress Dashboard, navigate to <span class="label medium radius">Contact</span>
+                &gt; <span
+                        class="label medium radius">Add New</span>
+
+                <p><img src="assets/images/pkb/contact-page-add-new.png" alt=""></p>
+            </li>
+            <li> Create your custom contact form and <span class="label medium radius">Save</span> it. Check the
+                <a
+                        href="http://contactform7.com/getting-started-with-contact-form-7/">Contact Form 7 guide</a>
+                if you you're
+                not familiar with it.
+            </li>
+            <li> Copy the <strong>Contact Form ID</strong> and go back to the Contact page you just created.
+                <p><img src="assets/images/pkb/contact-page-form-id.png" alt=""></p>
+            </li>
+        </ol>
+    </div>
+</section><!--//doc-section-->
+
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">Featured Image</h2>
+    <div class="doc-section-block">
+
+        <p> Using <strong>Featured Image</strong> feature you can easily assign an image for your posts, pages,
+            slider, and
+            gallery. </p>
+
+        <h3 class="subheader">How to assign Images:</h3>
+        <ol>
+            <li> Go to <span class="label medium radius">Posts</span> and click on
+                <span class="label medium radius">Featured Image</span>
+                at the bottom right
+            </li>
+            <li> Upload an image. You can also drag and drop the image from your computer.</li>
+            <li> Click <span class="label medium radius">Set Featured Image</span> .</li>
+        </ol>
         <div class="panel callout">
-            <h4>What if I couldn't find the Page Attribute panel?</h4>
+            <ul>
+                <li> WordPress will automatically pull the first image from the Post to be used as the thumbnail
+                    if there is no
+                    featured image.
+                </li>
+                <li> It is highly recommended to upload an image that is larger than 640 px x 200 px</li>
+                <li> Auto-resizing will only occur when the image is uploaded for the very first time. Images
+                    that have
+                    previously been uploaded will not be re sized.
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="columns large-8">
+                <p><img src="assets/images/pkb/set-featured-image-1.png" alt=""></p>
 
-            <p> If you do not see this panel, look to the top right of your screen for <strong>Screen
-                Options</strong> .
-                Click <span class="label medium radius">Screen Options</span> and enable the checkbox
-                next to Page
-                Attributes. </p>
+                <p><img src="assets/images/pkb/set-featured-image-2.png" alt=""></p>
+            </div>
         </div>
     </div>
-    <div class="columns large-5">
-        <p><img src="assets/images/pkb/page-template-dropdown.png" alt=""></p>
-    </div>
-</div>
-<hr>
-<a id="configuration_home_page" class="anchor-top"></a>
+</section><!--//doc-section-->
 
-<h3 class="">Setting Up Home Page</h3>
-<ol>
-    <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
-            class="label medium radius">Add New</span></li>
-    <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
-        <strong>Template</strong> dropdown.
-    </li>
-    <li> Select <strong>Home Page Template</strong> as the Page Template.</li>
-    <li> Add a title and <span class="label medium radius">Publish</span> the Page.</li>
-    <li> Navigate to <span class="label medium radius">Settings</span> &gt; <span
-            class="label medium radius">Reading</span></li>
-    <li> Select <strong>A static page</strong> option for the <strong>Posts page</strong> displays</li>
-    <li> Select the page you just created as the <strong>Front page</strong> .</li>
-</ol>
-<p><img src="assets/images/pkb/setting-up-home-page.png" alt=""></p>
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">Setting Up Custom Menu</h2>
+    <div class="doc-section-block">
+        <h3>Setting Up Custom Menu</h3>
 
-<div class="row">
-    <div class="large-8 columns">
-        <div class="flex-video">
-            <iframe frameborder="0" src="http://player.vimeo.com/video/84864840
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                    allowfullscreen>
-            </iframe>
-        </div>
-    </div>
-    <div class="large-4 columns"></div>
-</div>
-<h3 class="subheader" id="home_page_home_page_content">Home Page Content</h3>
-
-<p><img src="assets/images/pkb/homepage-layout-manager.png" alt=""></p>
-<ol>
-    <li>
-        <h5>Featured Posts</h5>
-
-        <div class="row">
-            <div class="columns large-9">
-                <p><img src="assets/images/pkb/homepage-featured-posts.png" alt=""></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="large-8 columns">
-                <div class="flex-video">
-                    <iframe frameborder="0" src="http://player.vimeo.com/video/84864839
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                            allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-            <div class="large-4 columns"></div>
-        </div>
-    </li>
-    <li>
-        <h5>CTA</h5>
-
-        <div class="row">
-            <div class="columns large-9">
-                <p><img src="assets/images/pkb/homepage-cta.png" alt=""></p>
-
-                <p>CTA (Call to Action) is a button or some type of graphic or teaser text meant to
-                    prompt a user to
-                    click it. You can customize the teaser text, the button text, and the button link.
-                    You can link the
-                    button to any URL.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="large-8 columns">
-                <div class="flex-video">
-                    <iframe frameborder="0" src="http://player.vimeo.com/video/84864836
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                            allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-            <div class="large-4 columns"></div>
-        </div>
-    </li>
-    <li>
-        <h5>Headline</h5>
-
-        <div class="row">
-            <div class="columns large-9">
-                <p>Headline or intro text is the combination of teaser text and image or video.</p>
-
-                <p><img src="assets/images/pkb/homepage-headline.png" alt=""></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="large-8 columns">
-                <div class="flex-video">
-                    <iframe frameborder="0" src="http://player.vimeo.com/video/84864833
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                            allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-            <div class="large-4 columns"></div>
-        </div>
-    </li>
-    <li>
-        <h5>Definition List</h5>
-
-        <div class="row">
-            <div class="columns large-9">
-                <p><img src="assets/images/pkb/homepage-list-mod.png" alt=""></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="large-8 columns">
-                <div class="flex-video">
-                    <iframe frameborder="0" src="http://player.vimeo.com/video/84864834
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                            allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-            <div class="large-4 columns"></div>
-        </div>
-    </li>
-    <li>
-        <h5>Testimonials</h5>
-
-        <div class="row">
-            <div class="columns large-6">
-                It will display Testimonial posts from
-                <a href="#configuration_testimonial">Testimonial</a> custom post
-                type. You can adjust the amount of testimonials to show from Theme Options.
-            </div>
-            <div class="columns large-6">
-                <p><img src="assets/images/pkb/homepage-testimonials.png" alt=""></p>
-            </div>
-        </div>
-    </li>
-    <li>
-        <h5>Content</h5>
-
-        <div class="row">
-            <div class="columns large-6">
-                <p>It will display the content of the homepage. This is the same page as the Front
-                    Page.</p>
-            </div>
-            <div class="columns large-6">
-                <p><img src="assets/images/pkb/homepage-content-mod.png" alt=""></p>
-            </div>
-        </div>
-    </li>
-    <li>
-        <h5>Home Page Widgets</h5>
-
-
-        <p> The <strong>Home Page Widgets</strong> is Widget area. You can set the widgets from <span
-                class="label medium radius">Appearance</span> &gt;
-            <span class="label medium radius">Widgets</span>. It
-            will display the latest post if there is no Widgets configured.</p>
-
-
-    </li>
-</ol>
-
-
-<hr>
-<a id="configuration_blog_page" class="anchor-top"></a>
-
-<h3 class="">Setting Up Blog page</h3>
-<ol>
-    <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
-            class="label medium radius">Add New</span></li>
-    <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
-        <strong>Template</strong> dropdown.
-    </li>
-    <li> Select <strong>Default Template</strong> as the Page Template.</li>
-    <li> Add a title and <span class="label medium radius">Publish</span> the Page.</li>
-    <li> Navigate to <span class="label medium radius">Settings</span> &gt; <span
-            class="label medium radius">Reading</span></li>
-    <li> Select <strong>A static page</strong> option for the <strong>Posts page</strong> displays</li>
-    <li> Select the page you just created as the <strong>Posts page</strong> .</li>
-</ol>
-<p><img src="assets/images/pkb/setting-up-blog-page.png" alt=""></p>
-<hr>
-<a class="anchor-top" id="configuration_contact_page"></a>
-
-<h3 class="">Contact Page</h3>
-
-<p> Camden theme comes with a Contact Page template that that fully integrate with
-    <a href="http://contactform7.com/">Contact
-        Form 7</a> plugin. Contact Form 7 comes with a useful set of validation methods, including email
-    address validation
-    and CAPTCHA.
-
-<h3 class="subheader">How to setup Contact Page</h3>
-<ol>
-    <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
-            class="label medium radius">Add New</span></li>
-    <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
-        <strong>Template</strong> dropdown.
-    </li>
-    <li> Select <strong>Contact Page</strong> as the Page Template.</li>
-    <li> Add a title and <span class="label medium radius">Publish</span> the Page. The page will
-        display the
-        pre-defined content within that page template.
-    </li>
-    <li> Fill the <a href="#configuration_contact_form_id">Contact Form 7 ID</a> and all other info in
-        Contact
-        Information tab.
-    </li>
-</ol>
-<div class="row">
-    <div class="columns large-8">
-        <p><img src="assets/images/pkb/contact-page-info-tab.png" alt=""></p>
-    </div>
-</div>
-<h3 class="subheader">How to get Contact Form 7 ID</h3>
-<a class="anchor-top" id="configuration_contact_form_id"></a>
-<ol>
-    <li> Install <a href="http://wordpress.org/plugins/contact-form-7/">Contact Form 7</a> plugin if you
-        haven't done
-        so.
-    </li>
-    <li> From WordPress Dashboard, navigate to <span class="label medium radius">Contact</span>
-        &gt; <span
-                class="label medium radius">Add New</span>
-
-        <p><img src="assets/images/pkb/contact-page-add-new.png" alt=""></p>
-    </li>
-    <li> Create your custom contact form and <span class="label medium radius">Save</span> it. Check the
-        <a
-                href="http://contactform7.com/getting-started-with-contact-form-7/">Contact Form 7 guide</a>
-        if you you're
-        not familiar with it.
-    </li>
-    <li> Copy the <strong>Contact Form ID</strong> and go back to the Contact page you just created.
-        <p><img src="assets/images/pkb/contact-page-form-id.png" alt=""></p>
-    </li>
-</ol>
-<hr>
-<a id="configuration_featured_image" class="anchor-top"></a>
-
-<h3>Featured Image</h3>
-
-<p> Using <strong>Featured Image</strong> feature you can easily assign an image for your posts, pages,
-    slider, and
-    gallery. </p>
-
-<h3 class="subheader">How to assign Images:</h3>
-<ol>
-    <li> Go to <span class="label medium radius">Posts</span> and click on
-        <span class="label medium radius">Featured Image</span>
-        at the bottom right
-    </li>
-    <li> Upload an image. You can also drag and drop the image from your computer.</li>
-    <li> Click <span class="label medium radius">Set Featured Image</span> .</li>
-</ol>
-<div class="panel callout">
-    <ul>
-        <li> WordPress will automatically pull the first image from the Post to be used as the thumbnail
-            if there is no
-            featured image.
-        </li>
-        <li> It is highly recommended to upload an image that is larger than 640 px x 200 px</li>
-        <li> Auto-resizing will only occur when the image is uploaded for the very first time. Images
-            that have
-            previously been uploaded will not be re sized.
-        </li>
-    </ul>
-</div>
-<div class="row">
-    <div class="columns large-8">
-        <p><img src="assets/images/pkb/set-featured-image-1.png" alt=""></p>
-
-        <p><img src="assets/images/pkb/set-featured-image-2.png" alt=""></p>
-    </div>
-</div>
-<hr>
-<a id="configuration_menu" class="anchor-top"></a>
-
-<h3>Setting Up Custom Menu</h3>
-
-<p> This theme support <strong> <a href="http://en.support.wordpress.com/menus/">Custom Navigation
-    Menu</a> </strong> .
-    This feature only compatible with WordPress Version 3.0+. The Custom Menu enable you to easily
-    customize the
-    navigation menu in this theme. </p>
-
-<div class="row">
-    <div class="columns large-8">
-        <div class="flex-video">
-            <embed type="application/x-shockwave-flash" src="http://s0.videopress.com/player.swf?v=1.03" wmode="direct"
-                   seamlesstabbing="true" allowfullscreen="true" allowscriptaccess="always" overstretch="true"
-                   flashvars="guid=zxSQ51fp&amp;isDynamicSeeking=true"></embed>
-        </div>
-    </div>
-</div>
-<h3 class="subheader">Creating Custom Menu</h3>
-<ol>
-    <li> Navigate to <span class="label medium radius">Appearance</span> &gt; <span
-            class="label medium radius">Menus</span> in your dashboard.
-    </li>
-    <li> If you don’t have any menus, click on the <strong>create a new menu</strong> .</li>
-    <li> From the boxes on the left select pages or categories that you want to include in your menu.
-        Click <span
-                class="label medium radius">Add to Menu</span> .
-    </li>
-    <li> Expand the Menu Item to configure available options ( Label and Attribute ).</li>
-
-    <!-- <li>A Home menu can be found in View All tab in Pages.</li>
--->
-    <li> You can change the order and placement of menu items by simply dragging and dropping the items
-        to change their
-        order and create sub-menus. <span class="label medium radius">Save Menu</span> once you're done.
-    </li>
-    <li> Navigate to <strong>Manage Locations</strong> tab and assign your menu to a theme location.
-        Click <span
-                class="label medium radius">Save Changes</span> .
-        <p><img alt="" src="assets/images/pkb/custom-menu-location.png"></p>
-    </li>
-</ol>
-<h3 class="subheader">Custom Menu locations</h3>
-
-<p> There are 2 locations of the Custom Navigation Menu in this theme: </p>
-<ul class="no-bullet">
-    <li>
-        <h5>A) Primary Navigation</h5>
-
-        <p> This is the main navigation on the header. It supports up to two levels of dropdown menu
-            items. </p>
-
-        <p><img alt="" src="assets/images/pkb/custom-menu-primary.png"></p>
-    </li>
-    <li>
-        <h5>B) Secondary Navigation</h5>
-
-        <p> This also called <strong>Secondary Nav</strong> on the homepage. It only supports one level
-            menu items. </p>
-
-        <p><img alt="" src="assets/images/pkb/custom-menu-secondary.png"></p>
-
-        <p> You can access additional options on the Theme Options. Navigate to
-            <span class="label medium radius">Appearance</span>
-            &gt; <span class="label medium radius">Theme Options</span> &gt;
-            <span class="label medium radius">Secondary Nav</span>
-        </p>
+        <p> This theme support <strong> <a href="http://en.support.wordpress.com/menus/">Custom Navigation
+            Menu</a> </strong> .
+            This feature only compatible with WordPress Version 3.0+. The Custom Menu enable you to easily
+            customize the
+            navigation menu in this theme. </p>
 
         <div class="row">
             <div class="columns large-8">
-                <p><img alt="" src="assets/images/pkb/options-secondary-nav.png"></p>
+                <div class="flex-video">
+                    <embed type="application/x-shockwave-flash" src="http://s0.videopress.com/player.swf?v=1.03"
+                           wmode="direct"
+                           seamlesstabbing="true" allowfullscreen="true" allowscriptaccess="always" overstretch="true"
+                           flashvars="guid=zxSQ51fp&amp;isDynamicSeeking=true"></embed>
+                </div>
             </div>
         </div>
-        <div class="panel callout"> Make sure you insert the <strong>Navigation Label</strong> of the
-            Menu items,
-            otherwise it will be displayed as blank menu item.
-            <p><img src="assets/images/pkb/menu-navigation-label.png" alt=""></p>
-        </div>
-    </li>
-</ul>
-<hr>
-<a id="configuration_sliders" class="anchor-top"></a>
+        <h3 class="subheader">Creating Custom Menu</h3>
+        <ol>
+            <li> Navigate to <span class="label medium radius">Appearance</span> &gt; <span
+                    class="label medium radius">Menus</span> in your dashboard.
+            </li>
+            <li> If you don’t have any menus, click on the <strong>create a new menu</strong> .</li>
+            <li> From the boxes on the left select pages or categories that you want to include in your menu.
+                Click <span
+                        class="label medium radius">Add to Menu</span> .
+            </li>
+            <li> Expand the Menu Item to configure available options ( Label and Attribute ).</li>
 
-<h3 class="">Sliders</h3>
+            <!-- <li>A Home menu can be found in View All tab in Pages.</li>
+        -->
+            <li> You can change the order and placement of menu items by simply dragging and dropping the items
+                to change their
+                order and create sub-menus. <span class="label medium radius">Save Menu</span> once you're done.
+            </li>
+            <li> Navigate to <strong>Manage Locations</strong> tab and assign your menu to a theme location.
+                Click <span
+                        class="label medium radius">Save Changes</span> .
+                <p><img alt="" src="assets/images/pkb/custom-menu-location.png"></p>
+            </li>
+        </ol>
+        <h3 class="subheader">Custom Menu locations</h3>
 
-<div class="row">
-    <div class="columns large-8">
-        <div class="flex-video">
-            <iframe src="http://player.vimeo.com/video/84640882?byline=0&amp;portrait=0" width="600" height="450"
-                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
+        <p> There are 2 locations of the Custom Navigation Menu in this theme: </p>
+        <ul class="no-bullet">
+            <li>
+                <h5>A) Primary Navigation</h5>
+
+                <p> This is the main navigation on the header. It supports up to two levels of dropdown menu
+                    items. </p>
+
+                <p><img alt="" src="assets/images/pkb/custom-menu-primary.png"></p>
+            </li>
+            <li>
+                <h5>B) Secondary Navigation</h5>
+
+                <p> This also called <strong>Secondary Nav</strong> on the homepage. It only supports one level
+                    menu items. </p>
+
+                <p><img alt="" src="assets/images/pkb/custom-menu-secondary.png"></p>
+
+                <p> You can access additional options on the Theme Options. Navigate to
+                    <span class="label medium radius">Appearance</span>
+                    &gt; <span class="label medium radius">Theme Options</span> &gt;
+                    <span class="label medium radius">Secondary Nav</span>
+                </p>
+
+                <div class="row">
+                    <div class="columns large-8">
+                        <p><img alt="" src="assets/images/pkb/options-secondary-nav.png"></p>
+                    </div>
+                </div>
+                <div class="panel callout"> Make sure you insert the <strong>Navigation Label</strong> of the
+                    Menu items,
+                    otherwise it will be displayed as blank menu item.
+                    <p><img src="assets/images/pkb/menu-navigation-label.png" alt=""></p>
+                </div>
+            </li>
+        </ul>
     </div>
-</div>
-<div class="row">
-    <div class="columns large-8">
-        <div class="flex-video">
-            <iframe src="http://player.vimeo.com/video/84640881?byline=0&amp;portrait=0" width="600" height="450"
-                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</section><!--//doc-section-->
+
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">Sliders</h2>
+    <div class="doc-section-block">
+
+
+        <div class="row">
+            <div class="columns large-8">
+                <div class="flex-video">
+                    <iframe src="http://player.vimeo.com/video/84640882?byline=0&amp;portrait=0" width="600"
+                            height="450"
+                            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-<p> The Home Page features a slider. To add a new slide to the slider, follow this steps: </p>
-<ol class="">
-    <li> Navigate to <span class="label medium radius">Slides</span> &gt; <span
-            class="label medium radius">Add New</span> from WordPress dashboard.
-    </li>
-    <li>Enter slide title.</li>
-    <li> Click on <span class="label medium radius">Featured Image</span> at the bottom right.</li>
-    <li> Upload an image. You can also drag and drop the image from your computer.</li>
-    <li> Click <span class="label medium radius">Set Featured Image</span> .</li>
-    <li> Enter all necessary parameters in <strong>Slides tab</strong> .</li>
-    <li><span class="label medium radius">Publish</span> the page.</li>
-    <li> You can modify Slide additional options from <strong>Theme Options</strong> .</li>
-</ol>
-<div class="panel callout">
-    <p>Recommended image size for the slide is 680 px x 320 px</p>
-</div>
-<p> You can change the slide animation, pause time, etc in the <strong>Theme Options</strong> section.
-</p>
-
-<p> This theme includes 2 sliders, Orbit Slider and FlexSlider 2. Both slider ready to be used without
-    installing any
-    plugin. The default slider is FlexSlider 2, you can change it to Orbit Slider from the Theme
-    Options. </p>
-
-<p> Orbit Slider can also be generated from Shortcodes. For more information check the <a
-        href="#shortcodes">Shortcode</a> section below. </p>
-
-<h3 class="subheader">Slider settings</h3>
-
-<p><img src="assets/images/pkb/doc-slider-info-2.jpg" alt=""></p>
-
-<p><img src="assets/images/pkb/doc-slider-info-1.jpg" alt=""></p>
-
-<h3 class="subheader">Global slider options</h3>
-
-<p> You can access all global slider options from the Theme Options. Navigate to
-    <span class="label medium radius">Appearance</span>
-    &gt; <span class="label medium radius">Theme Options</span> &gt; <span class="label medium radius">Slider</span>
-    to
-    access it. </p>
-
-<p><img src="assets/images/pkb/theme-options-slider.png" alt=""></p>
-
-<p> All the options will affect both the home page slider and shortcode. </p>
-<hr>
-<a id="configuration_gallery" class="anchor-top"></a>
-
-<h3>Gallery</h3>
-
-<p> This theme has Gallery as <strong>Custom Post</strong> type. On the left side of <strong>WordPress
-    Dashboard</strong> , there is <strong>Gallery</strong> section below <strong>Posts</strong> . </p>
-
-<p> Before you can add <strong>Gallery</strong> item, you have to setup the <strong>Gallery</strong>
-    Page. Follow this
-    steps: </p>
-<ol>
-    <li> Click <span class="label medium radius">Pages</span> &gt; <span class="label medium radius">Add New</span>
-        and
-        name the Page
-    </li>
-    <li> Select <strong>Gallery Page</strong> template on the <strong>Page
-        Attributes</strong> box at the right side of the page.
-    </li>
-    <li><span class="label medium radius">Publish</span> the page.</li>
-</ol>
-<p>To add Gallery item, follow this steps:</p>
-<ol>
-    <li> From WordPress <strong>Dashboard</strong> go to
-        <span class="label medium radius">Gallery</span> &gt;
-        <span class="label medium radius">Add New</span></li>
-    <li>Enter title and content.</li>
-    <li> Select the <strong>Item</strong> <strong>Category</strong> .</li>
-    <li> Click <span class="label medium radius">Set Featured Image</span> on the right in the <strong>Featured
-        Image</strong> section.
-    </li>
-    <li> Click <strong>Select Files</strong> button and select image to upload.</li>
-    <li> Click <strong>Use as featured image</strong> and save changes.</li>
-    <li><span>You can add video URL in the Video box.</span></li>
-    <li><span class="label medium radius">Publish</span> the Gallery Item</li>
-    <li> The Gallery Item will be displayed in the <span style="font-weight: bold;">Gallery</span>
-        <strong>Page</strong>
-        you created earlier.
-    </li>
-</ol>
-<p>&nbsp;</p>
-<h4 id="gallery_adding_images">Adding Images</h4>
-
-<div class="row">
-    <div class="columns large-8">
-        <div class="flex-video">
-            <iframe src="http://player.vimeo.com/video/84447961?byline=0&amp;portrait=0" width="600" height="450"
-                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="row">
+            <div class="columns large-8">
+                <div class="flex-video">
+                    <iframe src="http://player.vimeo.com/video/84640881?byline=0&amp;portrait=0" width="600"
+                            height="450"
+                            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
+        <p> The Home Page features a slider. To add a new slide to the slider, follow this steps: </p>
+        <ol class="">
+            <li> Navigate to <span class="label medium radius">Slides</span> &gt; <span
+                    class="label medium radius">Add New</span> from WordPress dashboard.
+            </li>
+            <li>Enter slide title.</li>
+            <li> Click on <span class="label medium radius">Featured Image</span> at the bottom right.</li>
+            <li> Upload an image. You can also drag and drop the image from your computer.</li>
+            <li> Click <span class="label medium radius">Set Featured Image</span> .</li>
+            <li> Enter all necessary parameters in <strong>Slides tab</strong> .</li>
+            <li><span class="label medium radius">Publish</span> the page.</li>
+            <li> You can modify Slide additional options from <strong>Theme Options</strong> .</li>
+        </ol>
+        <div class="panel callout">
+            <p>Recommended image size for the slide is 680 px x 320 px</p>
+        </div>
+        <p> You can change the slide animation, pause time, etc in the <strong>Theme Options</strong> section.
+        </p>
+
+        <p> This theme includes 2 sliders, Orbit Slider and FlexSlider 2. Both slider ready to be used without
+            installing any
+            plugin. The default slider is FlexSlider 2, you can change it to Orbit Slider from the Theme
+            Options. </p>
+
+        <p> Orbit Slider can also be generated from Shortcodes. For more information check the <a
+                href="#shortcodes">Shortcode</a> section below. </p>
+
+        <h3 class="subheader">Slider settings</h3>
+
+        <p><img src="assets/images/pkb/doc-slider-info-2.jpg" alt=""></p>
+
+        <p><img src="assets/images/pkb/doc-slider-info-1.jpg" alt=""></p>
+
+        <h3 class="subheader">Global slider options</h3>
+
+        <p> You can access all global slider options from the Theme Options. Navigate to
+            <span class="label medium radius">Appearance</span>
+            &gt; <span class="label medium radius">Theme Options</span> &gt; <span
+                    class="label medium radius">Slider</span>
+            to
+            access it. </p>
+
+        <p><img src="assets/images/pkb/theme-options-slider.png" alt=""></p>
+
+        <p> All the options will affect both the home page slider and shortcode. </p>
     </div>
-</div>
-<h4 id="gallery_adding_slideshow">Adding Slideshow</h4>
+</section><!--//doc-section-->
 
-<ul>
-    <li>You have to upload the Featured Image in order the Gallery work properly. This image will be
-        displayed as the
-        Gallery item thumbnail.
-    </li>
-    <li>The recommended size for the image is 645 px minimum.</li>
-    <li>Each gallery item can be displayed as a slideshow. You can upload up to 6 images as a
-        slideshow.
-    </li>
-</ul>
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">Page Template</h2>
+    <div class="doc-section-block">
+        <h3>Gallery</h3>
 
-<h4 id="gallery_adding_video">Adding Video</h4>
-<ul>
-    <li>Each gallery item can display video from Vimeo or YouTube. You have to enter the page URL, no
-        need to insert the
-        embed code.
-    </li>
-    <li>If you want to add video other than Vimeo or YouTube, insert the embed code instead.</li>
-    <li>The recommended size for the video is 645 px minimum.</li>
-    <li>The Gallery item will not create a video thumbnail automatically, so you have to upload an image
-        for
-        the video thumbnail.
-    </li>
-</ul>
+        <p> This theme has Gallery as <strong>Custom Post</strong> type. On the left side of <strong>WordPress
+            Dashboard</strong> , there is <strong>Gallery</strong> section below <strong>Posts</strong> . </p>
 
+        <p> Before you can add <strong>Gallery</strong> item, you have to setup the <strong>Gallery</strong>
+            Page. Follow this
+            steps: </p>
+        <ol>
+            <li> Click <span class="label medium radius">Pages</span> &gt; <span
+                    class="label medium radius">Add New</span>
+                and
+                name the Page
+            </li>
+            <li> Select <strong>Gallery Page</strong> template on the <strong>Page
+                Attributes</strong> box at the right side of the page.
+            </li>
+            <li><span class="label medium radius">Publish</span> the page.</li>
+        </ol>
+        <p>To add Gallery item, follow this steps:</p>
+        <ol>
+            <li> From WordPress <strong>Dashboard</strong> go to
+                <span class="label medium radius">Gallery</span> &gt;
+                <span class="label medium radius">Add New</span></li>
+            <li>Enter title and content.</li>
+            <li> Select the <strong>Item</strong> <strong>Category</strong> .</li>
+            <li> Click <span class="label medium radius">Set Featured Image</span> on the right in the <strong>Featured
+                Image</strong> section.
+            </li>
+            <li> Click <strong>Select Files</strong> button and select image to upload.</li>
+            <li> Click <strong>Use as featured image</strong> and save changes.</li>
+            <li><span>You can add video URL in the Video box.</span></li>
+            <li><span class="label medium radius">Publish</span> the Gallery Item</li>
+            <li> The Gallery Item will be displayed in the <span style="font-weight: bold;">Gallery</span>
+                <strong>Page</strong>
+                you created earlier.
+            </li>
+        </ol>
+        <p>&nbsp;</p>
+        <h4 id="gallery_adding_images">Adding Images</h4>
 
-<hr>
-<a id="configuration_testimonial" class="anchor-top"></a>
+        <div class="row">
+            <div class="columns large-8">
+                <div class="flex-video">
+                    <iframe src="http://player.vimeo.com/video/84447961?byline=0&amp;portrait=0" width="600"
+                            height="450"
+                            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <h4 id="gallery_adding_slideshow">Adding Slideshow</h4>
 
+        <ul>
+            <li>You have to upload the Featured Image in order the Gallery work properly. This image will be
+                displayed as the
+                Gallery item thumbnail.
+            </li>
+            <li>The recommended size for the image is 645 px minimum.</li>
+            <li>Each gallery item can be displayed as a slideshow. You can upload up to 6 images as a
+                slideshow.
+            </li>
+        </ul>
+
+        <h4 id="gallery_adding_video">Adding Video</h4>
+        <ul>
+            <li>Each gallery item can display video from Vimeo or YouTube. You have to enter the page URL, no
+                need to insert the
+                embed code.
+            </li>
+            <li>If you want to add video other than Vimeo or YouTube, insert the embed code instead.</li>
+            <li>The recommended size for the video is 645 px minimum.</li>
+            <li>The Gallery item will not create a video thumbnail automatically, so you have to upload an image
+                for
+                the video thumbnail.
+            </li>
+        </ul>
+
+    </div>
+</section><!--//doc-section-->
+
+<!--
 <h3>Testimonials</h3>
 
 <p><img src="assets/images/pkb/configuration-testimonials.png" alt=""></p>
@@ -623,7 +653,7 @@
 </ol>
 <p> This theme has Testimonials Widgets that will display Testimonials in a widget. Read more about
     Widgets <a
-            href="#widgets">here</a> . </p>
+            href="#widgets">here</a> . </p>-->
 
 
 <section class="doc-section" id="demo-content" data-magellan-target="demo-content">
@@ -632,12 +662,12 @@
 
         <h3 class="doc-block-title">Importing WordPress content</h3>
 
-        <p> You can to install the demo content for your theme by uploading XML file.
+        <p> You can import the demo content for your theme by uploading XML file.
             It will import posts, pages, menus but the demo site theme settings. Some of the stock photos used on the
             demo site are not included in the demo XML. </p>
         <p>
 
-        <h5>WordPress demo content files:</h5>
+        <p><strong>WordPress demo content files:</strong></p>
 
         <table class="unstriped">
             <thead>
@@ -651,13 +681,15 @@
             <tbody>
             <tr>
                 <td>All</td>
-                <td>This will import everything. Make sure the required plugins are active.</td>
+                <td>All export data including plugins. Make sure the required plugins are active.</td>
                 <td><a href="#">camden-demo-posts.xml</a></td>
                 <td>Camden Add-ons, Church Theme Content, Contact Form 7, Events Calendar, & Woocommerce</td>
             </tr>
             <tr>
                 <td>Required</td>
-                <td>This will import all content except the optional plugins data (Contact Form 7, Events Calendar, & Woocommerce).</td>
+                <td>This will import all content except the optional plugins data (Contact Form 7, Events Calendar, &
+                    Woocommerce).
+                </td>
                 <td><a href="#">camden-demo-posts.xml</a></td>
                 <td></td>
             </tr>
@@ -732,11 +764,6 @@
             </tbody>
         </table>
 
-        <p>
-            <a href="https://gist.github.com/populationtwo/dec1a72cd7c35d134c6a" target="blank" class="button small">Get
-                demo
-                XML</a></p>
-
         <p>Follow this steps to import from a WordPress export file (XML):</p>
 
         <ol>
@@ -748,29 +775,22 @@
         </ol>
         <br>
         <h3 class="doc-block-title">Importing Theme Options</h3>
+        <p>Camden Theme Options data is not exported in WordPress demo XML above. You will need Theme Options data to
+            restore the Theme Options settings.</p>
+        <p><a class="button" href="#">Download</a></p>
+
+        <p>Follow this steps to import Theme Options data:</p>
+
+        <ol>
+            <li>Log into that blog as an administrator.</li>
+            <li>Go to <strong>Theme Options > Import / Export</strong>.</li>
+            <li>Click <strong>Import</strong> link under Import Options</li>
+            <li>Upload Theme Options data.</li>
+        </ol>
 
 
     </div>
 </section>
-
-
-<h1>Theme Setup</h1>
-https://boxystudio.ticksy.com/article/3271/
-
-<h1>Plugin install</h1>
-https://boxystudio.ticksy.com/article/3272/
-
-<h1>Staff Page</h1>
-https://boxystudio.ticksy.com/article/3270/
-
-<h1>Slider</h1>
-https://boxystudio.ticksy.com/article/3269/
-
-<h1>Twitter API guide</h1>
-https://boxystudio.ticksy.com/article/3424/
-
-<h1>Translation</h1>
-https://boxystudio.ticksy.com/article/3235/
 
 <h1>LTR</h1>
 
