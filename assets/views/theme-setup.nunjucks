@@ -1,8 +1,30 @@
-<h1>Configuration</h1>
 
-<h3 class="subheader"> After installing and activating your theme it is now time to start setting up
-    your content and
-    learning more about our theme. </h3>
+<section class="doc-section" id="getting-started" data-magellan-target="getting-started">
+    <h2 class="doc-page-title">Theme Setup</h2>
+    <div class="doc-section-block">
+       <p> After installing and activating your theme it is now time to start setting up
+        your content and
+        learning more about our theme.</p>
+
+<p>Install Requirements</p>
+        <p>Install Theme</p>
+        <p>Install Required and Optional Plugins</p>
+
+
+        <ol>
+            <li>Setting Up Home Page</li>
+            <li>Setting Up theme options</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+
+    </div>
+</section>
+
+
 
 
 <!--<section id="download-section" class="doc-section">
