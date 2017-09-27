@@ -73,25 +73,36 @@
             </li>
             <li><strong>Contact Page</strong> &mdash; a page template with contact form</li>
         </ol>
+        <br>
 
         <h3 class="doc-block-title">How To Change a Page Template</h3>
-        <ol>
-            <li>Navigate to <strong>Pages</strong> and select the page
-            </li>
-            <li> On the right hand side under <strong>Page Attributes</strong> you’ll see template. This is
-                where users are able to access your global page templates.
-            </li>
-            <li>Select the Page Template.</li>
+        <div class="grid-x grid-padding-x grid-padding-y">
 
-        </ol>
-        <p><img src="assets/images/page-template-dropdown.png" alt=""></p>
-        <div class="callout primary">
-            <p><strong>What if I couldn't find the Page Attribute panel?</strong></p>
+            <div class="cell large-7">
+                <ol>
+                    <li>Navigate to <strong>Pages</strong> and select the page
+                    </li>
+                    <li> On the right hand side under <strong>Page Attributes</strong> you’ll see template. This is
+                        where users are able to access your global page templates.
+                    </li>
+                    <li>Select the Page Template.</li>
 
-            <p> If you do not see this panel, look to the top right of your screen for <strong>Screen
-                Options</strong> .
-                Click <strong>Screen Options</strong> and check the Page
-                Attributes checkbox. </p>
+                </ol>
+
+                <div class="callout primary">
+                    <p><strong>What if I couldn't find the Page Attribute panel?</strong></p>
+
+                    <p> If you do not see this panel, look to the top right of your screen for <strong>Screen
+                        Options</strong> .
+                        Click <strong>Screen Options</strong> and check the Page
+                        Attributes checkbox. </p>
+                </div>
+            </div>
+            <div class="cell large-5">
+
+                <p><img src="assets/images/page-template-dropdown.png" alt=""></p>
+
+            </div>
         </div>
 
 
@@ -102,16 +113,11 @@
     <h2 class="doc-section-title">Setting Up Home Page</h2>
     <div class="doc-section-block">
         <ol>
-            <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
-                    class="label medium radius">Add New</span></li>
-            <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
-                <strong>Template</strong> dropdown.
-            </li>
-            <li> Select <strong>Home Page Template</strong> as the Page Template.</li>
-            <li> Add a title and <span class="label medium radius">Publish</span> the Page.</li>
-            <li> Navigate to <span class="label medium radius">Settings</span> &gt; <span
-                    class="label medium radius">Reading</span></li>
-            <li> Select <strong>A static page</strong> option for the <strong>Posts page</strong> displays</li>
+            <li> Navigate to <strong>Pages &gt; Add New</strong></li>
+            <li> Select <strong>Home Page Template</strong> as the Page Template from the Page Attributes.</li>
+            <li> Add a title and <strong>Publish</strong> the Page.</li>
+            <li> Navigate to <strong>Settings &gt; Reading</strong></li>
+            <li> Select <strong>A static page</strong> option for the <strong>Front page displays</strong>.</li>
             <li> Select the page you just created as the <strong>Front page</strong> .</li>
         </ol>
         <p><img src="assets/images/pkb/setting-up-home-page.png" alt=""></p>
