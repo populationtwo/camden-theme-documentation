@@ -12,7 +12,6 @@
 
                 <div class="doc-content cell large-9" id="docs">
                     <div class="content-inner">
-                        COnfig
                         {% include "theme-setup.nunjucks" %}
                     </div><!--//content-inner-->
                 </div><!--//doc-content-->
