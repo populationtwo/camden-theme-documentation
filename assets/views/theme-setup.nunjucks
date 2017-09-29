@@ -114,25 +114,16 @@
     <div class="doc-section-block">
         <ol>
             <li> Navigate to <strong>Pages &gt; Add New</strong></li>
-            <li> Select <strong>Home Page Template</strong> as the Page Template from the Page Attributes.</li>
-            <li> Add a title and <strong>Publish</strong> the Page.</li>
+            <li> Select <strong>Home Page Template</strong> as the <strong>Template</strong> from the <strong>Page Attributes</strong>.</li>
+            <li> Add a title and content you would like to see within the content area of the static front page, or leave it blank.</li>
+            <li> Publish the Page.</li>
             <li> Navigate to <strong>Settings &gt; Reading</strong></li>
             <li> Select <strong>A static page</strong> option for the <strong>Front page displays</strong>.</li>
-            <li> Select the page you just created as the <strong>Front page</strong> .</li>
+            <li> Select the page you just created as the <strong>Front page</strong>.</li>
+            <li> Navigate to <strong>Theme Options</strong> &gt; Front Page and <a href="#">configure the settings</a>.</li>
         </ol>
         <p><img src="assets/images/pkb/setting-up-home-page.png" alt=""></p>
 
-        <div class="row">
-            <div class="large-8 columns">
-                <div class="flex-video">
-                    <iframe frameborder="0" src="http://player.vimeo.com/video/84864840
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                            allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-            <div class="large-4 columns"></div>
-        </div>
         <h3 class="subheader" id="home_page_home_page_content">Home Page Content</h3>
 
         <p><img src="assets/images/pkb/homepage-layout-manager.png" alt=""></p>
