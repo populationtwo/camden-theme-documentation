@@ -55,6 +55,23 @@ a:focus {
 .doc-section {
   padding-top: 25px;
   padding-bottom: 25px;
+
+  img.thumbnail {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  /*img[class*=align] {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  img.align-left {
+
+  }
+  img.align-right {
+
+  }*/
 }
 
 .doc-page-title {
@@ -63,7 +80,7 @@ a:focus {
 }
 
 .doc-section-title {
-  font-size: 26px;
+  font-size: 28px;
   margin-top: 0;
   font-weight: bold;
   padding-top: 10px;
@@ -77,9 +94,16 @@ a:focus {
   p:last-child {
     margin-bottom: 0;
   }
+
 }
 
 .doc-block-title {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.doc-block-subheader {
   margin-top: 0;
   font-size: 20px;
   font-weight: 600;

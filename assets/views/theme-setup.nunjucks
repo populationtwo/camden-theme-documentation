@@ -1,33 +1,3 @@
-<section class="doc-section" id="getting-started" data-magellan-target="getting-started">
-    <h2 class="doc-page-title">Settings & Options</h2>
-    <div class="doc-section-block">
-        <p> After installing and activating your theme it is now time to start setting up
-            your content. Make sure the theme and required plugins are installed.</p>
-
-        <ol>
-            <li>Setting Up Home Page</li>
-            <li>Setting Up theme options</li>
-            <li>BLog page</li>
-            <li>Page Templates
-                <ul>
-                    <li>Direction / Time Page</li>
-                    <li>Contact</li>
-                    <li>Full Width</li>
-                </ul>
-
-            </li>
-            <li>Slides</li>
-            <li>Ministries</li>
-            <li>Sermons</li>
-            <li>People</li>
-            <li></li>
-            <li></li>
-        </ol>
-
-    </div>
-</section>
-
-
 <!--<section id="download-section" class="doc-section">
     <h2 class="doc-section-title">SECTION TITLE</h2>
     <div class="doc-section-block">
@@ -51,7 +21,79 @@
     </div>
 </section>-->
 <!--//doc-section-->
+<section class="doc-section" id="getting-started" data-magellan-target="getting-started">
+    <h2 class="doc-page-title">Settings & Options</h2>
+    <div class="doc-section-block">
+        <p> After installing and activating your theme it is now time to start setting up
+            your content. Make sure the theme and required plugins are installed.</p>
 
+        <ol>
+            <li>Setting Up Home Page</li>
+            <li>BLog page</li>
+            <li>Page Templates
+                <ul>
+                    <li>Page Options</li>
+                    <li>Direction / Time Page</li>
+                    <li>Contact</li>
+                    <li>Full Width</li>
+                </ul>
+            </li>
+            <li>Slides</li>
+            <li>Ministries</li>
+            <li>Sermons</li>
+            <li>People</li>
+            <li>Setting Up theme options</li>
+            <li>Menu</li>
+            <li>Widgets</li>
+            <li>LTR</li>
+            <li>Post Formats</li>
+        </ol>
+
+    </div>
+</section>
+
+<section id="setting_up_home_page" class="doc-section">
+    <h2 class="doc-section-title">Setting Up Home Page</h2>
+    <div class="doc-section-block">
+        <ol>
+            <li> Navigate to <strong>Pages &gt; Add New</strong></li>
+            <li> Select <strong>Home Page Template</strong> as the <strong>Template</strong> from the <strong>Page
+                Attributes</strong>.
+            </li>
+            <li> Add a title and content you would like to see within the content area of the static front page, or
+                leave it blank.
+            </li>
+            <li> Publish the Page.</li>
+            <li> Navigate to <strong>Settings &gt; Reading</strong></li>
+            <li> Select <strong>A static page</strong> option for the <strong>Front page displays</strong>.</li>
+            <li> Select the page you just created as the <strong>Front page</strong>.</li>
+            <li> Navigate to <strong>Theme Options &gt; Front Page</strong> and <a href="#">configure the settings</a>.
+            </li>
+        </ol>
+        <p><img src="assets/images/reading-setting-front-page.png" alt="" class="thumbnail"></p>
+
+
+    </div>
+</section><!--//doc-section-->
+
+<section id="setting_up_blog_page" class="doc-section">
+    <h2 class="doc-section-title">Setting Up Blog page</h2>
+    <div class="doc-section-block">
+        <ol>
+            <li> Navigate to <strong>Pages &gt; Add New</strong></li>
+            <li> Select <strong>Default Template</strong> as the <strong>Template</strong> from the <strong>Page
+                Attributes</strong>.
+            </li>
+            <li> Add a title and Publish the Page.</li>
+            <li> Navigate to <strong>Settings &gt; Reading</strong></li>
+            <li> Select <strong>A static page</strong> option for the <strong>Front page displays</strong>.</li>
+            <li> Select the page you just created as the <strong>Posts page</strong>.</li>
+            Posts page
+        </ol>
+        <p><img src="assets/images/reading-setting-posts-page.png" alt="" class="thumbnail"></p>
+
+    </div>
+</section><!--//doc-section-->
 
 <section id="" class="doc-section">
     <h2 class="doc-section-title">Page Templates</h2>
@@ -100,241 +142,67 @@
             </div>
             <div class="cell large-5">
 
-                <p><img src="assets/images/page-template-dropdown.png" alt=""></p>
+                <p><img src="assets/images/page-template-dropdown.png" alt="" class="thumbnail"></p>
 
             </div>
         </div>
 
+        <h3 class="doc-block-title">Contact Page</h3>
+        <p> Camden theme comes with a Contact Page template to embed contact form in a single column. You will need
+            contact form plugin such as Contact Form 7 or Gravity Form. We recommend Contact Form 7, since Camden theme
+            integrate custom styling for <strong>Contact Form 7</strong> elements.</p>
 
-    </div>
-</section><!--//doc-section-->
-
-<section id="" class="doc-section">
-    <h2 class="doc-section-title">Setting Up Home Page</h2>
-    <div class="doc-section-block">
+        <h5 class="doc-block-subheader">Setting up Contact Page</h5>
         <ol>
-            <li> Navigate to <strong>Pages &gt; Add New</strong></li>
-            <li> Select <strong>Home Page Template</strong> as the <strong>Template</strong> from the <strong>Page Attributes</strong>.</li>
-            <li> Add a title and content you would like to see within the content area of the static front page, or leave it blank.</li>
-            <li> Publish the Page.</li>
-            <li> Navigate to <strong>Settings &gt; Reading</strong></li>
-            <li> Select <strong>A static page</strong> option for the <strong>Front page displays</strong>.</li>
-            <li> Select the page you just created as the <strong>Front page</strong>.</li>
-            <li> Navigate to <strong>Theme Options</strong> &gt; Front Page and <a href="#">configure the settings</a>.</li>
-        </ol>
-        <p><img src="assets/images/pkb/setting-up-home-page.png" alt=""></p>
-
-        <h3 class="subheader" id="home_page_home_page_content">Home Page Content</h3>
-
-        <p><img src="assets/images/pkb/homepage-layout-manager.png" alt=""></p>
-        <ol>
-            <li>
-                <h5>Featured Posts</h5>
-
-                <div class="row">
-                    <div class="columns large-9">
-                        <p><img src="assets/images/pkb/homepage-featured-posts.png" alt=""></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="large-8 columns">
-                        <div class="flex-video">
-                            <iframe frameborder="0" src="http://player.vimeo.com/video/84864839
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="large-4 columns"></div>
-                </div>
+            <li>Make sure contact form plugin is activated. We use Contact Form 7 for this example.</li>
+            <li>Create a new Page and change the <strong>Template</strong> to <strong>Contact Page</strong>.</li>
+            <li> Create your custom contact form. Check the
+                <a href="http://contactform7.com/getting-started-with-contact-form-7/" target="_blank">Contact Form 7
+                    guide</a>
+                if you you're not familiar with it.
             </li>
-            <li>
-                <h5>CTA</h5>
-
-                <div class="row">
-                    <div class="columns large-9">
-                        <p><img src="assets/images/pkb/homepage-cta.png" alt=""></p>
-
-                        <p>CTA (Call to Action) is a button or some type of graphic or teaser text meant to
-                            prompt a user to
-                            click it. You can customize the teaser text, the button text, and the button link.
-                            You can link the
-                            button to any URL.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="large-8 columns">
-                        <div class="flex-video">
-                            <iframe frameborder="0" src="http://player.vimeo.com/video/84864836
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="large-4 columns"></div>
-                </div>
+            <li>Copy the Contact Form 7 embed code and add it to the contact form page content.
+                <img src="assets/images/contact-page-contact-embed-code.png" alt="" class="thumbnail">
             </li>
-            <li>
-                <h5>Headline</h5>
-
-                <div class="row">
-                    <div class="columns large-9">
-                        <p>Headline or intro text is the combination of teaser text and image or video.</p>
-
-                        <p><img src="assets/images/pkb/homepage-headline.png" alt=""></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="large-8 columns">
-                        <div class="flex-video">
-                            <iframe frameborder="0" src="http://player.vimeo.com/video/84864833
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="large-4 columns"></div>
-                </div>
-            </li>
-            <li>
-                <h5>Definition List</h5>
-
-                <div class="row">
-                    <div class="columns large-9">
-                        <p><img src="assets/images/pkb/homepage-list-mod.png" alt=""></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="large-8 columns">
-                        <div class="flex-video">
-                            <iframe frameborder="0" src="http://player.vimeo.com/video/84864834
-?byline=0&amp;portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="large-4 columns"></div>
-                </div>
-            </li>
-            <li>
-                <h5>Testimonials</h5>
-
-                <div class="row">
-                    <div class="columns large-6">
-                        It will display Testimonial posts from
-                        <a href="#configuration_testimonial">Testimonial</a> custom post
-                        type. You can adjust the amount of testimonials to show from Theme Options.
-                    </div>
-                    <div class="columns large-6">
-                        <p><img src="assets/images/pkb/homepage-testimonials.png" alt=""></p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <h5>Content</h5>
-
-                <div class="row">
-                    <div class="columns large-6">
-                        <p>It will display the content of the homepage. This is the same page as the Front
-                            Page.</p>
-                    </div>
-                    <div class="columns large-6">
-                        <p><img src="assets/images/pkb/homepage-content-mod.png" alt=""></p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <h5>Home Page Widgets</h5>
-
-
-                <p> The <strong>Home Page Widgets</strong> is Widget area. You can set the widgets from <span
-                        class="label medium radius">Appearance</span> &gt;
-                    <span class="label medium radius">Widgets</span>. It
-                    will display the latest post if there is no Widgets configured.</p>
-
-
+            <li>Fill the <strong>Contact Info</strong> fields with additional info such as address and phone number.
+                <img src="assets/images/contact-page-contact-info.png" alt="" class="thumbnail">
             </li>
         </ol>
 
     </div>
 </section><!--//doc-section-->
 
+
+
 <section id="" class="doc-section">
-    <h2 class="doc-section-title">Setting Up Blog page</h2>
+    <h2 class="doc-section-title">Full Width Page</h2>
     <div class="doc-section-block">
-        <ol>
-            <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
-                    class="label medium radius">Add New</span></li>
-            <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
-                <strong>Template</strong> dropdown.
-            </li>
-            <li> Select <strong>Default Template</strong> as the Page Template.</li>
-            <li> Add a title and <span class="label medium radius">Publish</span> the Page.</li>
-            <li> Navigate to <span class="label medium radius">Settings</span> &gt; <span
-                    class="label medium radius">Reading</span></li>
-            <li> Select <strong>A static page</strong> option for the <strong>Posts page</strong> displays</li>
-            <li> Select the page you just created as the <strong>Posts page</strong> .</li>
-        </ol>
-        <p><img src="assets/images/pkb/setting-up-blog-page.png" alt=""></p>
+
 
     </div>
 </section><!--//doc-section-->
 
 <section id="" class="doc-section">
-    <h2 class="doc-section-title">Contact Page</h2>
+    <h2 class="doc-section-title">Service Times & Direction Page</h2>
     <div class="doc-section-block">
 
-        <p> Camden theme comes with a Contact Page template that that fully integrate with
-            <a href="http://contactform7.com/">Contact
-                Form 7</a> plugin. Contact Form 7 comes with a useful set of validation methods, including email
-            address validation
-            and CAPTCHA.
 
-        <h3 class="subheader">How to setup Contact Page</h3>
-        <ol>
-            <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
-                    class="label medium radius">Add New</span></li>
-            <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
-                <strong>Template</strong> dropdown.
-            </li>
-            <li> Select <strong>Contact Page</strong> as the Page Template.</li>
-            <li> Add a title and <span class="label medium radius">Publish</span> the Page. The page will
-                display the
-                pre-defined content within that page template.
-            </li>
-            <li> Fill the <a href="#configuration_contact_form_id">Contact Form 7 ID</a> and all other info in
-                Contact
-                Information tab.
-            </li>
-        </ol>
-        <div class="row">
-            <div class="columns large-8">
-                <p><img src="assets/images/pkb/contact-page-info-tab.png" alt=""></p>
-            </div>
-        </div>
-        <h3 class="subheader">How to get Contact Form 7 ID</h3>
-        <a class="anchor-top" id="configuration_contact_form_id"></a>
-        <ol>
-            <li> Install <a href="http://wordpress.org/plugins/contact-form-7/">Contact Form 7</a> plugin if you
-                haven't done
-                so.
-            </li>
-            <li> From WordPress Dashboard, navigate to <span class="label medium radius">Contact</span>
-                &gt; <span
-                        class="label medium radius">Add New</span>
+    </div>
+</section><!--//doc-section-->
 
-                <p><img src="assets/images/pkb/contact-page-add-new.png" alt=""></p>
-            </li>
-            <li> Create your custom contact form and <span class="label medium radius">Save</span> it. Check the
-                <a
-                        href="http://contactform7.com/getting-started-with-contact-form-7/">Contact Form 7 guide</a>
-                if you you're
-                not familiar with it.
-            </li>
-            <li> Copy the <strong>Contact Form ID</strong> and go back to the Contact page you just created.
-                <p><img src="assets/images/pkb/contact-page-form-id.png" alt=""></p>
-            </li>
-        </ol>
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">All Pages</h2>
+    <div class="doc-section-block">
+
+
+    </div>
+</section><!--//doc-section-->
+
+<section id="" class="doc-section">
+    <h2 class="doc-section-title">Custom Post Types Pages</h2>
+    <div class="doc-section-block">
+
+
     </div>
 </section><!--//doc-section-->
 
