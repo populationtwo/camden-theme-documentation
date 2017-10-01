@@ -52,7 +52,7 @@
     </div>
 </section>
 
-<section id="setting_up_home_page" class="doc-section">
+<section id="setting_up_home_page" class="doc-section" data-magellan-target="setting_up_home_page">
     <h2 class="doc-section-title">Setting Up Home Page</h2>
     <div class="doc-section-block">
         <ol>
@@ -76,7 +76,7 @@
     </div>
 </section><!--//doc-section-->
 
-<section id="setting_up_blog_page" class="doc-section">
+<section id="setting_up_blog_page" class="doc-section" data-magellan-target="setting_up_blog_page">
     <h2 class="doc-section-title">Setting Up Blog page</h2>
     <div class="doc-section-block">
         <ol>
@@ -95,7 +95,7 @@
     </div>
 </section><!--//doc-section-->
 
-<section id="" class="doc-section">
+<section id="page_templates" class="doc-section" data-magellan-target="page_templates">
     <h2 class="doc-section-title">Page Templates</h2>
     <div class="doc-section-block">
 
@@ -110,7 +110,7 @@
         <ol>
             <li><strong>Home Page</strong> &mdash; a page template for Front Page</li>
             <li><strong>Full Width Page</strong> &mdash; a full width page template without the sidebar.</li>
-            <li><strong>Service Times & Directions Page</strong> &mdash; a page template to display map and service
+            <li><strong>Times & Directions Page</strong> &mdash; a page template to display map and service
                 times.
             </li>
             <li><strong>Contact Page</strong> &mdash; a page template with contact form</li>
@@ -156,12 +156,11 @@
         <ol>
             <li>Make sure contact form plugin is activated. We use Contact Form 7 for this example.</li>
             <li>Create a new Page and change the <strong>Template</strong> to <strong>Contact Page</strong>.</li>
-            <li> Create your custom contact form. Check the
+            <li>Create your custom contact form. Check the
                 <a href="http://contactform7.com/getting-started-with-contact-form-7/" target="_blank">Contact Form 7
-                    guide</a>
-                if you you're not familiar with it.
+                    guide</a> for more details.
             </li>
-            <li>Copy the Contact Form 7 embed code and add it to the contact form page content.
+            <li>Copy the Contact Form 7 embed code and add it to the contact page text editor.
                 <img src="assets/images/contact-page-contact-embed-code.png" alt="" class="thumbnail">
             </li>
             <li>Fill the <strong>Contact Info</strong> fields with additional info such as address and phone number.
@@ -169,26 +168,61 @@
             </li>
         </ol>
 
+
+        <h3 class="doc-block-title">Times & Direction Page</h3>
+        <p>Camden theme comes with a Times & Direction template to display service times and map.</p>
+        <h5 class="doc-block-subheader">Times & Direction Options</h5>
+        <dl>
+            <dt>Service Times Entry</dt>
+            <dd>Define the service times. It accepts HTML and multiple entries.
+                <br>
+                <p>Recommended markup:</p>
+                <div class="code-block">
+                    <pre><code class="language-markup">
+&lt;dl&gt;
+    &lt;dt&gt;TITLE&lt;/dt&gt;
+    &lt;dd&gt;&lt;span class="time"&gt;12:00 AM&lt;/span&gt;
+    LOCATION
+    &lt;a href="URL"&gt;View Details&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+                    </code></pre>
+                </div>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>Map Image</dt>
+            <dd>Define the map image URL. You can upload the map image to WordPress Media Library ( Media > Library )
+                and get the image URL. Alternatively, you may use map image maker such as
+                <a href="http://staticmapmaker.com/" target="_blank">Static Map Maker</a> to generate the URL.</dd>
+        </dl>
+
+        <dl>
+            <dt>Direction Info</dt>
+            <dd>Add short additional info to be displayed next to the map image. It accepts HTML.</dd>
+        </dl>
+
+        <dl>
+            <dt>Map URL</dt>
+            <dd>Define the URL where the Map Image links to, usually it's the share link.
+                <div class="code-block">
+                    <pre><code class="language-markup">
+//Google Map
+https://www.google.com/maps/@18.5411754,-80.1912377,15z
+
+//Bing Map
+https://binged.it/2fAzbZF
+                    </code></pre>
+                </div>
+
+
+
+            </dd>
+        </dl>
+
     </div>
 </section><!--//doc-section-->
 
-
-
-<section id="" class="doc-section">
-    <h2 class="doc-section-title">Full Width Page</h2>
-    <div class="doc-section-block">
-
-
-    </div>
-</section><!--//doc-section-->
-
-<section id="" class="doc-section">
-    <h2 class="doc-section-title">Service Times & Direction Page</h2>
-    <div class="doc-section-block">
-
-
-    </div>
-</section><!--//doc-section-->
 
 <section id="" class="doc-section">
     <h2 class="doc-section-title">All Pages</h2>
@@ -531,7 +565,7 @@
             href="#widgets">here</a> . </p>-->
 
 
-<section class="doc-section" id="demo-content" data-magellan-target="demo-content">
+<section class="doc-section" id="demo_content" data-magellan-target="demo_content">
     <h2 class="doc-section-title">Demo Content</h2>
     <div class="doc-section-block">
 

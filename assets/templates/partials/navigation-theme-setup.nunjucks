@@ -5,10 +5,10 @@
     <nav id="doc-nav" class="sticky" data-sticky data-anchor="docs" data-sticky-on="large">
         <ul id="doc-menu" class="vertical menu " data-magellan>
 
-
-
-            <li><a href="#demo-content">Demo Content</a></li>
-
+            <li><a href="#setting_up_home_page">Setting Up Home Page</a></li>
+            <li><a href="#setting_up_blog_page">Setting Up Blog Page</a></li>
+            <li><a href="#page_templates">Page Templates</a></li>
+            <li><a href="#demo_content">Demo Content</a></li>
 
         </ul>
     </nav>

@@ -104,7 +104,7 @@
     </div>
 </section>
 
-<section id="setting_up_home_page" class="doc-section">
+<section id="setting_up_home_page" class="doc-section" data-magellan-target="setting_up_home_page">
     <h2 class="doc-section-title">Setting Up Home Page</h2>
     <div class="doc-section-block">
         <ol>
@@ -128,7 +128,7 @@
     </div>
 </section><!--//doc-section-->
 
-<section id="setting_up_blog_page" class="doc-section">
+<section id="setting_up_blog_page" class="doc-section" data-magellan-target="setting_up_blog_page">
     <h2 class="doc-section-title">Setting Up Blog page</h2>
     <div class="doc-section-block">
         <ol>
@@ -147,7 +147,7 @@
     </div>
 </section><!--//doc-section-->
 
-<section id="" class="doc-section">
+<section id="page_templates" class="doc-section" data-magellan-target="page_templates">
     <h2 class="doc-section-title">Page Templates</h2>
     <div class="doc-section-block">
 
@@ -162,7 +162,7 @@
         <ol>
             <li><strong>Home Page</strong> &mdash; a page template for Front Page</li>
             <li><strong>Full Width Page</strong> &mdash; a full width page template without the sidebar.</li>
-            <li><strong>Service Times & Directions Page</strong> &mdash; a page template to display map and service
+            <li><strong>Times & Directions Page</strong> &mdash; a page template to display map and service
                 times.
             </li>
             <li><strong>Contact Page</strong> &mdash; a page template with contact form</li>
@@ -208,12 +208,11 @@
         <ol>
             <li>Make sure contact form plugin is activated. We use Contact Form 7 for this example.</li>
             <li>Create a new Page and change the <strong>Template</strong> to <strong>Contact Page</strong>.</li>
-            <li> Create your custom contact form. Check the
+            <li>Create your custom contact form. Check the
                 <a href="http://contactform7.com/getting-started-with-contact-form-7/" target="_blank">Contact Form 7
-                    guide</a>
-                if you you're not familiar with it.
+                    guide</a> for more details.
             </li>
-            <li>Copy the Contact Form 7 embed code and add it to the contact form page content.
+            <li>Copy the Contact Form 7 embed code and add it to the contact page text editor.
                 <img src="assets/images/contact-page-contact-embed-code.png" alt="" class="thumbnail">
             </li>
             <li>Fill the <strong>Contact Info</strong> fields with additional info such as address and phone number.
@@ -221,83 +220,61 @@
             </li>
         </ol>
 
-    </div>
-</section><!--//doc-section-->
+
+        <h3 class="doc-block-title">Times & Direction Page</h3>
+        <p>Camden theme comes with a Times & Direction template to display service times and map.</p>
+        <h5 class="doc-block-subheader">Times & Direction Options</h5>
+        <dl>
+            <dt>Service Times Entry</dt>
+            <dd>Define the service times. It accepts HTML and multiple entries.
+                <br>
+                <p>Recommended markup:</p>
+                <div class="code-block">
+                    <pre><code class="language-markup">
+&lt;dl&gt;
+    &lt;dt&gt;TITLE&lt;/dt&gt;
+    &lt;dd&gt;&lt;span class="time"&gt;12:00 AM&lt;/span&gt;
+    LOCATION
+    &lt;a href="URL"&gt;View Details&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+                    </code></pre>
+                </div>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>Map Image</dt>
+            <dd>Define the map image URL. You can upload the map image to WordPress Media Library ( Media > Library )
+                and get the image URL. Alternatively, you may use map image maker such as
+                <a href="http://staticmapmaker.com/" target="_blank">Static Map Maker</a> to generate the URL.</dd>
+        </dl>
+
+        <dl>
+            <dt>Direction Info</dt>
+            <dd>Add short additional info to be displayed next to the map image. It accepts HTML.</dd>
+        </dl>
+
+        <dl>
+            <dt>Map URL</dt>
+            <dd>Define the URL where the Map Image links to, usually it's the share link.
+                <div class="code-block">
+                    <pre><code class="language-markup">
+//Google Map
+https://www.google.com/maps/@18.5411754,-80.1912377,15z
+
+//Bing Map
+https://binged.it/2fAzbZF
+                    </code></pre>
+                </div>
 
 
-<section id="" class="doc-section">
-    <h2 class="doc-section-title">Contact Page</h2>
-    <div class="doc-section-block">
 
-        <p> Camden theme comes with a Contact Page template that that fully integrate with
-            <a href="http://contactform7.com/">Contact
-                Form 7</a> plugin. Contact Form 7 comes with a useful set of validation methods, including email
-            address validation
-            and CAPTCHA.
-
-        <h3 class="subheader">How to setup Contact Page</h3>
-        <ol>
-            <li> Navigate to <span class="label medium radius">Pages</span> &gt; <span
-                    class="label medium radius">Add New</span></li>
-            <li> Find <strong>Page attributes</strong> panel on the lower right corner. You will see the
-                <strong>Template</strong> dropdown.
-            </li>
-            <li> Select <strong>Contact Page</strong> as the Page Template.</li>
-            <li> Add a title and <span class="label medium radius">Publish</span> the Page. The page will
-                display the
-                pre-defined content within that page template.
-            </li>
-            <li> Fill the <a href="#configuration_contact_form_id">Contact Form 7 ID</a> and all other info in
-                Contact
-                Information tab.
-            </li>
-        </ol>
-        <div class="row">
-            <div class="columns large-8">
-                <p><img src="assets/images/pkb/contact-page-info-tab.png" alt=""></p>
-            </div>
-        </div>
-        <h3 class="subheader">How to get Contact Form 7 ID</h3>
-        <a class="anchor-top" id="configuration_contact_form_id"></a>
-        <ol>
-            <li> Install <a href="http://wordpress.org/plugins/contact-form-7/">Contact Form 7</a> plugin if you
-                haven't done
-                so.
-            </li>
-            <li> From WordPress Dashboard, navigate to <span class="label medium radius">Contact</span>
-                &gt; <span
-                        class="label medium radius">Add New</span>
-
-                <p><img src="assets/images/pkb/contact-page-add-new.png" alt=""></p>
-            </li>
-            <li> Create your custom contact form and <span class="label medium radius">Save</span> it. Check the
-                <a
-                        href="http://contactform7.com/getting-started-with-contact-form-7/">Contact Form 7 guide</a>
-                if you you're
-                not familiar with it.
-            </li>
-            <li> Copy the <strong>Contact Form ID</strong> and go back to the Contact page you just created.
-                <p><img src="assets/images/pkb/contact-page-form-id.png" alt=""></p>
-            </li>
-        </ol>
-    </div>
-</section><!--//doc-section-->
-
-<section id="" class="doc-section">
-    <h2 class="doc-section-title">Full Width Page</h2>
-    <div class="doc-section-block">
-
+            </dd>
+        </dl>
 
     </div>
 </section><!--//doc-section-->
 
-<section id="" class="doc-section">
-    <h2 class="doc-section-title">Service Times & Direction Page</h2>
-    <div class="doc-section-block">
-
-
-    </div>
-</section><!--//doc-section-->
 
 <section id="" class="doc-section">
     <h2 class="doc-section-title">All Pages</h2>
@@ -640,7 +617,7 @@
             href="#widgets">here</a> . </p>-->
 
 
-<section class="doc-section" id="demo-content" data-magellan-target="demo-content">
+<section class="doc-section" id="demo_content" data-magellan-target="demo_content">
     <h2 class="doc-section-title">Demo Content</h2>
     <div class="doc-section-block">
 
@@ -792,10 +769,10 @@
     <nav id="doc-nav" class="sticky" data-sticky data-anchor="docs" data-sticky-on="large">
         <ul id="doc-menu" class="vertical menu " data-magellan>
 
-
-
-            <li><a href="#demo-content">Demo Content</a></li>
-
+            <li><a href="#setting_up_home_page">Setting Up Home Page</a></li>
+            <li><a href="#setting_up_blog_page">Setting Up Blog Page</a></li>
+            <li><a href="#page_templates">Page Templates</a></li>
+            <li><a href="#demo_content">Demo Content</a></li>
 
         </ul>
     </nav>
