@@ -175,7 +175,7 @@
         <dl>
             <dt>Service Times Entry</dt>
             <dd>Define the service times. It accepts HTML and multiple entries.
-                <br>
+                <br><br>
                 <p>Recommended markup:</p>
                 <div class="code-block">
                     <pre><code class="language-markup">
@@ -194,7 +194,8 @@
             <dt>Map Image</dt>
             <dd>Define the map image URL. You can upload the map image to WordPress Media Library ( Media > Library )
                 and get the image URL. Alternatively, you may use map image maker such as
-                <a href="http://staticmapmaker.com/" target="_blank">Static Map Maker</a> to generate the URL.</dd>
+                <a href="http://staticmapmaker.com/" target="_blank">Static Map Maker</a> to generate the URL.
+            </dd>
         </dl>
 
         <dl>
@@ -216,7 +217,6 @@ https://binged.it/2fAzbZF
                 </div>
 
 
-
             </dd>
         </dl>
 
@@ -224,10 +224,25 @@ https://binged.it/2fAzbZF
 </section><!--//doc-section-->
 
 
-<section id="" class="doc-section">
-    <h2 class="doc-section-title">All Pages</h2>
+<section id="page_options" class="doc-section" data-magellan-target="page_options">
+    <h2 class="doc-section-title">Page Options</h2>
     <div class="doc-section-block">
+        <p>Page Options is available on all pages. You can assign header image and page subheading on any Pages.</p>
 
+        <dl>
+            <dt>Page Header Image</dt>
+            <dd>Define the header image. You can upload the image or enter a URL. It will display the default solid color (#212526) if there is no header image assigned. You can change the default color from Theme Options (<strong>Theme Options > Style > Page Hero Header Background Color</strong>).
+                <br>
+                <img src="assets/images/reading-setting-front-page.png" alt="" class="thumbnail">
+            </dd>
+        </dl>
+        <dl>
+            <dt>Page Subheading</dt>
+            <dd>Define the subheading text to be displayed below the page title. It's usually a brief description of the page. HTML allowed.
+                <br>
+                <img src="assets/images/reading-setting-front-page.png" alt="" class="thumbnail">
+            </dd>
+        </dl>
 
     </div>
 </section><!--//doc-section-->
