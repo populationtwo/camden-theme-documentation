@@ -228,19 +228,19 @@ https://binged.it/2fAzbZF
     <h2 class="doc-section-title">Page Options</h2>
     <div class="doc-section-block">
         <p>Page Options is available on all pages. You can assign header image and page subheading on any Pages.</p>
+        <img src="assets/images/page-options.png" alt="" class="thumbnail">
 
         <dl>
             <dt>Page Header Image</dt>
-            <dd>Define the header image. You can upload the image or enter a URL. It will display the default solid color (#212526) if there is no header image assigned. You can change the default color from Theme Options (<strong>Theme Options > Style > Page Hero Header Background Color</strong>).
-                <br>
-                <img src="assets/images/reading-setting-front-page.png" alt="" class="thumbnail">
+            <dd>Define the header image. You can upload the image or enter a URL. It will display the default solid
+                color (#212526) if there is no header image assigned. You can change the default color from Theme
+                Options (<strong>Theme Options > Style > Page Hero Header Background Color</strong>).
             </dd>
         </dl>
         <dl>
             <dt>Page Subheading</dt>
-            <dd>Define the subheading text to be displayed below the page title. It's usually a brief description of the page. HTML allowed.
-                <br>
-                <img src="assets/images/reading-setting-front-page.png" alt="" class="thumbnail">
+            <dd>Define the subheading text to be displayed below the page title. It's usually a brief description of the
+                page. HTML allowed.
             </dd>
         </dl>
 
@@ -381,20 +381,10 @@ https://binged.it/2fAzbZF
     </div>
 </section><!--//doc-section-->
 
-<section id="" class="doc-section">
-    <h2 class="doc-section-title">Sliders</h2>
+<section id="slides" class="doc-section">
+    <h2 class="doc-section-title">Slides</h2>
     <div class="doc-section-block">
 
-
-        <div class="row">
-            <div class="columns large-8">
-                <div class="flex-video">
-                    <iframe src="http://player.vimeo.com/video/84640882?byline=0&amp;portrait=0" width="600"
-                            height="450"
-                            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="columns large-8">
                 <div class="flex-video">
@@ -431,24 +421,68 @@ https://binged.it/2fAzbZF
         <p> Orbit Slider can also be generated from Shortcodes. For more information check the <a
                 href="#shortcodes">Shortcode</a> section below. </p>
 
-        <h3 class="subheader">Slider settings</h3>
+        <h3 class="doc-block-title">Slider settings</h3>
+
+        <dl>
+            <dt>Slide Type</dt>
+            <dd></dd>
+        </dl>
+
+        <dl>
+            <dt>Foreground Image</dt>
+            <dd></dd>
+        </dl>
+
+
+        <dl>
+            <dt>Video</dt>
+            <dd></dd>
+        </dl>
+
+
+        <dl>
+            <dt>Heading</dt>
+            <dd></dd>
+        </dl>
+
+        <dl>
+            <dt>Heading Color</dt>
+            <dd></dd>
+        </dl>
+
+        <dl>
+            <dt>Content</dt>
+            <dd></dd>
+        </dl>
+
+        <dl>
+            <dt>Content Color</dt>
+            <dd></dd>
+        </dl>
+
+        <dl>
+            <dt>Text Position</dt>
+            <dd></dd>
+        </dl>
+
+        <dl>
+            <dt>Button Text</dt>
+            <dd></dd>
+        </dl>
+
+        <dl>
+            <dt>Button URL</dt>
+            <dd></dd>
+        </dl>
 
         <p><img src="assets/images/pkb/doc-slider-info-2.jpg" alt=""></p>
 
         <p><img src="assets/images/pkb/doc-slider-info-1.jpg" alt=""></p>
 
-        <h3 class="subheader">Global slider options</h3>
-
-        <p> You can access all global slider options from the Theme Options. Navigate to
-            <span class="label medium radius">Appearance</span>
-            &gt; <span class="label medium radius">Theme Options</span> &gt; <span
-                    class="label medium radius">Slider</span>
-            to
-            access it. </p>
-
-        <p><img src="assets/images/pkb/theme-options-slider.png" alt=""></p>
-
-        <p> All the options will affect both the home page slider and shortcode. </p>
+        <h3 class="doc-block-title">Slide global options</h3>
+        <p>Slide global options (e.g., transition speed and slideshopw speed ) are available from Theme Options
+            (<strong>Theme Options > Front Page > Slider</strong>).</p>
+        <p>More information at: <a href="#">Theme Options</a></p>
     </div>
 </section><!--//doc-section-->
 
