@@ -129,3 +129,13 @@ code {
 
   }
 }
+
+.thumbnail-blog-grid {
+  img.thumbnail {
+    margin-bottom: 10px;
+  }
+  figcaption {
+    margin-bottom: 30px;
+    font-size: 80%;
+  }
+}
