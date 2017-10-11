@@ -1,3 +1,28 @@
+<section id="translation-section" class="doc-section">
+    <h2 class="doc-section-title">Translation and Right to Left Support</h2>
+    <div class="doc-section-block">
+
+        <p>This theme is internationalized, it's ready to be translated and support Right to Left. The theme come with language file that can be translated to make your site to display on a different language. These are several translatation management tools:
+        </p>
+        <ol>
+            <li><a href="https://poedit.net/" target="_blank">PoEdit</a> &mdash; software not a WordPress plugin. Easy and very straightforward, however you'll need to upload the generated langunage file to the theme folder.</li>
+            <li><a href="https://wordpress.org/plugins/polylang/" target="_blank">PolyLang</a> &mdash; WordPress plugin, simple.</li>
+            <li><a href="https://wpml.org/" target="_blank">WPML</a> &mdash; WordPress plugin, it has a lot of features but not suitable for beginner.</li>
+        </ol>
+        <p>These tools can create the translation in new language from .PO file (<code>camden/language</code>)</p>
+
+
+        tutorial using poedit
+
+        <h3 class="doc-block-title">RTL</h3>
+
+        https://codex.wordpress.org/Installing_WordPress_in_Your_Language
+
+    </div>
+</section><!--//doc-section-->
+
+
+
 <section id="support-section" class="doc-section">
     <h2 class="doc-section-title">Theme Support</h2>
     <div class="doc-section-block">
