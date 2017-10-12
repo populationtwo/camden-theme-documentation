@@ -54,20 +54,51 @@
     <h2 class="doc-section-title">Translation and Right to Left Support</h2>
     <div class="doc-section-block">
 
-        <p>This theme is internationalized, it's ready to be translated and support Right to Left. The theme come with language file that can be translated to make your site to display on a different language. These are several translatation management tools:
+        <p>This theme is localized, it's ready to be translated and support Right-to-Left languages. The theme come with language files that can be translated to make your site to display on a different language.</p>
+
+        <p>These are several translatation management tools to translate this file:
         </p>
         <ol>
-            <li><a href="https://poedit.net/" target="_blank">PoEdit</a> &mdash; software not a WordPress plugin. Easy and very straightforward, however you'll need to upload the generated langunage file to the theme folder.</li>
+            <li><a href="https://poedit.net/" target="_blank">Poedit</a> &mdash; software not a WordPress plugin. Easy and very straightforward, however you'll need to upload the generated language file to the theme folder.</li>
             <li><a href="https://wordpress.org/plugins/polylang/" target="_blank">PolyLang</a> &mdash; WordPress plugin, simple.</li>
             <li><a href="https://wpml.org/" target="_blank">WPML</a> &mdash; WordPress plugin, it has a lot of features but not suitable for beginner.</li>
         </ol>
-        <p>These tools can create the translation in new language from .PO file (<code>camden/language</code>)</p>
+        <p>These tools can create a new translation from from .POT file (<code>camden/language</code>)</p>
 
+        <h3 class="doc-block-title">Creating Translation with Poedit</h3>
+        <ol>
+            <li>Download and install <a href="https://poedit.net/" target="_blank">Poedit</a></li>
+            <li>Click File > New from PO/POT file</li>
+            <li>Open catalog template C:\xampp\apps\wordpress8\htdocs\wp-content\themes\camden\languages</li>
+            <li>Choose the new language</li>
+            <li>Now, on the next page, you can simply go through and add/edit your translations by clicking on each string and adding the translation in the bottom box.</li>
+            <li>When you're done, simply click "Save". Save it in the same dericoty
+            </li>
+            <li>Be sure that WordPress is set to use the same language you've translated from Settings > General (look for the language dropdown at the bottom).</li>
+        <li>Change the language in the admin settings screen. Settings > General > Site Language.
+        </li>
+        </ol>
+
+
+        tutorial using poedit
 
         <h3 class="doc-block-title">RTL</h3>
-
+        More information on translation can be found here as well: http://codex.wordpress.org/Installing_WordPress_in_Your_Language
         https://codex.wordpress.org/Installing_WordPress_in_Your_Language
 
+
+        <ol>
+
+            <li>Open library/enqueue-scripts.php</li>
+            <li>Find  wp_style_add_data('main-stylesheet', 'rtl', 'replace') and uncomment it.</li>
+            <li>Save athe file and upload it</li>
+            <li></li>
+            <li></li>
+            <li>Chnage the langinage setting</li>
+            <li>The theme will load camden-style-rtl.css instead of camden-style.css</li>
+
+            <li></li>
+        </ol>
     </div>
 </section><!--//doc-section-->
 
