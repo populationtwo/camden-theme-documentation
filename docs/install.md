@@ -25,89 +25,104 @@ If you need help installing WordPress, follow the documentation in WordPress Cod
 
 More detailed instructions follow.
 
-It is recommended to install `docsify-cli` globally, which helps initializing and previewing the website locally.
+## Theme Installation
 
-```bash
-npm i docsify-cli -g
-```
+The first step in getting started with our themes is installing them. There are two ways to do this, Theme Install from Administration Panels and FTP . Sometimes installation via Administration Panels may not work for you, usually because of a server restriction such as memory. In that case, you will need to install your theme manually via FTP .
 
-## Initialize
+### Adding New Themes using the Administration Panels
 
-If you want to write the documentation in the `./docs` subdirectory, you can use the `init` command.
+1. Log in to the WordPress Administration Panels .
+2. Select the Appearance panel, then Themes .
+3. Click Add New .
+4. Click Upload New and choose the theme file(.zip) that you have previously downloaded to your machine.
+5. Wait until the theme is uploaded and installed.
+6. Activate the theme.
 
-```bash
-docsify init ./docs
-```
+### Adding New Themes Manually (FTP)
 
-## Writing content
+To add a new Theme to your WordPress installation, follow these basic steps:
 
-After the `init` is complete, you can see the file list in the `./docs` subdirectory.
+Download the Theme archive (.zip) and extract the files it contains.
+There will be a few folders such as documentation. Take note of the folder of your theme name. You will only need to upload camden folder.
+Start up your FTP client. We recommend using FileZilla since it is free and cross-platform.
+Find the directory where the WordPress installed. It is usually located at /public_html/wp-content/themes/
+Upload the Theme files to the new directory on your host server.
+Follow the instructions below for selecting the new Theme.
 
-* `index.html` as the entry file
-* `README.md` as the home page
-* `.nojekyll` prevents GitHub Pages from ignoring files that begin with an underscore
+### Selecting the Active Theme
 
-You can easily update the documentation in `./docs/README.md`, of course you can add [more pages](more-pages.md).
+To select Camden theme for your site:
 
-## Preview your site
+Log in to the WordPress Administration Panels.
+Select the Appearance panel, then Themes.
+From the Themes panel, select Camden theme and click the Activate button.
 
-Run the local server with `docsify serve`. You can preview your site in your browser on `http://localhost:3000`.
+Your selection should immediately become active.
 
-```bash
-docsify serve docs
-```
+!>If you get the “Are You Sure You Want To Do This” message when installing the theme via WordPress Administration Panels, please make sure that you only upload the theme file, not the whole package. If the error message persists, install the theme via FTP, or increase your max_execution_time , max_input_time , and memory_limit via the php.ini . Ask your hosting company if you are not comfortable modifying php.ini .
 
-?> For more use cases of `docsify-cli`, head over to the [docsify-cli documentation](https://github.com/QingWei-Li/docsify-cli).
+## Plugin Installation
 
-## Manual initialization
+To install the required plugins:
 
-If you don't like `npm` or have trouble installing the tool, you can manually create `index.html`:
+Log in to the WordPress Administration Panels.
+Select Begin installing plugins. WordPress will download and install all the required plugins.
 
-```html
-<!-- index.html -->
+## What’s Included in the Package
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
-</head>
-<body>
-  <div id="app"></div>
-</body>
-<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-</html>
-```
+When you purchase our theme from Themeforest, you need to download the theme files from your Themeforest account. Navigate to your downloads tab on Themeforest and find the theme. Click the download button to see the two options. The **Main Files** contain everything, and the **Installable WordPress Theme** is the WordPress theme file only. Below is a full list of what is included along with a brief description of each item:
 
-If you installed python on your system, you can easily use it to run a static server to preview your site.
+- **Camden Theme Folder** – contains the camden.zip and camden-child.zip WordPress theme. The child theme is only for users who make code changes.
+- **Licensing Folder** – contains the licensing files, this is not your purchase code that you need to download from Themeforest.
 
-```bash
-cd docs && python -m SimpleHTTPServer 3000
-```
+## How To Update WordPress Theme
 
-## Loading dialog
+When a new version of your theme become available you will get an email notification from Themeforest. You can also use [Envato Toolkit Plugin](https://github.com/envato/envato-wordpress-toolkit) . You will receive notification in your WordPress Dashboard once the theme is updated. Please read the changelog so you can see what was modified in the new version.
 
-If you want, you can show a loading dialog before docsify starts to render your documentation:
+We recommend you to keep always your theme updated, to ensure that it is fully compatible with latest WordPress version available.
 
-```html
-  <!-- index.html -->
+?>We strongly recommend you to [backing up your database](http://codex.wordpress.org/Backing_Up_Your_Database) and [WordPress files](http://codex.wordpress.org/Backing_Up_Your_WordPress_Files). That way you will not lose any modifications and customizations that you made in your theme.
+  
+You can update your theme via FTP or WordPress Administration Panels. See the information below for each method.
 
-  <div id="app">Please wait...</div>
-```
+### Download theme files
+  
+1. Log into your Envato account and go to Downloads page under your profile name.
+2. Find Camden theme click **Download** button next to it and then click **Installable WordPress file only**.
 
-You should set the `data-app` attribute if you changed `el`:
+![Installable WordPress file only](_images/installable-wp-theme.png)
 
-```html
-  <!-- index.html -->
+Follow the instructions below for updating via FTP or WordPress Administration Panels.
 
-  <div data-app id="main">Please wait...</div>
+### Uploading the new version
 
-  <script>
-    window.$docsify = {
-      el: '#main'
-    }
-  </script>
-```
+The easiest way to update your theme is to upload it using **WordPress Administration Panels**
 
-Compare [el configuration](configuration.md#el).
+But because you already have a theme folder on your server with the same name as the folder inside your ZIP file of updated theme, most likely you will get the following error:
+
+![failed install](_images/failed-install.png)
+
+To avoid this error you have several choices:
+
+#### A. Delete your current theme
+
+- Deactivate the theme you want to update, enabling another theme (e.g. Twenty Seventeen ) (theme can not be deleted if it is active).
+- Delete the theme.
+- Now you can go to Themes page and install the updated version of the theme.
+
+### B. Rename your current theme folder via FTP
+
+- Log in to your site via FTP client.
+- Go to `wp-content/themes` and rename your current theme folder (e.g. **camden** ) to something else (e.g. **camden-backup** ), without adding any spaces in the folder name.
+- Go back to WordPress Administration Panel and install the new version the theme.
+- Delete the theme you just renamed (e.g. **camden-backup** ) after successfully updating the theme.
+
+### C. Manually update only modified files
+
+- If your theme was previously modified or customized, you can update manually only files that were modified in newer versions than yours.
+- Look in the changelog of your theme to see which files were modified or added and replace them via FTP.
+
+##### What if my theme was modified?
+
+- Update via FTP only modified files that are listed in the changelog
+- If you don’t remember what modifications you did in your theme, just compare files from your current theme folder with the new version using a tool like [Beyond Compare](http://www.scootersoftware.com/moreinfo.php) ( Windows & Linux ), [WinMerge](http://winmerge.org/) (Windows) or [DiffFork](http://www.dotfork.com/difffork//) (Mac)
