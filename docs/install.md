@@ -2,7 +2,7 @@
 
 Camden theme can only be used with a working version of WordPress. We strongly recommend you to do a fresh WordPress installation and integrate your content into the pages accordingly. This theme has specific settings that might conflict with your current WordPress themes, plugins, database, etc.
 
-?>This page contain beginners guide to WordPress theme, skip to [the next page]() if you are already comfortable with WordPress.
+?>This page contain beginners guide to WordPress theme, skip to [the next page]() if you are already familiar with WordPress theme.
 
 If you need help installing WordPress, follow the documentation in WordPress Codex. Below are some useful WordPress information to help you get started:
 
