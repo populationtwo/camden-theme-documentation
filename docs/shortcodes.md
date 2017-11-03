@@ -45,25 +45,29 @@ The grid in Camden theme is based on [Foundation Grid](https://foundation.zurb.c
 [one_third_omega] ... [/one_third_omega]
 ```
 
-## UI
-### Accordion
-### Tabs
-### Vertical Tabs
-### Callout
-
-
-## Foundation Elements
-### Grid Columns
-### Orbit
-### Tooltip
-### Reveal
-
-## Miscellaneous Elements
-
+### Custom
+## Typography
 ### Check List
-### Check List Cirtcle
+### Check List Circle
 ### Left Pull Quotes
 ### Right Pull Quotes
-### blockquote
+### Blockquote
 
+## Media
+### Orbit
+### Reveal
+
+## Accordion
+## Tabs
+## Vertical Tabs
+## Callout
+## Tooltip
 ## Button
+```html
+[btn url="#" type="basic"] Basic Button [/btn]
+[btn url="#" type="hollow"] Hollow Button [/btn]
+[btn url="#" type="action"] Action Button [/btn]
+```
+![Shortcode Grid](_images/shortcode-button-type.png)
+
+![Shortcode Grid](_images/shortcode-button-color.png)
