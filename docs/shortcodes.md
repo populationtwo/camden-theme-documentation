@@ -4,6 +4,8 @@ Camden theme comes with shortcodes which allow you to create more customized pos
 
 Briefly, shortcode is a special tag that you can enter into a post that gets replaced with different content when actually viewing the post on the website. You can add the shortcodes from the WordPress visual editor. Navigate to a Post or a Page, and find the Shortcode Editor button in the post editor window.
 
+!> NOTE: The shortcodes features requires [Camden Add-ons](https://github.com/populationtwo/camden-add-ons) plugin.
+ 
 ![Shortcode Button](_images/shortcode-button.png)
 
 ## Grid
@@ -107,11 +109,68 @@ title — Text in the tip
 class — Additional CSS classes.
 width — Size of the tip, in pixels.
 ## Button
+Minimal shortcode:
+```html
+[btn url="https://envato.com"]Button[/btn]
+```
+
+Shortcode with all its attributes:
+```html
+[btn url="https://envato.com" type="action" color="primary" target="_blank" arrow="true" size="large"]
+Button
+[/btn]
+```
+
+#### Types
+Add `type` attribute to change its type. Default type is `basic`, or without `type` attribute. 
 ```html
 [btn url="#" type="basic"] Basic Button [/btn]
 [btn url="#" type="hollow"] Hollow Button [/btn]
 [btn url="#" type="action"] Action Button [/btn]
 ```
 ![Shortcode Grid](_images/shortcode-button-type.png)
+#### Color
+Add `color` attribute to change its color. Default color is grey, without `color` attribute. 
 
+```html
+[btn url="#"] Default Button [/btn]
+[btn url="#" color="primary"] Primary Button [/btn]
+[btn url="#" color="secondary"] Secondary Button [/btn]
+[btn url="#" color="red"] Red Button [/btn]
+[btn url="#" color="orange"] Orange Button [/btn]
+[btn url="#" color="yellow"] Yellow Button [/btn]
+[btn url="#" color="green"] Green Button [/btn]
+[btn url="#" color="blue"] Blue Button [/btn]
+[btn url="#" color="teal"] Teal Button [/btn]
+```
 ![Shortcode Grid](_images/shortcode-button-color.png)
+
+#### Size
+Add `size` attribute to change its size. Default size is normal, or without `size` attribute. 
+
+```html
+[btn url="#" size="small"] Small Button [/btn]
+[btn url="#"] Normal Button [/btn]
+[btn url="#" size="large"] Large Button [/btn]
+```
+![Shortcode Grid](_images/shortcode-button-sizes.png)
+
+#### Target
+Set `target` attribute to `_blank` to open the linked URL in a new window or tab.
+
+```html
+[btn url="" target="_blank"] Button [/btn]
+```
+
+#### Arrow
+Set `arrow` attribute to `false` to create button without arrow. Arrow is enabled by default.
+```html
+[btn url="#" arrow="false"] Without Arrow [/btn]
+[btn url="#"] With Arrow [/btn]
+```
+![Shortcode Grid](_images/shortcode-button-arrow.png)
+
+
+
+
+
