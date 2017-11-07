@@ -101,20 +101,30 @@ Attributes
 Alert boxes come with two additional options: close=no (default is yes) and timeout=2000 (timeout in ms). The timeout option makes the box disappear after the timer is done.
 
 ## Tooltip
-This is a shortcode that creates simple Tooltips.
+Tooltips displays additional information for a term or action on a page.
+
+```html
+[tooltip position="auto" title="Tooltip content"]Lorem ipsum[/tooltip]
+[tooltip position="top" title="Tooltip content" class="optional-class"]Lorem ipsum[/tooltip]
+```
 
 Attributes:
-position — top | bottom | left | right
-title — Text in the tip
-class — Additional CSS classes.
-width — Size of the tip, in pixels.
+- `position` — Position of tooltip. Can be `left`, `right`, `bottom`, `top`, or `auto`.
+- `title` — Text / content of tooltip.
+- `class` — Optional CSS classes.
+
+![Shortcode Tooltip](_images/shortcode-tooltip.png)
+
 ## Button
+![Shortcode Button Dialog](_images/shortcode-button-dialog.png)
+
 Minimal shortcode:
 ```html
 [btn url="https://envato.com"]Button[/btn]
 ```
 
 Shortcode with all its attributes:
+
 ```html
 [btn url="https://envato.com" type="action" color="primary" target="_blank" arrow="true" size="large"]
 Button
@@ -128,7 +138,7 @@ Add `type` attribute to change its type. Default type is `basic`, or without `ty
 [btn url="#" type="hollow"] Hollow Button [/btn]
 [btn url="#" type="action"] Action Button [/btn]
 ```
-![Shortcode Grid](_images/shortcode-button-type.png)
+![Shortcode Button Types](_images/shortcode-button-type.png)
 #### Color
 Add `color` attribute to change its color. Default color is grey, without `color` attribute. 
 
@@ -143,7 +153,7 @@ Add `color` attribute to change its color. Default color is grey, without `color
 [btn url="#" color="blue"] Blue Button [/btn]
 [btn url="#" color="teal"] Teal Button [/btn]
 ```
-![Shortcode Grid](_images/shortcode-button-color.png)
+![Shortcode Button Color](_images/shortcode-button-color.png)
 
 #### Size
 Add `size` attribute to change its size. Default size is normal, or without `size` attribute. 
@@ -153,7 +163,7 @@ Add `size` attribute to change its size. Default size is normal, or without `siz
 [btn url="#"] Normal Button [/btn]
 [btn url="#" size="large"] Large Button [/btn]
 ```
-![Shortcode Grid](_images/shortcode-button-sizes.png)
+![Shortcode Button Size](_images/shortcode-button-sizes.png)
 
 #### Target
 Set `target` attribute to `_blank` to open the linked URL in a new window or tab.
@@ -168,7 +178,7 @@ Set `arrow` attribute to `false` to create button without arrow. Arrow is enable
 [btn url="#" arrow="false"] Without Arrow [/btn]
 [btn url="#"] With Arrow [/btn]
 ```
-![Shortcode Grid](_images/shortcode-button-arrow.png)
+![Shortcode Button Arrow](_images/shortcode-button-arrow.png)
 
 
 
