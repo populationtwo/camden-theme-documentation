@@ -95,16 +95,32 @@ class — additional CSS classes on the modal window
 ## Tabs
 ## Vertical Tabs
 ## Callout
-The [alert]…[/alert] shortcode gives you and your editors and easy way to display the Foundation Alerts with some additional options.
-Attributes
+Callout shortcode gives you and your editors and easy way to display panel or alert box with some additional options.
 
-Alert boxes come with two additional options: close=no (default is yes) and timeout=2000 (timeout in ms). The timeout option makes the box disappear after the timer is done.
-
-## Tooltip
-Tooltips displays additional information for a term or action on a page.
+![Shortcode Callout Dialog](_images/shortcode-callout-dialog.png)
 
 ```html
-[tooltip position="auto" title="Tooltip content"]Lorem ipsum[/tooltip]
+// Default callout
+[callout] Lorem ipsum [/callout] 
+
+// Callout without close button
+[callout close=no] Lorem ipsum [/callout]
+
+// Success callout
+[callout type="success"] Lorem ipsum [/callout]
+```
+
+Attributes:
+- `type` — Appearance of callout. Can be `standard`, `success`, `warning`, `alert`, `primary`, or `secondary`.
+- `close` — Set to `no` to disable close button.
+
+![Shortcode Callout](_images/shortcode-callout.png)
+
+## Tooltip
+Tooltip displays additional information for a term or action on a page.
+
+```html
+[tooltip title="Tooltip content"]Lorem ipsum[/tooltip]
 [tooltip position="top" title="Tooltip content" class="optional-class"]Lorem ipsum[/tooltip]
 ```
 
