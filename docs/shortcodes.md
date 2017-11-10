@@ -93,11 +93,48 @@ linkclass — additional CSS classes on the button
 class — additional CSS classes on the modal window
 ## Accordion
 ## Tabs
+
+SOME DESCRIPTION
+
+```html
+[tabs class="optionalclass"]
+[tab title="Tab 1 Title" active="is-active"] Tab 1 content [/tab]
+[tab title="Tab 2 Title"] Tab 2 content [/tab]
+[tab title="Tab 3 Title"] Tab 3 content [/tab]
+[/tabs]
+```
+
+Attributes:
+- `title` — Title of the tab (required).
+- `active` — Set the active tab (required).
+- `class` — Optional CSS classes.
+
+![Tabs](_images/shortcode-h-tab.png)
+
 ## Vertical Tabs
+
+**Vertical Tabs**
+
+SOME DESCRIPTION
+
+```html
+[vtabs class="optionalclass"]
+[vtab title="Tab 1 Title" active="is-active"] Tab 1 content [/vtab]
+[vtab title="Tab 2 Title"] Tab 2 content [/vtab]
+[vtab title="Tab 3 Title"] Tab 3 content [/vtab]
+[/vtabs]
+```
+
+Attributes:
+- `title` — Title of the tab (required).
+- `active` — Set the active tab (required).
+- `class` — Optional CSS classes.
+
+![Tabs](_images/shortcode-v-tab.png)
+
 ## Callout
 Callout shortcode gives you and your editors and easy way to display panel or alert box with some additional options.
 
-![Shortcode Callout Dialog](_images/shortcode-callout-dialog.png)
 
 ```html
 // Default callout
@@ -114,6 +151,7 @@ Attributes:
 - `type` — Appearance of callout. Can be `standard`, `success`, `warning`, `alert`, `primary`, or `secondary`.
 - `close` — Set to `no` to disable close button.
 
+![Shortcode Callout Dialog](_images/shortcode-callout-dialog.png)
 ![Shortcode Callout](_images/shortcode-callout.png)
 
 ## Tooltip
