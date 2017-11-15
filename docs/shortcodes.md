@@ -70,34 +70,82 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 ### Blockquote
 
 ## Media
+
 ### Orbit
-This is a shortcode to create Orbit responsive slider. It has similar attributes we used in the Clearing shortcode.
+This is a shortcode to create Orbit responsive slider. 
 
+Placing `[orbit]` in your editor creates a responsive slider from all the images attached to the post or page
 
-Placing [orbit] in your editor creates a responsive slider from all the images attached to the post/page
+![Orbit slider](_images/shortcode-orbit-slider.png)
+
+```html
+[orbit] // Display all images attached to current post/page
+[orbit exclude="1"] // Display all images attached to current post/page except image with ID 1.
+[orbit include="1,2,3"] // Display images ID 1,2, & 3.
+[orbit size="small"] // Use small image
+```
 
 Attributes:
-id — takes a post/page ID, defaults to current post/page
-size — size of the images used, defaults to large
-include — list of attachment IDs to include
-exclude — list of attachment IDs to exclude
-How To Use Shortcode Attributes:
-Adding attribute to the [orbit] shortcode looks like this: [orbit size="small"]. Adding a second attribute would look as follows: [orbit size="small" exclude="6,3,1"]. It’s only necessary to add a attribute to the shortcode if you wish to override the default attribute.
+- `id` — takes a post/page ID, defaults to current post/page
+- `size` — size of the images used, defaults to `large`
+- `include` — list of attachment IDs to include
+- `exclude` — list of attachment IDs to exclude
+
+?> It’s only necessary to add a attribute to the shortcode if you wish to override the default attribute.
+
+How To Attach Image to Current Post / Page:
+1. Go to __Edit Post__ or __Edit Page__.
+2. Click __Add Media__
+3. Go to __Insert Media__ > __Upload Files__ tab and upload the image files. Add the image caption accordingly. Click __Insert into post__ afterwards.
+4. You will see duplicate images from the attached image and orbit slider in the post / page. Once you see the Orbit slider, you can delete the attached image from post / page.
+
 ### Reveal
-This is a shortcode to create simple modal windows on your site.
+Reveal shortcode displays simple modal windows on your site. A modal is a container where you can put any kind of content inside it, from text to forms to video.
 
-[reveal link="Link text" linkclass="button radius alert"]…[/reveal]
+```html
+// Basic shortcode
+[reveal link="link text"]
+Modal window content
+[/reveal]
+
+// Shortcode with all the attributes
+[reveal link="link text" linkclass="button-basic button secondary" class="large"]
+Modal window content
+[/reveal]
+```
+
 Attributes:
-link — button or link text
-linkclass — additional CSS classes on the button
-class — additional CSS classes on the modal window
+- `link` — Link or button text (required).
+- `linkclass` — Additional CSS classes on the button. 
+- `class` — Optional CSS classes on the modal window. The size of a modal can be changed with sizing classes (`tiny`,`small`, `large` and `full`).
+
+![Reveal modal](_images/shortcode-reveal.png)
+
+
 ## Accordion
+
+SOME DESCRIPTION
+
+```html
+[accs class="optional-class"]
+[acc active="is-active" title="Accordion 1"]Accordion pane 1 content[/acc]
+[acc title="Accordion 2"]Accordion pane 2 content[/acc]
+[acc title="Accordion 3"]Accordion pane 3 content[/acc]
+[/accs]
+```
+Attributes:
+- `title` — Title of the accordion pane (required).
+- `active` — Set the active accordion pane (required).
+- `class` — Optional CSS classes.
+
+![Accordion](_images/shortcode-accordion.png)
+
 ## Tabs
 
 SOME DESCRIPTION
 
 ```html
-[tabs class="optionalclass"]
+[tabs class="optional-class"]
 [tab title="Tab 1 Title" active="is-active"] Tab 1 content [/tab]
 [tab title="Tab 2 Title"] Tab 2 content [/tab]
 [tab title="Tab 3 Title"] Tab 3 content [/tab]
@@ -118,7 +166,7 @@ Attributes:
 SOME DESCRIPTION
 
 ```html
-[vtabs class="optionalclass"]
+[vtabs class="optional-class"]
 [vtab title="Tab 1 Title" active="is-active"] Tab 1 content [/vtab]
 [vtab title="Tab 2 Title"] Tab 2 content [/vtab]
 [vtab title="Tab 3 Title"] Tab 3 content [/vtab]
@@ -155,7 +203,7 @@ Attributes:
 ![Shortcode Callout](_images/shortcode-callout.png)
 
 ## Tooltip
-Tooltip displays additional information for a term or action on a page.
+This is a fairly simple shortcode that creates simple [Tooltip](https://foundation.zurb.com/sites/docs/tooltip.html). 
 
 ```html
 [tooltip title="Tooltip content"]Lorem ipsum[/tooltip]
@@ -185,7 +233,7 @@ Button
 [/btn]
 ```
 
-#### Types
+### Types
 Add `type` attribute to change its type. Default type is `basic`, or without `type` attribute. 
 ```html
 [btn url="#" type="basic"] Basic Button [/btn]
@@ -193,7 +241,7 @@ Add `type` attribute to change its type. Default type is `basic`, or without `ty
 [btn url="#" type="action"] Action Button [/btn]
 ```
 ![Shortcode Button Types](_images/shortcode-button-type.png)
-#### Color
+### Color
 Add `color` attribute to change its color. Default color is grey, without `color` attribute. 
 
 ```html
@@ -209,7 +257,7 @@ Add `color` attribute to change its color. Default color is grey, without `color
 ```
 ![Shortcode Button Color](_images/shortcode-button-color.png)
 
-#### Size
+### Size
 Add `size` attribute to change its size. Default size is normal, or without `size` attribute. 
 
 ```html
@@ -219,14 +267,14 @@ Add `size` attribute to change its size. Default size is normal, or without `siz
 ```
 ![Shortcode Button Size](_images/shortcode-button-sizes.png)
 
-#### Target
+### Target
 Set `target` attribute to `_blank` to open the linked URL in a new window or tab.
 
 ```html
 [btn url="" target="_blank"] Button [/btn]
 ```
 
-#### Arrow
+### Arrow
 Set `arrow` attribute to `false` to create button without arrow. Arrow is enabled by default.
 ```html
 [btn url="#" arrow="false"] Without Arrow [/btn]
