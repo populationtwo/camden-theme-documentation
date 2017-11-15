@@ -56,8 +56,15 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 [column columns=7]...[/column][column columns=5]...[/column]
 
 [column columns=3]...[/column][column columns=3]...[/column][column columns=6]...[/column]
- ```
+
+[column columns=10 offset=2 class="optional-class"]...[/column]
+
+```
  
+ Attributes:
+ - `columns` — (int) 1-12, creates the grid columns
+ - `offset` — (int) 1-12, pushes the column to the right
+ - `class` —  (string) class="mycolumn", for additional CSS classes
  
 
 
@@ -102,6 +109,8 @@ How To Attach Image to Current Post / Page:
 ### Reveal
 Reveal shortcode displays simple modal windows on your site. A modal is a container where you can put any kind of content inside it, from text to forms to video.
 
+![Reveal modal](_images/shortcode-reveal.png)
+
 ```html
 // Basic shortcode
 [reveal link="link text"]
@@ -119,12 +128,11 @@ Attributes:
 - `linkclass` — Additional CSS classes on the button. 
 - `class` — Optional CSS classes on the modal window. The size of a modal can be changed with sizing classes (`tiny`,`small`, `large` and `full`).
 
-![Reveal modal](_images/shortcode-reveal.png)
-
-
 ## Accordion
 
 SOME DESCRIPTION
+
+![Accordion](_images/shortcode-accordion.png)
 
 ```html
 [accs class="optional-class"]
@@ -138,11 +146,11 @@ Attributes:
 - `active` — Set the active accordion pane (required).
 - `class` — Optional CSS classes.
 
-![Accordion](_images/shortcode-accordion.png)
-
 ## Tabs
 
 SOME DESCRIPTION
+
+![Tabs](_images/shortcode-h-tab.png)
 
 ```html
 [tabs class="optional-class"]
@@ -157,13 +165,13 @@ Attributes:
 - `active` — Set the active tab (required).
 - `class` — Optional CSS classes.
 
-![Tabs](_images/shortcode-h-tab.png)
-
 ## Vertical Tabs
 
 **Vertical Tabs**
 
 SOME DESCRIPTION
+
+![Tabs](_images/shortcode-v-tab.png)
 
 ```html
 [vtabs class="optional-class"]
@@ -178,11 +186,12 @@ Attributes:
 - `active` — Set the active tab (required).
 - `class` — Optional CSS classes.
 
-![Tabs](_images/shortcode-v-tab.png)
 
 ## Callout
 Callout shortcode gives you and your editors and easy way to display panel or alert box with some additional options.
 
+![Shortcode Callout Dialog](_images/shortcode-callout-dialog.png)
+![Shortcode Callout](_images/shortcode-callout.png)
 
 ```html
 // Default callout
@@ -199,11 +208,11 @@ Attributes:
 - `type` — Appearance of callout. Can be `standard`, `success`, `warning`, `alert`, `primary`, or `secondary`.
 - `close` — Set to `no` to disable close button.
 
-![Shortcode Callout Dialog](_images/shortcode-callout-dialog.png)
-![Shortcode Callout](_images/shortcode-callout.png)
 
 ## Tooltip
 This is a fairly simple shortcode that creates simple [Tooltip](https://foundation.zurb.com/sites/docs/tooltip.html). 
+
+![Shortcode Tooltip](_images/shortcode-tooltip.png)
 
 ```html
 [tooltip title="Tooltip content"]Lorem ipsum[/tooltip]
@@ -215,74 +224,41 @@ Attributes:
 - `title` — Text / content of tooltip.
 - `class` — Optional CSS classes.
 
-![Shortcode Tooltip](_images/shortcode-tooltip.png)
 
 ## Button
 ![Shortcode Button Dialog](_images/shortcode-button-dialog.png)
 
+__Types__
+
+![Shortcode Button Types](_images/shortcode-button-type.png)
+
+__Color__
+
+![Shortcode Button Color](_images/shortcode-button-color.png)
+
+__Size__
+
+![Shortcode Button Size](_images/shortcode-button-sizes.png)
+
+__Arrow__
+
+![Shortcode Button Arrow](_images/shortcode-button-arrow.png)
+
+
 Minimal shortcode:
 ```html
+// Basic shortcode
 [btn url="https://envato.com"]Button[/btn]
-```
 
-Shortcode with all its attributes:
-
-```html
+//Shortcode with all its attributes:
 [btn url="https://envato.com" type="action" color="primary" target="_blank" arrow="true" size="large"]
 Button
 [/btn]
 ```
 
-### Types
-Add `type` attribute to change its type. Default type is `basic`, or without `type` attribute. 
-```html
-[btn url="#" type="basic"] Basic Button [/btn]
-[btn url="#" type="hollow"] Hollow Button [/btn]
-[btn url="#" type="action"] Action Button [/btn]
-```
-![Shortcode Button Types](_images/shortcode-button-type.png)
-### Color
-Add `color` attribute to change its color. Default color is grey, without `color` attribute. 
-
-```html
-[btn url="#"] Default Button [/btn]
-[btn url="#" color="primary"] Primary Button [/btn]
-[btn url="#" color="secondary"] Secondary Button [/btn]
-[btn url="#" color="red"] Red Button [/btn]
-[btn url="#" color="orange"] Orange Button [/btn]
-[btn url="#" color="yellow"] Yellow Button [/btn]
-[btn url="#" color="green"] Green Button [/btn]
-[btn url="#" color="blue"] Blue Button [/btn]
-[btn url="#" color="teal"] Teal Button [/btn]
-```
-![Shortcode Button Color](_images/shortcode-button-color.png)
-
-### Size
-Add `size` attribute to change its size. Default size is normal, or without `size` attribute. 
-
-```html
-[btn url="#" size="small"] Small Button [/btn]
-[btn url="#"] Normal Button [/btn]
-[btn url="#" size="large"] Large Button [/btn]
-```
-![Shortcode Button Size](_images/shortcode-button-sizes.png)
-
-### Target
-Set `target` attribute to `_blank` to open the linked URL in a new window or tab.
-
-```html
-[btn url="" target="_blank"] Button [/btn]
-```
-
-### Arrow
-Set `arrow` attribute to `false` to create button without arrow. Arrow is enabled by default.
-```html
-[btn url="#" arrow="false"] Without Arrow [/btn]
-[btn url="#"] With Arrow [/btn]
-```
-![Shortcode Button Arrow](_images/shortcode-button-arrow.png)
-
-
-
-
-
+Attributes:
+- `type` — button type. It can be `basic`, `hollow`, or `action`. Default type is `basic`, or without type attribute.
+- `color` — button color. It can be `primary`, `secondary`, `red`, `orange`, `yellow`, `green`, `blue`, or `teal`. Default color is grey, without `color` attribute.        
+- `size` — button size. It can be `small` or `large`. Default size is `normal`.
+- `target` — specifies where to display the linked URL. Set `_blank` to open URL in a new tab.
+- `arrow` — set arrow attribute to `false` to disable the arrow. Arrow is enabled by default.                                 
