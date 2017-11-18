@@ -35,13 +35,13 @@ The grid shortcode in Camden theme is based on 12-column [Foundation Grid system
 [one_fourth_omega] ... [/one_fourth_omega]
 ```
 
-### 1/3 & 2/3 Columns
+### <sup>1</sup>/<sub>3</sub> & <sup>2</sup>/<sub>3</sub> Columns
 ```html
 [one_third_alpha] ... [/one_third_alpha]
 [two_third_omega] ... [/two_third_omega]
 ```
 
-### 2/3 & 1/3 Columns
+### <sup>2</sup>/<sub>3</sub> & <sup>1</sup>/<sub>3</sub> Columns
 ```html
 [two_third_alpha] ... [/two_third_alpha]
 [one_third_omega] ... [/one_third_omega]
@@ -62,19 +62,28 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 ```
  
  Attributes:
- - `columns` — (int) 1-12, creates the grid columns
- - `offset` — (int) 1-12, pushes the column to the right
- - `class` —  (string) class="mycolumn", for additional CSS classes
+ - `columns` — grid columns size. Acceptable values are `1` to `12`.
+ - `offset` — pushes the column to the right. Acceptable values are `1` to `12`.
+ - `class` —  optional CSS classes.
  
 
 
 
 ## Typography
-### Check List
-### Check List Circle
-### Left Pull Quotes
-### Right Pull Quotes
+### Checklist
+![Checklist](_images/shortcode-checklist.png)
+
+### Checklist Circle
+![Checklist Circle](_images/shortcode-checklist-circled.png)
+
+### Left Pull Quote
+![Left Pull Quote](_images/shortcode-blockquote-left.png)
+
+### Right Pull Quote
+![Right Pull Quote](_images/shortcode-blockquote-right.png)
+
 ### Blockquote
+![Blockquote](_images/shortcode-quote.png)
 
 ## Media
 
