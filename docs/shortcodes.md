@@ -71,19 +71,58 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 
 ## Typography
 ### Checklist
+
 ![Checklist](_images/shortcode-checklist.png)
 
+```html
+[checklist]
+<ul>
+ 	<li>Item 1</li>
+ 	<li>Item 2</li>
+ 	<li>Item 3</li>
+</ul>
+[/checklist]
+```
+
 ### Checklist Circle
+
 ![Checklist Circle](_images/shortcode-checklist-circled.png)
 
+```html
+[checklist_circled]
+<ul>
+    <li>Item 1</li>
+ 	<li>Item 2</li>
+ 	<li>Item 3</li>
+</ul>
+[/checklist_circled]
+```
+
 ### Left Pull Quote
+
 ![Left Pull Quote](_images/shortcode-blockquote-left.png)
 
+```html
+[pullquote_left] Lorem ipsum [/pullquote_left]
+```
+
 ### Right Pull Quote
+SOME DESC
+
 ![Right Pull Quote](_images/shortcode-blockquote-right.png)
 
+```html
+[pullquote_right] Lorem ipsum [/pullquote_right]
+```
+
 ### Blockquote
+
 ![Blockquote](_images/shortcode-quote.png)
+```html
+[quote] Lorem ipsum [/quote]
+
+[quote] Lorem ipsum <br><cite>John Doe</cite> [/quote]
+```
 
 ## Media
 
@@ -139,7 +178,7 @@ Attributes:
 
 ## Accordion
 
-SOME DESCRIPTION
+Accordions are elements that help you navigate multiple content in a single container. They can be used for switching between items in the container.
 
 ![Accordion](_images/shortcode-accordion.png)
 
@@ -155,9 +194,8 @@ Attributes:
 - `active` — Set the active accordion pane (required).
 - `class` — Optional CSS classes.
 
-## Tabs
-
-SOME DESCRIPTION
+## Horizontal Tabs
+Tabs are elements that help navigate multiple content in a single container. They can be used for switching between items in the container.
 
 ![Tabs](_images/shortcode-h-tab.png)
 
@@ -176,9 +214,7 @@ Attributes:
 
 ## Vertical Tabs
 
-**Vertical Tabs**
-
-SOME DESCRIPTION
+Tabs can be aligned vertically using Vertical Tabs.
 
 ![Tabs](_images/shortcode-v-tab.png)
 
