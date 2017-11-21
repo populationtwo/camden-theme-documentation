@@ -3,6 +3,10 @@
   - [Writing more pages](more-pages.md)
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
+  - 
+  - [Installation](install.md)
+  - [Theme Setup](setup.md)
+  - [Demo Content](demo.md)
 
 - Customization
   - [Configuration](configuration.md)
@@ -11,8 +15,14 @@
   - [Write a Plugin](write-a-plugin.md)
   - [Markdown configuration](markdown.md)
   - [Language highlighting](language-highlight.md)
+  -
+  - [Theme Options](theme-options.md)
+  - [Shortcodes](shortcodes.md)
+  - [Widgets](widgets.md)
 
 - Guide
+  - [Translation](translation.md)
+  -   
   - [Deploy](deploy.md)
   - [Helpers](helpers.md)
   - [Vue compatibility](vue.md)
@@ -21,3 +31,5 @@
   - [Server-client renderer(SSR)](ssr.md)
 
 - [Changelog](changelog.md)
+- [Support](support.md)
+- [Credits](credits.md)
