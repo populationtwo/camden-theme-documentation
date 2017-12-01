@@ -149,7 +149,7 @@ _Video_
 **Foreground Image**  
 Select image to be displayed in front of the background image. It will be displayed next to Slide Heading. Foreground image will only be displayed if **Image with text on left side** or **Image with text on right side** is selected on Slide Type.
 
-Background image is set via [WordPress Featured Image](https://en.support.wordpress.com/featured-images/).
+Background image is set via [WordPress Featured Image](https://en.support.wordpress.com/featured-images/ ":target=_blank").
 
 **Video**  
 Select YouTube or Vimeo video to be displayed. Enter the video URL, not the share URL. Make sure **Slide Type** is set to **Video**, otherwise the video won't be displayed.

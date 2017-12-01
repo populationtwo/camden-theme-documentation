@@ -4,12 +4,12 @@ Camden theme comes with shortcodes which allow you to create more customized pos
 
 Briefly, shortcode is a special tag that you can enter into a post that gets replaced with different content when actually viewing the post on the website. You can add the shortcodes from the WordPress visual editor. Navigate to a Post or a Page, and find the Shortcode Editor button in the post editor window.
 
-!> NOTE: The shortcodes features requires [Camden Add-ons](https://github.com/populationtwo/camden-add-ons) plugin.
+!> NOTE: The shortcodes features requires [Camden Add-ons](https://github.com/populationtwo/camden-add-ons ":target=_blank") plugin.
  
 ![Shortcode Button](_images/shortcode-button.png)
 
 ## Grid
-The grid shortcode in Camden theme is based on 12-column [Foundation Grid system](https://foundation.zurb.com/sites/docs/grid.html).
+The grid shortcode in Camden theme is based on 12-column [Foundation Grid system](https://foundation.zurb.com/sites/docs/grid.html ":target=_blank").
 
 ![Shortcode Grid](_images/shortcode-grid.png)
 
@@ -255,7 +255,7 @@ Attributes:
 
 
 ## Tooltip
-This is a fairly simple shortcode that creates simple [Tooltip](https://foundation.zurb.com/sites/docs/tooltip.html). 
+This is a fairly simple shortcode that creates simple [Tooltip](https://foundation.zurb.com/sites/docs/tooltip.html ":target=_blank"). 
 
 ![Shortcode Tooltip](_images/shortcode-tooltip.png)
 

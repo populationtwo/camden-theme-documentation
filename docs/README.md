@@ -19,7 +19,7 @@
     - Post formats
 - Theme Options
 - Widgets and Menu
-- Shortcodes
+- ~~Shortcodes~~
 - ~~Translation~~
 - ~~Support~~
 - ~~Demo~~                 

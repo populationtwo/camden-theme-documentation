@@ -4,14 +4,14 @@ This theme is localized, it's ready to be translated and support Right-to-Left l
 
 These are several translatation management tools to translate this file:
 
-1. [Poedit](https://poedit.net/) — software not a WordPress plugin. Easy and very straightforward, however you'll need to upload the generated language file to the theme folder.
-2. [PolyLang](https://wordpress.org/plugins/polylang/) — WordPress plugin, simple.
-3. [WPML](https://wpml.org/) — WordPress plugin, it has a lot of features but not suitable for beginner.
+1. [Poedit](https://poedit.net/ ":target=_blank") — software not a WordPress plugin. Easy and very straightforward, however you'll need to upload the generated language file to the theme folder.
+2. [PolyLang](https://wordpress.org/plugins/polylang/ ":target=_blank") — WordPress plugin, simple.
+3. [WPML](https://wpml.org/ ":target=_blank") — WordPress plugin, it has a lot of features but not suitable for beginner.
 
 These tools can create a new translation from from .POT file (`camden/language`)
 
 ## Creating Translation with Poedit
-1. Download and install [Poedit](https://poedit.net/).
+1. Download and install [Poedit](https://poedit.net/ ":target=_blank").
 2. Click **File** > **New from PO/POT file**.
 3. Open catalog template file `\wp-content\themes\camden\languages`.
 4. Choose the new language.
@@ -28,5 +28,5 @@ These tools can create a new translation from from .POT file (`camden/language`)
 
 
 **More information about translating WordPress themes**:
-- [Installing WordPress in Your Language](http://codex.wordpress.org/WordPress_in_Your_Language)
-- [Localization](https://developer.wordpress.org/themes/functionality/localization/)
+- [Installing WordPress in Your Language](http://codex.wordpress.org/WordPress_in_Your_Language ":target=_blank")
+- [Localization](https://developer.wordpress.org/themes/functionality/localization/ ":target=_blank")

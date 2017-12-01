@@ -6,15 +6,15 @@ Camden theme can only be used with a working version of WordPress. We strongly r
 
 If you need help installing WordPress, follow the documentation in WordPress Codex. Below are some useful WordPress information to help you get started:
 
-- [WP101 Basix Training videos](https://code.tutsplus.com/series/beginning-with-wordpress--wp-33808) — some great videos from TutsPlus on WordPress
-- [WordPress Lessons](http://codex.wordpress.org/WordPress_Lessons) — general information that covers a vast array of topics
-- [FAQ New To WordPress](http://codex.wordpress.org/FAQ_New_To_WordPress) — the most popular FAQ’s regarding WordPress
+- [WP101 Basix Training videos](https://code.tutsplus.com/series/beginning-with-wordpress--wp-33808 ":target=_blank") — some great videos from TutsPlus on WordPress
+- [WordPress Lessons](http://codex.wordpress.org/WordPress_Lessons ":target=_blank") — general information that covers a vast array of topics
+- [FAQ New To WordPress](http://codex.wordpress.org/FAQ_New_To_WordPress ":target=_blank") — the most popular FAQ’s regarding WordPress
 
 ## WordPress Installation
 
 1. Download and unzip the WordPress package if you haven't already.
 2. Create a database for WordPress on your web server, as well as a MySQL user who has all privileges for accessing and modifying it.
-3. (Optional) Find and rename `wp-config-sample.php` to `wp-config.php`, then edit the file (see [Editing wp-config.php](http://codex.wordpress.org/Editing_wp-config.php)) and add your database information.
+3. (Optional) Find and rename `wp-config-sample.php` to `wp-config.php`, then edit the file (see [Editing wp-config.php](http://codex.wordpress.org/Editing_wp-config.php ":target=_blank")) and add your database information.
 4. Upload the WordPress files to the desired location on your web server:
    - If you want to integrate WordPress into the root of your domain (e.g. `http://example.com/` ), move or upload all contents of the unzipped WordPress directory (excluding the WordPress directory itself) into the root directory of your web server.
    - If you want to have your WordPress installation in its own subdirectory on your web site (e.g. `http://example.com/blog/` ), create the `blog` directory on your server and upload the contents of the unzipped WordPress package to the directory via FTP.
@@ -31,8 +31,8 @@ The first step in getting started with our themes is installing them. There are 
 
 ### Adding New Themes using the Administration Panels
 
-1. Log in to the WordPress [Administration Panels](http://codex.wordpress.org/Administration_Panels).
-2. Select the [Appearance](http://codex.wordpress.org/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog) panel, then [Themes](http://codex.wordpress.org/Administration_Panels#Themes).
+1. Log in to the WordPress [Administration Panels](http://codex.wordpress.org/Administration_Panels ":target=_blank").
+2. Select the [Appearance](http://codex.wordpress.org/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog) panel, then [Themes](http://codex.wordpress.org/Administration_Panels#Themes ":target=_blank").
 3. Click **Add New**.
 4. Click **Upload New** and choose the theme file(.zip) that you have previously downloaded to your machine.
 5. Wait until the theme is uploaded and installed.
@@ -44,7 +44,7 @@ To add a new Theme to your WordPress installation, follow these steps:
 
 1. Download the Theme archive (.zip) and extract the files it contains.
 2. There will be a few folders such as documentation. Take note of the folder of your theme name. You will only need to upload `camden` folder.
-3. Start up your FTP client. We recommend using [FileZilla](http://filezilla-project.org/) since it is free and cross-platform.
+3. Start up your FTP client. We recommend using [FileZilla](http://filezilla-project.org/ ":target=_blank") since it is free and cross-platform.
 4. Find the directory where the WordPress installed. It is usually located at `/public_html/wp-content/themes/`.
 5. Upload the Theme files to the new directory on your host server.
 6. Follow the instructions below for selecting the new Theme.
@@ -53,8 +53,8 @@ To add a new Theme to your WordPress installation, follow these steps:
 
 To select Camden theme for your site:
 
-1. Log in to the WordPress [Administration Panels](http://codex.wordpress.org/Administration_Panels).
-2. Select the [Appearance](http://codex.wordpress.org/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog) panel, then [Themes](http://codex.wordpress.org/Administration_Panels#Themes).
+1. Log in to the WordPress [Administration Panels](http://codex.wordpress.org/Administration_Panels ":target=_blank").
+2. Select the [Appearance](http://codex.wordpress.org/Administration_Panels#Appearance_-_Change_the_Look_of_your_Blog ":target=_blank") panel, then [Themes](http://codex.wordpress.org/Administration_Panels#Themes ":target=_blank").
 3. From the Themes panel, select Camden theme and click the **Activate** button.
 
 Your selection should immediately become active.
@@ -65,10 +65,10 @@ If you get the **Are You Sure You Want To Do This** message when installing the 
 
 To install the required plugins:
 
-1. Log in to the WordPress [Administration Panels](http://codex.wordpress.org/Administration_Panels).
+1. Log in to the WordPress [Administration Panels](http://codex.wordpress.org/Administration_Panels ":target=_blank").
 2. Select **Begin installing plugins**. WordPress will download and install all the required plugins.
 
-![Required Plugin Install](_images/admin-panels-required-plugin-install.png)
+![Required Plugin Install](_images/admin-panels-required-plugin-install.png ":target=_blank")
 
 ## What’s Included in the Package
 
@@ -79,11 +79,11 @@ When you purchase our theme from Themeforest, you need to download the theme fil
 
 ## How To Update WordPress Theme
 
-When a new version of your theme become available you will get an email notification from Themeforest. You can also use [Envato Toolkit Plugin](https://github.com/envato/envato-wordpress-toolkit). You will receive notification in your WordPress Dashboard once the theme is updated. Please read the changelog so you can see what was modified in the new version.
+When a new version of your theme become available you will get an email notification from Themeforest. You can also use [Envato Toolkit Plugin](https://github.com/envato/envato-wordpress-toolkit ":target=_blank"). You will receive notification in your WordPress Dashboard once the theme is updated. Please read the changelog so you can see what was modified in the new version.
 
 We recommend you to keep always your theme updated, to ensure that it is fully compatible with latest WordPress version available.
 
-?>We strongly recommend you to [backing up your database](http://codex.wordpress.org/Backing_Up_Your_Database) and [WordPress files](http://codex.wordpress.org/Backing_Up_Your_WordPress_Files). That way you will not lose any modifications and customizations that you made in your theme.
+?>We strongly recommend you to [backing up your database](http://codex.wordpress.org/Backing_Up_Your_Database ":target=_blank") and [WordPress files](http://codex.wordpress.org/Backing_Up_Your_WordPress_Files ":target=_blank"). That way you will not lose any modifications and customizations that you made in your theme.
   
 You can update your theme via FTP or WordPress Administration Panels. See the information below for each method.
 
@@ -127,4 +127,4 @@ To avoid this error you have several choices:
 #### What if my theme was modified?
 
 - Update via FTP only modified files that are listed in the changelog
-- If you don’t remember what modifications you did in your theme, just compare files from your current theme folder with the new version using a tool like [Beyond Compare](http://www.scootersoftware.com/moreinfo.php) ( Windows & Linux ), [WinMerge](http://winmerge.org/) (Windows) or [DiffFork](http://www.dotfork.com/difffork//) (Mac)
+- If you don’t remember what modifications you did in your theme, just compare files from your current theme folder with the new version using a tool like [Beyond Compare](http://www.scootersoftware.com/moreinfo.php ":target=_blank") ( Windows & Linux ), [WinMerge](http://winmerge.org/ ":target=_blank") (Windows) or [DiffFork](http://www.dotfork.com/difffork/ ":target=_blank") (Mac)
