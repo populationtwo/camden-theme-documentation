@@ -20,8 +20,53 @@ Camden theme comes with several custom widgets. You can configure the Widgets in
 [More info about Widgets](https://codex.wordpress.org/Appearance_Widgets_Screen ":target=_blank").
 
 ## Latest Post Widget
+Displays list of the blog's most recent posts from certain categories.
+
+Options:
+- __Title__  — description that appears over the list of posts.
+- __Number of posts__ — enter the number of posts to display.
+- __Post Categories__ — select the desired registered categories.
+
 ## Single Post Widget
+Displays a blog posts.
+
+Options:
+- __Title__  — description that appears over the post.
+- __Post__ — select the post to display.
+- __Display excerpt__ — display the post excerpt.
+
 ## Contact Widget
+Displays a blog posts.
+
+Options:
+- __Title__  — description that appears over the post.
+- __Location Info__  — description that appears over the post.
+- __Service Hours__ — select the post to display.
+- __Map URL__ — display the post excerpt.
+- __Button title__ — display the post excerpt.
+
 ## Recent Sermons Widget
+Displays a blog posts.
+
+!> NOTE: Sermons Widget requires [Church Theme Content](https://wordpress.org/plugins/church-theme-content ":target=_blank") plugin.
+
+Options:
+- __Title__  — description that appears over the post.
+- __Location Info__  — description that appears over the post.
+- __Service Hours__ — select the post to display.
+- __Map URL__ — display the post excerpt.
+- __Button title__ — display the post excerpt.
+
+
 ## Twitter Widget
+Displays a blog posts.
+
+Options:
+- __Title__  — description that appears over the post.
+- __Username__  — description that appears over the post.
+- __Number of tweets to display__ — select the post to display.
+- __Display tweet links?__ — display the post excerpt.
+- __Display user?__ — display the post excerpt.
+- __Display post date?__ — display the post excerpt.
+
 
