@@ -18,7 +18,8 @@
     - People TODO: https://article/3270/
     - Post formats
 - Theme Options
-- Widgets and Menu
+- Menu
+- ~~Widgets~~
 - ~~Shortcodes~~
 - ~~Translation~~
 - ~~Support~~
