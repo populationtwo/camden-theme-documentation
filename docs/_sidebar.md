@@ -10,7 +10,7 @@
   -
   - [Theme Options](theme-options.md)
   - [Shortcodes](shortcodes.md)
-  - [Navigation](navigation.md)
+  - [Menu](menu.md)
   - [Widgets](widgets.md)
 
 - Guide
