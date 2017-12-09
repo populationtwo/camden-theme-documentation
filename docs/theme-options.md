@@ -1,5 +1,9 @@
 # Theme Options
 
+Camden theme comes with Theme Options page. It allows users to change theme settings without modifying theme files.  Navigate to __Dashboard__ > __Theme Options__ to access the Theme Options.
+
+![Theme Options](_images/theme-options-menu.png)
+
 ## General
 -----
 

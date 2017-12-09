@@ -18,7 +18,9 @@
     - People TODO: https://article/3270/
     - Post formats
 - Theme Options
-- Menu
+    - Export Them eotpions https://.com/documentation/backup-theme-settings/
+- ~~Menu~~
+- Featured Image
 - ~~Widgets~~
 - ~~Shortcodes~~
 - ~~Translation~~
@@ -26,3 +28,11 @@
 - ~~Demo~~                 
 - ~~Credits~~
 - ~~Changelog~~
+
+https://.com/documentation/setting-up-posts-thumbnails/
+https://.com/documentation/setting-up-social-links/
+
+Guide
+https://.com/documentation/how-to-translate-theme-using-loco/
+https://.com/documentation/get-google-map-api-key/
+https://.com/documentation/how-to-create-a-child-theme/

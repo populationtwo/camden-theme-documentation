@@ -104,6 +104,10 @@ Define the header image. You can upload the image or enter a URL. It will displa
 **Page Subheading**  
 Define the subheading text to be displayed below the page title. It's usually a brief description of the page. HTML allowed.
 
+## Featured Image
+
+## Menu
+
 ## Custom Post Types Pages
 
 
