@@ -107,7 +107,6 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 ```
 
 ### Right Pull Quote
-SOME DESC
 
 ![Right Pull Quote](_images/shortcode-blockquote-right.png)
 

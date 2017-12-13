@@ -45,49 +45,74 @@ Camden theme comes with Theme Options page. It allows users to change theme sett
 -----
 
 ### Ministry Page
+- __Posts Amount__ — body or main font properties.
+- __Page Header Background__ —
+- __Page Heading__ —
+- __Page Subheading__ —
+
 ### Sermons Page
+- __Posts Amount__ — body or main font properties.
+- __Page Header Background__ —
+- __Page Heading__ —
+- __Page Subheading__ —
+
 ### People Page
-
-
+- __Posts Amount__ — body or main font properties.
+- __Page Header Background__ —
+- __Page Heading__ —
+- __Page Subheading__ —
 
 
 ## Style
 -----
 
+The Style options offers users the ability to customize the default theme styling.
+
 ### Typography
-#### Body Font
-#### Primary Heading
-#### Secondary Heading
-#### Body Text Color
-#### Primary Link Color
-#### Secondary Text Color
+- __Body Font__ — body or main font properties.
+- __Primary Heading__ — primary heading (e.g., heading, post title, widget title) font properties.
+- __Secondary Heading__ — secondary heading (e.g., subheading, navigation, post metadata, caption, buttons ) font properties.
+- __Body Text Color__ — body or main font color.
+- __Primary Link Color__ — primary link color (e.g., link, read more button, post metadata, post title (on hover), main navigation (on hover) ).
+- __Secondary Link Color__ — secondary link color (e.g., tags (on hover), homepage Twitter link (on hover), footer widget link (on hover) ).
   
 ### Backgrounds
-#### Body Background Color
-#### Primary Header Background Color
-#### Secondary Header Background Color   
-#### Secondary Header Button Color
-#### Page Hero Header Background Color
-#### Primary Sidebar Background Color
-#### Sidebar Child Page Navigation Background Color
-#### Footer CTA Background
-#### Footer Top Background
-#### Footer Bottom Background
+
+
+![Body](_images/theme-options-style-background-body.png)
+![Header](_images/theme-options-style-background-header.png)
+
+- __Body Background Color__ (1) — 
+- __Primary Header Background Color__ (2) — 
+- __Secondary Header Background Colors__ (3) — 
+- __Secondary Header Button Color__ (4) — 
+
+![Sidebar](_images/theme-options-style-background-sidebar.png)
+
+- __Page Hero Header Background Color__ (5) — 
+- __Primary Sidebar Background Color__ (6) — 
+- __Sidebar Child Page Navigation Background Color__ (7) — 
+
+![Footer](_images/theme-options-style-background-footer.png)
+
+- __Footer CTA Background__ (8) — 
+- __Footer Top Background__ (9) — 
+- __Footer Bottom Background__ (10)— 
 
 ### Buttons
-#### Primary Button Color
-#### Primary Button Color — on Hover
-#### Secondary Button Color
-#### Secondary Button Color — on Hover
-#### Default Button Color
-#### Default Button Color — on Hover
+![Buttons](_images/theme-options-style-button.png)
+
+- __Primary Button Color__ — override the button primary color.
+- __Primary Button Color — on Hover__ — override the button primary color on mouse hover.
+- __Secondary Button Color__ — override the button secondary color.
+- __Secondary Button Color — on Hover__ — override the button secondary color on mouse hover.
+- __Default Button Color__ — override the button default color.
+- __Default Button Color — on Hover__ — override the button default color on mouse hover.
 
 ### CSS
 
-#### Custom CSS
-#### Custom CSS Code
-
-
+- __Custom CSS__ — takes [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS  ":target=_blank") file (*.css) to override theme stylesheet.
+- __Custom CSS Code__ — takes [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS  ":target=_blank") code to override theme stylesheet.
 
 ## Import / Export
 -----
