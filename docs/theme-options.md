@@ -6,6 +6,51 @@ Camden theme comes with Theme Options page. It allows users to change theme sett
 
 ## General
 -----
+some desc
+
+- __Favicon__ —
+  ![Image](_images/a.png)
+
+- __Hide Sidebar__ —
+  ![Image](_images/a.png)
+
+- __Read More Text__ —
+  ![Image](_images/a.png)
+
+
+### Navigation
+- __Sticky Navigation - Small__ —
+
+![Image](_images/a.png)
+
+
+- __Sticky Navigation - Large__ —
+
+![Image](_images/a.png)
+
+
+- __Child Pages Navigation__ —
+
+![Image](_images/a.png)
+
+
+- __Hide Post Navigation__ —
+
+![Image](_images/a.png)
+
+- __Hide Breadcrumbs__ —
+
+![Image](_images/a.png)
+
+
+### Comments
+- __Post Comments__ — option to display comments on Post globally. Single Post Discussion settings will override this option. 
+- __Sermon Comments__ — option to display comments on Sermon Post Type globally. Single Sermon Discussion settings will override this option. 
+
+### Script
+- __Custom JS Snippet__ — use this field to add JavaScript snippet.
+- __Analytics Snippet__ — use this field to add tracking code such as Google Analytics.
+
 
 ## Front Page
 -----
@@ -45,19 +90,16 @@ Camden theme comes with Theme Options page. It allows users to change theme sett
 -----
 
 ### Ministry Page
-- __Posts Amount__ — body or main font properties.
 - __Page Header Background__ —
 - __Page Heading__ —
 - __Page Subheading__ —
 
 ### Sermons Page
-- __Posts Amount__ — body or main font properties.
 - __Page Header Background__ —
 - __Page Heading__ —
 - __Page Subheading__ —
 
 ### People Page
-- __Posts Amount__ — body or main font properties.
 - __Page Header Background__ —
 - __Page Heading__ —
 - __Page Subheading__ —
