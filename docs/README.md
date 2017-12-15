@@ -34,5 +34,3 @@ https://.com/documentation/setting-up-social-links/
 
 Guide
 https://.com/documentation/how-to-translate-theme-using-loco/
-https://.com/documentation/get-google-map-api-key/
-https://.com/documentation/how-to-create-a-child-theme/

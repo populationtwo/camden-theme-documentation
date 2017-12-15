@@ -1,10 +1,9 @@
 - Getting started
-  - [Quick start](quickstart.md)
-
-  - 
   - [Installation](install.md)
-  - [Theme Setup](setup.md)
   - [Demo Content](demo.md)
+
+- Basic Setup
+  - [Theme Setup](setup.md)
 
 - Customization
   -
@@ -14,8 +13,8 @@
   - [Widgets](widgets.md)
 
 - Guide
-  - [Translation](translation.md)
-  -   
+  - [Translation](guide/translation.md)
+  - [Google API](guide/google-api.md)  
   - 
 
 - [Changelog](changelog.md)
