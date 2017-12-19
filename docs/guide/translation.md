@@ -19,6 +19,17 @@ These tools can create a new translation from from .POT file (`camden/language`)
 6. When you're done, simply click **Save**. Save it in the same directory as the catalog template file.
 7. Change the language in the admin settings screen (**Settings** > **General** > **Site Language**).
 
+## Creating Translation with Loco Translate
+1. Install and activate [Loco Translate](https://wordpress.org/plugins/loco-translate/ ":target=_blank") plugin
+2. From your Dashboard go to __Loco Translate__ > __Home__. Click __Camden__ on the __Active theme__ list. 
+3. Click the __+ New language__ button on the __Overview__ tab.
+4. On the next screen select the desired language and keep the default location (`languages/loco/themes/camden-<locale>.po`).
+ Click __Start translating__.
+5. On the editor screen you'll see all the strings the theme has defined in its template file. Untranslated strings are shown in bold blue. To start with they will all be untranslated.
+6. Select text string from the __Source Text__ list and then Add your translated text in the translation textarea below.
+7. Continue to translate as much as you like and when you're ready click the __Save__ icon in the editor toolbar.
+8. Congratulations, you've saved your first WordPress translation.
+
 ## RTL (Right-to-Left) Language Support
 1. Open `library/enqueue-scripts.php`.
 2. Find `wp_style_add_data('main-stylesheet', 'rtl', 'replace')` and uncomment it.

@@ -30,7 +30,6 @@
 - ~~Changelog~~
 
 https://.com/documentation/setting-up-posts-thumbnails/
-https://.com/documentation/setting-up-social-links/
 
 Guide
 https://.com/documentation/how-to-translate-theme-using-loco/
