@@ -18,9 +18,9 @@
     - People TODO: https://article/3270/
     - Post formats
 - Theme Options
-    - Export Them eotpions https://.com/documentation/backup-theme-settings/
+    - Export Them eotpions https://.  sawwcom/documentation/backup-theme-settings/
 - ~~Menu~~
-- Featured Image
+- ~~Featured Image~~
 - ~~Widgets~~
 - ~~Shortcodes~~
 - ~~Translation~~
@@ -30,6 +30,3 @@
 - ~~Changelog~~
 
 https://.com/documentation/setting-up-posts-thumbnails/
-
-Guide
-https://.com/documentation/how-to-translate-theme-using-loco/

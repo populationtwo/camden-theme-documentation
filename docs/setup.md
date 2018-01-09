@@ -106,7 +106,18 @@ Define the subheading text to be displayed below the page title. It's usually a 
 
 ## Featured Image
 
-## Menu
+Featured Image or Post Thumbnail, is an image that is chosen as the representative image for Posts, Pages or Custom Post Types. 
+
+How to assign Images:
+1. Navigate to Posts or Page and click on __Set featured image__ at the Featured Image metabox.
+2. Upload an image. You can also drag and drop the image from your computer.
+3. Click Set __Featured Image__ .
+
+![Reading Setting Post Page](_images/featured-image.png)
+
+?> On blog posts, WordPress will automatically pull the first image to be used as the thumbnail if there is no Featured Image.
+
+?> It is recommended to upload an image that is larger than 640 px.
 
 ## Custom Post Types Pages
 

@@ -1,16 +1,16 @@
 - Getting started
-  - [Installation](install.md)
-  - [Demo Content](demo.md)
+  - [Installation](getting-started/install.md)
+  - [Demo Content](getting-started/demo.md)
 
 - Basic Setup
   - [Theme Setup](setup.md)
 
 - Customization
   -
-  - [Theme Options](theme-options.md)
-  - [Shortcodes](shortcodes.md)
-  - [Menu](menu.md)
-  - [Widgets](widgets.md)
+  - [Theme Options](customization/theme-options.md)
+  - [Shortcodes](customization/shortcodes.md)
+  - [Menu](customization/menu.md)
+  - [Widgets](customization/widgets.md)
 
 - Guide
   - [Translation](guide/translation.md)
