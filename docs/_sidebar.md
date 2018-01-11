@@ -1,16 +1,18 @@
 - Getting started
   - [Installation](getting-started/install.md)
+  - [Basic Setup](getting-started/setup.md)
   - [Demo Content](getting-started/demo.md)
 
-- Basic Setup
-  - [Theme Setup](setup.md)
-
 - Customization
-  -
-  - [Theme Options](customization/theme-options.md)
-  - [Shortcodes](customization/shortcodes.md)
   - [Menu](customization/menu.md)
+  - [Ministry](customization/ministry.md)
+  - [Slide](customization/slide.md)
+  - [Sermons](customization/sermons.md)
+  - [People](customization/people.md)
+  - [Theme Options](customization/theme-options.md)
   - [Widgets](customization/widgets.md)
+  - [Shortcodes](customization/shortcodes.md)
+  - [Post Format](customization/post-format.md)
 
 - Guide
   - [Translation](guide/translation.md)
