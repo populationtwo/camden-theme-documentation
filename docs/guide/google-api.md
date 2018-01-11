@@ -4,7 +4,7 @@ If your site receives high traffic then you may need an API to use Google Fonts.
 
 ## Acquiring API Key
 
-Follow this steps to acquire a Google Fonts Api Key
+Follow this steps to acquire a Google Fonts API Key
 
 1. Go to [Google API Page](https://console.developers.google.com/flows/enableapi?apiid=webfonts&keyType=CLIENT_SIDE&reusekey=true)
 2. Select a project or create one, and __Continue__

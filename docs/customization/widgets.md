@@ -14,7 +14,7 @@ Camden theme comes with several custom widgets. You can configure the Widgets in
 - On the Widget that is to be removed, click the down arrow (or edit link) in the upper right corner to expand the Widget's interface
 - Click the Delete link in the dialog box.
 - The Widget will now be removed permanently.
-- Alternatively if you want to keep the widget setting for future use, drag it to the __Inactive Widgets__ area instead of the __Available Widgets__ are. It will save your widget settings for future use.
+- Alternatively, if you want to keep the widget setting for future use, drag it to the __Inactive Widgets__ area instead of the __Available Widgets__ are. It will save your widget settings for future use.
 - Preview your site to see your changes.
 
 [More info about Widgets](https://codex.wordpress.org/Appearance_Widgets_Screen ":target=_blank").
@@ -25,17 +25,17 @@ Displays list of the blog's most recent posts from certain categories.
 ![Latest Post Widget](_images/widget-latest-post.png)
 
 Options:
-- __Title__  — description that appears over the list of posts.
+- __Title__  — a description that appears over the list of posts.
 - __Number of posts__ — enter the number of posts to display.
 - __Post Categories__ — select the desired categories.
 
 ## Single Post Widget
-Displays a blog posts.
+Displays blog posts.
 
 ![Single Post Widget](_images/widget-single-post.png)
 
 Options:
-- __Title__  — description that appears over the post.
+- __Title__  — a description that appears over the post.
 - __Post__ — select the post to display.
 - __Display excerpt__ — display the post excerpt.
 
@@ -45,10 +45,10 @@ Displays location and service hours info.
 ![Contact Widget](_images/widget-contact.png)
 
 Options:
-- __Title__  — description that appears over widget.
+- __Title__  — a description that appears over a widget.
 - __Location info__  —  use this area to enter location info in plain text or HTML. 
 - __Service hours__ —  use this area to enter service hours info in plain text or HTML. 
-- __Map URL__ — enter map URL to be displayed in a new window / tab.
+- __Map URL__ — enter map URL to be displayed in a new window/tab.
 - __Button title__ — text that appears over the button to open the map (default: Get Direction).
 - __Automatically add paragraphs__ —  check this to automatically add paragraphs to wrap each block of text in an HTML paragraph tag (recommended for text).
 
@@ -60,7 +60,7 @@ Displays list of sermons.
 !> NOTE: Sermons Widget requires [Church Theme Content](https://wordpress.org/plugins/church-theme-content ":target=_blank") plugin.
 
 Options:
-- __Title__  — description that appears over the sermons.
+- __Title__  — a description that appears over the sermons.
 - __Number of sermons__ — enter the number of sermons to display.
 
 
@@ -70,10 +70,10 @@ Displays list of Tweets from any username.
 ![Twitter Widget](_images/widget-twitter.png)
 
 Options:
-- __Title__  — description that appears over the Tweets.
+- __Title__  — a description that appears over the Tweets.
 - __Username__  — Twitter username.
 - __Number of Tweets__ — enter the number of Tweets to display.
-- __Display Tweet links__ — display URL in Tweet as link.
+- __Display Tweet links__ — display URL in Tweet as a link.
 - __Display username__ — display username and avatar.
 - __Display time__ — display relative time.
 - __Display image__ — display Tweet image.

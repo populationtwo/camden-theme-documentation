@@ -108,7 +108,7 @@ some desc
 ## Style
 -----
 
-The Style options offers users the ability to customize the default theme styling.
+The Style options offer users the ability to customize the default theme styling.
 
 ### Typography
 - __Body Font__ — body or main font properties.
@@ -159,6 +159,6 @@ The Style options offers users the ability to customize the default theme stylin
 ## Import / Export
 -----
 
-The Import / Export feature offers users the ability to back up and restore their Theme Options options data. Users can export / import the data in one of three ways: raw data, file and URL.
+The Import / Export feature offers users the ability to back up and restore their Theme Options options data. Users can import/export the data in one of three ways: raw data, file, and URL.
 
-![Import / Export](_images/theme-options-export.png)
+![Import/Export](_images/theme-options-export.png)

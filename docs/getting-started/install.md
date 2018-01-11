@@ -4,7 +4,7 @@ Camden theme can only be used with a working version of WordPress. We strongly r
 
 ?>This page contain beginners guide to WordPress theme, skip to [the next page]() if you are already familiar with WordPress theme.
 
-If you need help installing WordPress, follow the documentation in WordPress Codex. Below are some useful WordPress information to help you get started:
+If you need help installing WordPress, follow the documentation in WordPress Codex. Below is some useful WordPress information to help you get started:
 
 - [WP101 Basix Training videos](https://code.tutsplus.com/series/beginning-with-wordpress--wp-33808 ":target=_blank") — some great videos from TutsPlus on WordPress
 - [WordPress Lessons](http://codex.wordpress.org/WordPress_Lessons ":target=_blank") — general information that covers a vast array of topics
@@ -17,7 +17,7 @@ If you need help installing WordPress, follow the documentation in WordPress Cod
 3. (Optional) Find and rename `wp-config-sample.php` to `wp-config.php`, then edit the file (see [Editing wp-config.php](http://codex.wordpress.org/Editing_wp-config.php ":target=_blank")) and add your database information.
 4. Upload the WordPress files to the desired location on your web server:
    - If you want to integrate WordPress into the root of your domain (e.g. `http://example.com/` ), move or upload all contents of the unzipped WordPress directory (excluding the WordPress directory itself) into the root directory of your web server.
-   - If you want to have your WordPress installation in its own subdirectory on your web site (e.g. `http://example.com/blog/` ), create the `blog` directory on your server and upload the contents of the unzipped WordPress package to the directory via FTP.
+   - If you want to have your WordPress installation in its own subdirectory on your website (e.g. `http://example.com/blog/` ), create the `blog` directory on your server and upload the contents of the unzipped WordPress package to the directory via FTP.
    - **Note**: _If your FTP client has an option to convert file names to lower case, make sure it's disabled_.
 5. Run the WordPress installation script by accessing the URL in a web browser. This should be the URL where you uploaded the WordPress files.
    - If you installed WordPress in the root directory, you should visit: `http://example.com/`
@@ -47,7 +47,7 @@ To add a new Theme to your WordPress installation, follow these steps:
 3. Start up your FTP client. We recommend using [FileZilla](http://filezilla-project.org/ ":target=_blank") since it is free and cross-platform.
 4. Find the directory where the WordPress installed. It is usually located at `/public_html/wp-content/themes/`.
 5. Upload the Theme files to the new directory on your host server.
-6. Follow the instructions below for selecting the new Theme.
+6. Follow the instructions below for selecting the new Tsheme.
 
 ### Selecting the Active Theme
 
@@ -79,7 +79,7 @@ When you purchase our theme from Themeforest, you need to download the theme fil
 
 ## How To Update WordPress Theme
 
-When a new version of your theme become available you will get an email notification from Themeforest. You can also use [Envato Toolkit Plugin](https://github.com/envato/envato-wordpress-toolkit ":target=_blank"). You will receive notification in your WordPress Dashboard once the theme is updated. Please read the changelog so you can see what was modified in the new version.
+When a new version of your theme becomes available you will get an email notification from Themeforest. You can also use [Envato Toolkit Plugin](https://github.com/envato/envato-wordpress-toolkit ":target=_blank"). You will receive notification in your WordPress Dashboard once the theme is updated. Please read the changelog so you can see what was modified in the new version.
 
 We recommend you to keep always your theme updated, to ensure that it is fully compatible with latest WordPress version available.
 
@@ -108,7 +108,7 @@ To avoid this error you have several choices:
 
 ### A. Delete your current theme
 
-- Deactivate the theme you want to update, enabling another theme (e.g. Twenty Seventeen ) (theme can not be deleted if it is active).
+- Deactivate the theme you want to update, enabling another theme (e.g. Twenty Seventeen ) (theme cannot be deleted if it is active).
 - Delete the theme.
 - Now you can go to Themes page and install the updated version of the theme.
 

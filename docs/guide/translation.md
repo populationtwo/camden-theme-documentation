@@ -1,12 +1,12 @@
 # Translation and RTL Support
 
-This theme is localized, it's ready to be translated and support Right-to-Left languages. The theme come with language files that can be translated to make your site to display on a different language.
+This theme is localized, it's ready to be translated and support Right-to-Left languages. The theme comes with language files that can be translated to make your site to display in a different language.
 
-These are several translatation management tools to translate this file:
+These are several translation  management tools to translate this file:
 
-1. [Poedit](https://poedit.net/ ":target=_blank") — software not a WordPress plugin. Easy and very straightforward, however you'll need to upload the generated language file to the theme folder.
+1. [Poedit](https://poedit.net/ ":target=_blank") — software not a WordPress plugin. Easy and very straightforward; however, you'll need to upload the generated language file to the theme folder.
 2. [PolyLang](https://wordpress.org/plugins/polylang/ ":target=_blank") — WordPress plugin, simple.
-3. [WPML](https://wpml.org/ ":target=_blank") — WordPress plugin, it has a lot of features but not suitable for beginner.
+3. [WPML](https://wpml.org/ ":target=_blank") — WordPress plugin, it has a lot of features but not suitable for a beginner.
 
 These tools can create a new translation from from .POT file (`camden/language`)
 
@@ -25,8 +25,8 @@ These tools can create a new translation from from .POT file (`camden/language`)
 3. Click the __+ New language__ button on the __Overview__ tab.
 4. On the next screen select the desired language and keep the default location (`languages/loco/themes/camden-<locale>.po`).
  Click __Start translating__.
-5. On the editor screen you'll see all the strings the theme has defined in its template file. Untranslated strings are shown in bold blue. To start with they will all be untranslated.
-6. Select text string from the __Source Text__ list and then Add your translated text in the translation textarea below.
+5. On the editor screen, you'll see all the strings the theme has defined in its template file. Untranslated strings are shown in bold blue. To start with they will all be untranslated.
+6. Select text string from the __Source Text__ list and then Add your translated text in the translation text area below.
 7. Continue to translate as much as you like and when you're ready click the __Save__ icon in the editor toolbar.
 8. Congratulations, you've saved your first WordPress translation.
 
