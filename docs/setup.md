@@ -124,22 +124,21 @@ How to assign Images:
 
 ## Slides
 
-The Home Page features a slider. To add a new slide to the slider, follow this steps:
+The Camden Home Page features a slider. To add a new slide to the slider, follow this steps:
 
-Navigate to Slides > Add New from WordPress dashboard.
-Enter slide title.
-Click on Featured Image at the bottom right.
-Upload an image. You can also drag and drop the image from your computer.
-Click Set Featured Image .
-Enter all necessary parameters in Slides tab .
-Publish the page.
-You can modify Slide additional options from Theme Options .
-Recommended image size for the slide is 680 px x 320 px
-You can change the slide animation, pause time, etc in the Theme Options section.
+1. Navigate to __Slide__ > __New Slide__ from WordPress dashboard.
+2. Enter Slide title.
+3. Click on __Set featured image__ at the Featured Image metabox.
+4. Upload an image. You can also drag and drop the image from your computer.
+5. Edit all options in Slide Options metabox accordingly.
+6. __Publish__ the page.
+7. You can modify Slide additional options from __Theme Options__.
 
-This theme includes 2 sliders, Orbit Slider and FlexSlider 2. Both slider ready to be used without installing any plugin. The default slider is FlexSlider 2, you can change it to Orbit Slider from the Theme Options.
+?> Recommended image size for the slide is 1600 px x 800 px
 
-Orbit Slider can also be generated from Shortcodes. For more information check the Shortcode section below.
+?> You can change the slide animation, slide interval, etc in the Theme Options section.
+
+?> Slider can also be generated from Shortcodes. For more information check the [Shortcode](/customization/shortcodes?id=orbit) section.
 
 ### Slides Options
 

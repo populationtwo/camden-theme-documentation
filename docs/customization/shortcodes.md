@@ -1,8 +1,8 @@
 # Shortcodes
 
-Camden theme comes with shortcodes which allow you to create more customized post and page layouts with the help of columns, buttons, lists, etc.
+Camden theme comes with shortcodes which allow you to create a more customized post and page layouts with the help of columns, buttons, lists, etc.
 
-Briefly, shortcode is a special tag that you can enter into a post that gets replaced with different content when actually viewing the post on the website. You can add the shortcodes from the WordPress visual editor. Navigate to a Post or a Page, and find the Shortcode Editor button in the post editor window.
+Briefly, a shortcode is a special tag that you can enter into a post that gets replaced with different content when actually viewing the post on the website. You can add the shortcodes from the WordPress visual editor. Navigate to a Post or a Page, and find the Shortcode Editor button in the post editor window.
 
 !> NOTE: The shortcodes features requires [Camden Add-ons](https://github.com/populationtwo/camden-add-ons ":target=_blank") plugin.
  
@@ -147,11 +147,11 @@ Attributes:
 
 ?> It’s only necessary to add a attribute to the shortcode if you wish to override the default attribute.
 
-How To Attach Image to Current Post / Page:
+How To Attach Image to Current Post/Page:
 1. Go to __Edit Post__ or __Edit Page__.
 2. Click __Add Media__
-3. Go to __Insert Media__ > __Upload Files__ tab and upload the image files. Add the image caption accordingly. Click __Insert into post__ afterwards.
-4. You will see duplicate images from the attached image and orbit slider in the post / page. Once you see the Orbit slider, you can delete the attached image from post / page.
+3. Go to __Insert Media__ > __Upload Files__ tab and upload the image files. Add the image caption accordingly. Click __Insert into post__ afterward.
+4. You will see duplicate images from the attached image and orbit slider in the post/page. Once you see the Orbit slider, you can delete the attached image from post/page.
 
 ### Reveal
 Reveal shortcode displays simple modal windows on your site. A modal is a container where you can put any kind of content inside it, from text to forms to video.
@@ -173,11 +173,11 @@ Modal window content
 Attributes:
 - `link` — Link or button text (required).
 - `linkclass` — Additional CSS classes on the button. 
-- `class` — Optional CSS classes on the modal window. The size of a modal can be changed with sizing classes (`tiny`,`small`, `large` and `full`).
+- `class` — Optional CSS classes on the modal window. The size of a modal can be changed with sizing classes (`tiny`, `small`, `large` and `full`).
 
 ## Accordion
 
-Accordions are elements that help you navigate multiple content in a single container. They can be used for switching between items in the container.
+Accordions are elements that help you navigate multiple contents in a single container. They can be used for switching between items in the container.
 
 ![Accordion](_images/shortcode-accordion.png)
 
@@ -194,7 +194,7 @@ Attributes:
 - `class` — Optional CSS classes.
 
 ## Horizontal Tabs
-Tabs are elements that help navigate multiple content in a single container. They can be used for switching between items in the container.
+Tabs are elements that help navigate multiple contents in a single container. They can be used for switching between items in the container.
 
 ![Tabs](_images/shortcode-h-tab.png)
 
@@ -249,7 +249,7 @@ Callout shortcode gives you and your editors and easy way to display panel or al
 ```
 
 Attributes:
-- `type` — Appearance of callout. Can be `standard`, `success`, `warning`, `alert`, `primary`, or `secondary`.
+- `type` — Appearance of a callout. Can be `standard`, `success`, `warning`, `alert`, `primary`, or `secondary`.
 - `close` — Set to `no` to disable close button.
 
 
@@ -301,8 +301,8 @@ Button
 ```
 
 Attributes:
-- `type` — button type. It can be `basic`, `hollow`, or `action`. Default type is `basic`, or without type attribute.
-- `color` — button color. It can be `primary`, `secondary`, `red`, `orange`, `yellow`, `green`, `blue`, or `teal`. Default color is grey, without `color` attribute.        
-- `size` — button size. It can be `small` or `large`. Default size is `normal`.
+- `type` — button type. It can be `basic`, `hollow`, or `action`. The default type is `basic`, or without type attribute.
+- `color` — button color. It can be `primary`, `secondary`, `red`, `orange`, `yellow`, `green`, `blue`, or `teal`. Default color is grey, without a `color` attribute.        
+- `size` — button size. It can be `small` or `large`. The default size is `normal`.
 - `target` — specifies where to display the linked URL. Set `_blank` to open URL in a new tab.
 - `arrow` — set arrow attribute to `false` to disable the arrow. Arrow is enabled by default.                                 

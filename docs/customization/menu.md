@@ -1,6 +1,6 @@
 # Menus
 
-Camden theme support [Custom Navigation Menu](http://en.support.wordpress.com/menus/ ":target=_blank"). Custom Menu enable you to easily customize the navigation menu in this theme.
+Camden theme support [Custom Navigation Menu](http://en.support.wordpress.com/menus/ ":target=_blank"). Custom Menu enables you to easily customize the navigation menu in this theme.
 
 How to Create Menu
 1. Navigate to __Appearance__ > __Menus__.
