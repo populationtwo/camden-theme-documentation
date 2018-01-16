@@ -2,6 +2,8 @@
 
 You can add people or staff with description, pictures and contact information. They can optionally be placed into groups such as leadership, staff, deacons, etc.
 
+!> The Ministry functionality in this theme requires [Church Theme Content](https://wordpress.org/plugins/church-theme-content ":target=_blank") plugin.
+
 ## People Page
 The People Page is a page that list all people items. It is located under `/people` (http://yoursitedomain.com/people). You don't need to create a new page for this.
 
