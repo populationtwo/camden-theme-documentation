@@ -15,7 +15,7 @@
     - Slides
     - Ministries
     - Sermons
-    - People TODO: https://article/3270/
+    - ~~People~~ 
     - Post formats
 - Theme Options
     - Export Them eotpions https://.  sawwcom/documentation/backup-theme-settings/
@@ -29,4 +29,4 @@
 - ~~Credits~~
 - ~~Changelog~~
 
-https://.com/documentation/setting-up-posts-thumbnails/
+~~https://.com/documentation/setting-up-posts-thumbnails/~~

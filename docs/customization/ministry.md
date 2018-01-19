@@ -13,21 +13,23 @@ Ministry can be filtered based on the __Group__.
 
 ## Adding a Ministry
 1. Navigate to __Ministry__ > __Add New__.
-2. Enter the person’s name.
+2. Enter the ministry’s name.
 3. Enter content in the editor.
-4. Optionally upload Page Header Image under Ministry Options.
-5. Fill in their details under Ministry Details.
+5. Fill in Time and Location, it accepts HTML format.
+5. Select contact person. It will display the list of names from [People](/customization/people) post type. 
+6. Check Hide Featured Image if you want the Featured Image hidden from Ministry post content. 
+4. Optionally upload Page Header Image under Ministry Details.
 6. Enter a brief description for the profile in Excerpt.
-7. Optionally select or add the Group that this person belongs to.
-8. Optionally click __Set featured image__ to upload a portrait of the person.
+7. Optionally select or add the Ministry Group.
+8. Optionally click __Set featured image__ to upload the Featured Image.
 9. Click __Publish__.
 
 ![Add a Ministry](_images/people-add-new.png)
 
 ## Order
-People are listed based on the order when the __Ministry__ was created. If you wish to change the order, you'll need to modify the __Order__ value. A Ministry with greater order value is always displayed before a Ministry with a lower order value.                                                                                                                                            
+Ministry are listed based on the order when the __Ministry__ was created. If you wish to change the order, you'll need to modify the __Order__ value. A Ministry with greater order value is always displayed before a Ministry with a lower order value.                                                                                                                                            
 ## Groups
-People can be categorized into groups such as leadership, staff, deacons, etc. 
+Ministry can be categorized into groups such as children, youth, worship, etc. 
 
 1. Navigate to __Ministry__  > __Groups__.
 2. Enter the group's name.
