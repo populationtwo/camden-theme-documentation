@@ -15,16 +15,16 @@ Ministry can be filtered based on the __Group__.
 1. Navigate to __Ministry__ > __Add New__.
 2. Enter the ministry’s name.
 3. Enter content in the editor.
-5. Fill in Time and Location, it accepts HTML format.
+5. Fill in __Time__ and __Location__. HTML format is allowed.
 5. Select contact person. It will display the list of names from [People](/customization/people) post type. 
-6. Check Hide Featured Image if you want the Featured Image hidden from Ministry post content. 
-4. Optionally upload Page Header Image under Ministry Details.
-6. Enter a brief description for the profile in Excerpt.
+6. Check __Hide Featured Image__ if you want the Featured Image hidden from Ministry post content. 
+4. Optionally upload __Page Header Image__ under Ministry Details.
+6. Enter a brief description for the profile in __Excerpt__.
 7. Optionally select or add the Ministry Group.
 8. Optionally click __Set featured image__ to upload the Featured Image.
 9. Click __Publish__.
 
-![Add a Ministry](_images/people-add-new.png)
+![Add a Ministry](_images/ministry-add-new.png)
 
 ## Order
 Ministry are listed based on the order when the __Ministry__ was created. If you wish to change the order, you'll need to modify the __Order__ value. A Ministry with greater order value is always displayed before a Ministry with a lower order value.                                                                                                                                            
