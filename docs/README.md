@@ -13,7 +13,7 @@
     - ~~Page Options~~
     - Custom Post Types Pages
     - Slides
-    - Ministries
+    - ~~Ministries~~
     - Sermons
     - ~~People~~ 
     - Post formats
