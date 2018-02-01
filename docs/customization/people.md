@@ -9,14 +9,14 @@ The People Page is a page that list all people items. It is located under `/peop
 
 You can modify the People Page options such as heading and subheading from the [Theme Options](/customization/theme-options) (__Theme Options__ > __Custom Post Type__ > __People Page__).
 
-People can be filtered based on the __Group__.
+People can be filtered based on __Group__.
 
 ## Adding a Person
 1. Navigate to __People__ > __Add New__.
 2. Enter the person’s name.
 3. Enter content in the editor.
 4. Optionally upload Page Header Image under Person Options.
-5. Fill in their details under Person Details.
+5. Fill in the details under Person Details.
 6. Enter a brief description for the profile in Excerpt.
 7. Optionally select or add the Group that this person belongs to.
 8. Optionally click __Set featured image__ to upload a portrait of the person.
