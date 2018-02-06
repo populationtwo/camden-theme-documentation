@@ -4,8 +4,8 @@ You can add people or staff with description, pictures and contact information. 
 
 !> The Sermons functionality in this theme requires [Church Theme Content](https://wordpress.org/plugins/church-theme-content ":target=_blank") plugin.
 
-## People Page
-The Sermons Page is a page that list all sermons. It is located under `/sermons` (http://yoursitedomain.com/people). You don't need to create a new page for this.
+## Sermons Page
+The Sermons Page is a page that list all sermons. It is located under `/sermons` (http://yoursitedomain.com/sermons). You don't need to create a new page for this.
 
 You can modify the Sermons Page options such as heading and subheading from the [Theme Options](/customization/theme-options) (__Theme Options__ > __Custom Post Type__ > __Sermons Page__).
 
@@ -28,7 +28,7 @@ You can publish sermons with text, audio, video and PDF content. Audio and video
 8. Optionally click __Set featured image__ to upload a sermon thumbnail.
 9. Click __Publish__.
 
-![Add a Person](_images/people-add-new.png)
+![Add a Person](_images/sermons-add-new.png)
 
 ## Order
 Sermon are listed based on the order when the __Sermon__ was created

@@ -11,10 +11,10 @@
     - ~~Setting up Blog page~~
     - ~~Page Templates~~
     - ~~Page Options~~
-    - Custom Post Types Pages
+    - ~~Custom Post Types Pages~~
     - Slides
     - ~~Ministries~~
-    - Sermons
+    - ~~Sermons~~
     - ~~People~~ 
     - Post formats
 - Theme Options
