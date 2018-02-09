@@ -1,6 +1,13 @@
-# Slide
+# Slides
 
-The Camden Home Page features a slider. To add a new slide to the slider, follow this steps:
+The Camden Home Page features a slider. 
+
+!> The Ministry functionality in this theme requires [Camden Add-ons](https://github.com/populationtwo/camden-add-ons ":target=_blank") plugin.
+
+You can modify Slider options such as transition time from the [Theme Options](/customization/theme-options) (__Theme Options__ > __Front Page__ > __Slider__).
+
+## Adding a Slide
+To add a new slide to the slider, follow this steps:
 
 1. Navigate to __Slide__ > __New Slide__ from WordPress dashboard.
 2. Enter Slide title.
@@ -8,11 +15,9 @@ The Camden Home Page features a slider. To add a new slide to the slider, follow
 4. Upload an image. You can also drag and drop the image from your computer.
 5. Edit all options in Slide Options metabox accordingly.
 6. __Publish__ the page.
-7. You can modify Slide additional options from __Theme Options__.
+7. Modify Slide additional options from __Theme Options__ (optional).
 
 ?> Recommended image size for the slide is 1600 px x 800 px
-
-?> You can change the slide animation, slide interval, etc in the Theme Options section.
 
 ?> Slider can also be generated from Shortcodes. For more information check the [Shortcode](/customization/shortcodes?id=orbit) section.
 
@@ -66,6 +71,6 @@ Defines the button text.
 Defines the button URL. It defines the background image URL if **Slide Type** is **Image only**.
 
 ## Slider global options
-Slider global options (e.g., transition speed and slideshopw speed ) are available from Theme Options (**Theme Options** > **Front Page** > **Slider**).
+Slider global options (e.g., transition speed and slideshow speed ) are available from Theme Options (**Theme Options** > **Front Page** > **Slider**).
 
-More information at: [Theme Options]()
+More information at: [Theme Options](/customization/theme-options)
