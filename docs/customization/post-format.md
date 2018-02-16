@@ -1,15 +1,13 @@
 # Post Format
-A theme may not support every format on the list; in such a case, it is good form to make this known to users.
-In short, with a theme that supports Post Formats, a blogger can change how a post looks by choosing a Post Format.
-
-Note that while actual post content won’t change, the theme can display a post differently based on the format chosen. How posts are displayed is entirely up to the theme, but here are some general guidelines on typical uses for the different Post Formats.
+Camden theme supports [Post Formats](https://codex.wordpress.org/Post_Formats ":target=_blank"), user can change how a post looks by choosing a Post Format.
+The theme will display a post differently based on the format chosen.
 
 ## Supported Formats
 
-#### Standard
-
 #### Aside
 Typically styled without a title. Similar to a Facebook note update.
+
+// tweak styling. remove title
 
 #### Image
 A single image. The first `<img />` tag in the post could be considered the image. Alternatively, if the post consists only of a URL, that will be the image URL and the title of the post (post_title) will be the title attribute for the image.
@@ -28,3 +26,5 @@ A link to another site. Themes may wish to use the first <a href=””> tag in 
 
 #### Gallery
 A gallery of images. Post will likely contain a gallery shortcode and will have image attachments.
+
+// need instruction

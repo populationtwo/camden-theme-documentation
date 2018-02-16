@@ -12,7 +12,7 @@
     - ~~Page Templates~~
     - ~~Page Options~~
     - ~~Custom Post Types Pages~~
-    - Slides
+    - ~~Slides~~
     - ~~Ministries~~
     - ~~Sermons~~
     - ~~People~~ 
