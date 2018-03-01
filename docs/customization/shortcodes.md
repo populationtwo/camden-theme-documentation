@@ -9,6 +9,8 @@ Briefly, a shortcode is a special tag that you can enter into a post that gets r
 ![Shortcode Button](_images/shortcode-button.png)
 
 ## Grid
+-----
+
 The grid shortcode in Camden theme is based on 12-column [Foundation Grid system](https://foundation.zurb.com/sites/docs/grid.html ":target=_blank").
 
 ![Shortcode Grid](_images/shortcode-grid.png)
@@ -70,6 +72,8 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 
 
 ## Typography
+-----
+
 ### Checklist
 
 ![Checklist](_images/shortcode-checklist.png)
@@ -124,6 +128,8 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 ```
 
 ## Media
+-----
+
 
 ### Orbit
 This is a shortcode to create Orbit responsive slider. 
@@ -176,6 +182,7 @@ Attributes:
 - `class` — Optional CSS classes on the modal window. The size of a modal can be changed with sizing classes (`tiny`, `small`, `large` and `full`).
 
 ## Accordion
+-----
 
 Accordions are elements that help you navigate multiple contents in a single container. They can be used for switching between items in the container.
 
@@ -194,6 +201,8 @@ Attributes:
 - `class` — Optional CSS classes.
 
 ## Horizontal Tabs
+-----
+
 Tabs are elements that help navigate multiple contents in a single container. They can be used for switching between items in the container.
 
 ![Tabs](_images/shortcode-h-tab.png)
@@ -212,6 +221,7 @@ Attributes:
 - `class` — Optional CSS classes.
 
 ## Vertical Tabs
+-----
 
 Tabs can be aligned vertically using Vertical Tabs.
 
@@ -232,6 +242,8 @@ Attributes:
 
 
 ## Callout
+-----
+
 Callout shortcode gives you and your editors and easy way to display panel or alert box with some additional options.
 
 ![Shortcode Callout Dialog](_images/shortcode-callout-dialog.png)
@@ -254,6 +266,8 @@ Attributes:
 
 
 ## Tooltip
+-----
+
 This is a fairly simple shortcode that creates simple [Tooltip](https://foundation.zurb.com/sites/docs/tooltip.html ":target=_blank"). 
 
 ![Shortcode Tooltip](_images/shortcode-tooltip.png)
@@ -270,6 +284,8 @@ Attributes:
 
 
 ## Button
+-----
+
 ![Shortcode Button Dialog](_images/shortcode-button-dialog.png)
 
 __Types__

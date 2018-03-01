@@ -3,6 +3,7 @@
 If your site receives high traffic then you may need an API to use Google Fonts. The API key also necessary to keep the Google Fonts in the Theme Options updated weekly. 
 
 ## Acquiring API Key
+-----
 
 Follow this steps to acquire a Google Fonts API Key
 

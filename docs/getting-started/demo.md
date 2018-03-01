@@ -1,6 +1,7 @@
 # Demo Content
 
 ## Importing WordPress content
+-----
 
 You can import the demo content for your theme by uploading XML file. It will import posts, pages, menus but the demo site theme settings. Some of the stock photos used on the demo site are not included in the demo XML.
 
@@ -29,6 +30,7 @@ How to import data from a WordPress export file (XML):
 5. Upload your XML file using the form provided on that page.
 
 ## Importing Theme Options
+-----
 
 Camden Theme Options data is not exported in WordPress demo XML above. You will need Theme Options data to restore the Theme Options settings.
 

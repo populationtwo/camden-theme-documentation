@@ -11,6 +11,8 @@ These are several translation  management tools to translate this file:
 These tools can create a new translation from from .POT file (`camden/language`)
 
 ## Creating Translation with Poedit
+-----
+
 1. Download and install [Poedit](https://poedit.net/ ":target=_blank").
 2. Click **File** > **New from PO/POT file**.
 3. Open catalog template file `\wp-content\themes\camden\languages`.
@@ -20,6 +22,8 @@ These tools can create a new translation from from .POT file (`camden/language`)
 7. Change the language in the admin settings screen (**Settings** > **General** > **Site Language**).
 
 ## Creating Translation with Loco Translate
+-----
+
 1. Install and activate [Loco Translate](https://wordpress.org/plugins/loco-translate/ ":target=_blank") plugin
 2. From your Dashboard go to __Loco Translate__ > __Home__. Click __Camden__ on the __Active theme__ list. 
 3. Click the __+ New language__ button on the __Overview__ tab.
@@ -31,6 +35,8 @@ These tools can create a new translation from from .POT file (`camden/language`)
 8. Congratulations, you've saved your first WordPress translation.
 
 ## RTL (Right-to-Left) Language Support
+-----
+
 1. Open `library/enqueue-scripts.php`.
 2. Find `wp_style_add_data('main-stylesheet', 'rtl', 'replace')` and uncomment it.
 3. Save the file and upload it.

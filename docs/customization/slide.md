@@ -7,6 +7,8 @@ The Camden Home Page features a slider.
 You can modify Slider options such as transition time from the [Theme Options](/customization/theme-options) (__Theme Options__ > __Front Page__ > __Slider__).
 
 ## Adding a Slide
+-----
+
 To add a new slide to the slider, follow this steps:
 
 1. Navigate to __Slide__ > __New Slide__ from WordPress dashboard.
@@ -22,6 +24,7 @@ To add a new slide to the slider, follow this steps:
 ?> Slider can also be generated from Shortcodes. For more information check the [Shortcode](/customization/shortcodes?id=orbit) section.
 
 ## Slide Options
+-----
 
 **Slide Type**  
 Defines the home page slide layout.
@@ -71,6 +74,8 @@ Defines the button text.
 Defines the button URL. It defines the background image URL if **Slide Type** is **Image only**.
 
 ## Slider global options
+-----
+
 Slider global options (e.g., transition speed and slideshow speed ) are available from Theme Options (**Theme Options** > **Front Page** > **Slider**).
 
 More information at: [Theme Options](/customization/theme-options)

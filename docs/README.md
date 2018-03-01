@@ -16,8 +16,15 @@
     - ~~Ministries~~
     - ~~Sermons~~
     - ~~People~~ 
-    - Post formats
+    - ~~Post formats~~
 - Theme Options
+    - General
+    - Front Page
+    - Header
+    - Footer
+    - Custom Post Type
+    - Style
+    - Import / Export
     - Export Them eotpions https://.  sawwcom/documentation/backup-theme-settings/
 - ~~Menu~~
 - ~~Featured Image~~

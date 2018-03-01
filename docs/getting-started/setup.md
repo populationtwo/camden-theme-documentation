@@ -1,6 +1,7 @@
 # Basic Setup
 
 ## Setting Up Home Page
+-----
 
 1. Navigate to **Pages** > **Add New**.
 2. Select **Home Page Template** as the template from the **Page Attributes**.
@@ -14,6 +15,7 @@
 ![Reading Setting Front Page](_images/reading-setting-front-page.png)
 
 ## Setting Up Blog page
+-----
 
 1. Navigate to **Pages** > **Add New**.
 2. Select **Default Template** as the template from the **Page Attributes**.
@@ -25,6 +27,8 @@
 ![Reading Setting Post Page](_images/reading-setting-posts-page.png)
 
 ## Page Templates
+-----
+
 A Page Template is a template which comes with your theme. WordPress can be configured to use different Page Templates for different Pages. Page templates are used to change the look and feel of a page. You can select which Template will be used when displaying a particular Page.
 
 Camden theme comes with unique page templates which adds additional functionality to your pages. These are the page templates that can be found in this theme:
@@ -93,6 +97,7 @@ https://binged.it/2fAzbZF
 ```
 
 ## Page Options
+-----
 
 Page Options is available on all pages. You can assign header image and page subheading on any Pages.
 
@@ -105,6 +110,7 @@ Define the header image. You can upload the image or enter a URL. It will displa
 Define the subheading text to be displayed below the page title. It's usually a brief description of the page. HTML allowed.
 
 ## Featured Image
+-----
 
 Featured Image or Post Thumbnail, is an image that is chosen as the representative image for Posts, Pages or Custom Post Types. 
 

@@ -11,6 +11,7 @@ If you need help installing WordPress, follow the documentation in WordPress Cod
 - [FAQ New To WordPress](http://codex.wordpress.org/FAQ_New_To_WordPress ":target=_blank") — the most popular FAQ’s regarding WordPress
 
 ## WordPress Installation
+-----
 
 1. Download and unzip the WordPress package if you haven't already.
 2. Create a database for WordPress on your web server, as well as a MySQL user who has all privileges for accessing and modifying it.
@@ -26,6 +27,7 @@ If you need help installing WordPress, follow the documentation in WordPress Cod
 [More detailed instructions](http://codex.wordpress.org/Installing_WordPress#Detailed_Instructions).
 
 ## Theme Installation
+-----
 
 The first step in getting started with our themes is installing them. There are two ways to do this, Theme Install from **Administration Panels** and **FTP**. Sometimes installation via **Administration Panels** may not work for you, usually because of a server restriction such as memory. In that case, you will need to install your theme manually via **FTP**.
 
@@ -62,6 +64,7 @@ Your selection should immediately become active.
 If you get the **Are You Sure You Want To Do This** message when installing the theme via WordPress Administration Panels, make sure that you only upload the theme file, not the whole package. If the error message persists, install the theme via FTP, or increase your `max_execution_time`, `max_input_time`, and `memory_limit` via the `php.ini`. Ask your hosting company if you are not comfortable modifying php.ini.
 
 ## Plugin Installation
+-----
 
 To install the required plugins:
 
@@ -71,6 +74,7 @@ To install the required plugins:
 ![Required Plugin Install](_images/admin-panels-required-plugin-install.png ":target=_blank")
 
 ## What’s Included in the Package
+-----
 
 When you purchase our theme from Themeforest, you need to download the theme files from your Themeforest account. Navigate to your downloads tab on Themeforest and find the theme. Click the download button to see the two options. The **Main Files** contain everything, and the **Installable WordPress Theme** is the WordPress theme file only. Below is a full list of what is included along with a brief description of each item:
 
@@ -78,6 +82,7 @@ When you purchase our theme from Themeforest, you need to download the theme fil
 - **Licensing Folder** – contains the licensing files, this is not your purchase code that you need to download from Themeforest.
 
 ## How To Update WordPress Theme
+-----
 
 When a new version of your theme becomes available you will get an email notification from Themeforest. You can also use [Envato Toolkit Plugin](https://github.com/envato/envato-wordpress-toolkit ":target=_blank"). You will receive notification in your WordPress Dashboard once the theme is updated. Please read the changelog so you can see what was modified in the new version.
 

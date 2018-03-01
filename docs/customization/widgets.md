@@ -20,6 +20,8 @@ Camden theme comes with several custom widgets. You can configure the Widgets in
 [More info about Widgets](https://codex.wordpress.org/Appearance_Widgets_Screen ":target=_blank").
 
 ## Latest Post Widget
+-----
+
 Displays list of the blog's most recent posts from certain categories.
 
 ![Latest Post Widget](_images/widget-latest-post.png)
@@ -30,6 +32,8 @@ Options:
 - __Post Categories__ — select the desired categories.
 
 ## Single Post Widget
+-----
+
 Displays blog posts.
 
 ![Single Post Widget](_images/widget-single-post.png)
@@ -40,6 +44,8 @@ Options:
 - __Display excerpt__ — display the post excerpt.
 
 ## Contact Widget
+-----
+
 Displays location and service hours info.
 
 ![Contact Widget](_images/widget-contact.png)
@@ -53,6 +59,8 @@ Options:
 - __Automatically add paragraphs__ —  check this to automatically add paragraphs to wrap each block of text in an HTML paragraph tag (recommended for text).
 
 ## Recent Sermons Widget
+-----
+
 Displays list of sermons.
 
 ![Recent Sermons Widget](_images/widget-sermon.png)
@@ -65,6 +73,8 @@ Options:
 
 
 ## Twitter Widget
+-----
+
 Displays list of Tweets from any username.
 
 ![Twitter Widget](_images/widget-twitter.png)

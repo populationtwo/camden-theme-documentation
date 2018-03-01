@@ -162,3 +162,17 @@ The Style options offer users the ability to customize the default theme styling
 The Import / Export feature offers users the ability to back up and restore their Theme Options options data. Users can import/export the data in one of three ways: raw data, file, and URL.
 
 ![Import/Export](_images/theme-options-export.png)
+
+### How To Export Theme Settings
+You can save your theme options settings and restore the settings.
+
+1. Go To __Theme Options__ > __Import / Export__.
+2. From the bottom of the screen, click on Settings
+Click on Export Theme Settings
+Click on Export to download your theme settings file (.json)
+
+### How To Import Theme Settings
+Import your previously saved theme settings.
+
+1. Go To __Theme Options__ > __Import / Export__.
+2. Click __Download Data File__ or __Copy Export URL__.

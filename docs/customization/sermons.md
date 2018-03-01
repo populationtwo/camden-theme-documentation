@@ -5,6 +5,8 @@ You can add people or staff with description, pictures and contact information. 
 !> The Sermons functionality in this theme requires [Church Theme Content](https://wordpress.org/plugins/church-theme-content ":target=_blank") plugin.
 
 ## Sermons Page
+-----
+
 The Sermons Page is a page that list all sermons. It is located under `/sermons` (http://yoursitedomain.com/sermons). You don't need to create a new page for this.
 
 You can modify the Sermons Page options such as heading and subheading from the [Theme Options](/customization/theme-options) (__Theme Options__ > __Custom Post Type__ > __Sermons Page__).
@@ -12,6 +14,8 @@ You can modify the Sermons Page options such as heading and subheading from the 
 Sermonss can be filtered based on __Speakers__, __Topics__, __Books__, and __Series__.
 
 ## Adding a Sermon
+-----
+
 You can publish sermons with text, audio, video and PDF content. Audio and video can be uploaded via WordPress or used from another site such as YouTube.
 
 1. Navigate to __Sermons__ > __Add New__.
@@ -31,9 +35,13 @@ You can publish sermons with text, audio, video and PDF content. Audio and video
 ![Add a sermon](_images/sermons-add-new.png)
 
 ## Order
+-----
+
 Sermon are listed based on the order when the __Sermon__ was created
       
 ## Topics, Books, Series and Speakers
+-----
+
 Sermons can be organized by topic, book, series and speaker.  
 
 1. Navigate to __Sermons__  > __ Topics, Books, Series or Speakers__.
