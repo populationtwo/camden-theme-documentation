@@ -24,8 +24,7 @@
     - Footer
     - Custom Post Type
     - Style
-    - Import / Export
-    - Export Them eotpions https://.  sawwcom/documentation/backup-theme-settings/
+    - ~~Export Them eotpions https://.  sawwcom/documentation/backup-theme-settings/~~
 - ~~Menu~~
 - ~~Featured Image~~
 - ~~Widgets~~
@@ -35,5 +34,5 @@
 - ~~Demo~~                 
 - ~~Credits~~
 - ~~Changelog~~
-
+- Advanced Customization
 ~~https://.com/documentation/setting-up-posts-thumbnails/~~
