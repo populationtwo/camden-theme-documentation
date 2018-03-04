@@ -110,20 +110,31 @@ some desc
 
 The Style options offer users the ability to customize the default theme styling.
 
+?> You'll need to supply Google API Key to be able to use Google Fonts. Read [Google API Guide](guide/google-api.md) for more information.
+
 ### Typography
 1. __Body Font__ — body or main font properties.
 
+  ![Body Font](_images/style-typography-body-text-1.png)
+  ![Body Font](_images/style-typography-body-text-2.png)
+
 - __Primary Heading__ — primary heading (e.g., heading, post title, widget title) font properties.
 
+  ![Primary Heading](_images/style-typography-primary-heading-1.png)
+  ![Primary Heading](_images/style-typography-primary-heading-2.png)
 - __Secondary Heading__ — secondary heading (e.g., subheading, navigation, post metadata, caption, buttons ) font properties.
 
+  ![Secondary Heading](_images/style-typography-secondary-heading-1.png)
+  ![Secondary Heading](_images/style-typography-secondary-heading-2.png)
 - __Body Text Color__ — body or main font color.
 
 - __Primary Link Color__ — primary link color (e.g., link, read more button, post metadata, post title (on hover), main navigation (on hover) ).
+  ![Primary Link](_images/style-typography-primary-link.png)
 
 - __Secondary Link Color__ — secondary link color (e.g., tags (on hover), homepage Twitter link (on hover), footer widget link (on hover) ).
-  
-?> You'll need to supply Google API Key to be able to use Google Fonts. Read [Google API Guide](guide/google-api.md) for more information.
+  ![Secondary Link](_images/style-typography-secondary-link-1.png)
+  ![Secondary Link](_images/style-typography-secondary-link-2.png)
+
 
 ### Backgrounds
 
