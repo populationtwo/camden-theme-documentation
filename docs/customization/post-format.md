@@ -30,14 +30,14 @@ A gallery of images. Post contain a gallery shortcode `[gallery]` and  have imag
 
 1. Navigate to __Post__.
 2. Click __Add Media__.
-![Gallery shortcode](_images/post-format-gallery-1.png)
+![Gallery shortcode](../_images/post-format-gallery-1.png)
 3. Click __Create Gallery__.
 4. Select media from __Media Libary__ or __Upload Files__.
 5. Click __Create a new gallery__.
-![Gallery shortcode](_images/post-format-gallery-2.png)
+![Gallery shortcode](../_images/post-format-gallery-2.png)
 6. Edit gallery setting (Link To, Columns, Random Order, & Size). Choose __Full Size__ if you are not sure what size to choose.
 7. Click __Insert gallery__.
-![Gallery shortcode](_images/post-format-gallery-3.png)
+![Gallery shortcode](../_images/post-format-gallery-3.png)
 8. Select __Gallery__ as Post Format.
 9. __Publish__ or __Update__ post.
 

@@ -17,18 +17,18 @@ How to Create Menu
 There are five menu locations where you can add your menus.
 
 #### 1. Primary Menu   
-![Single Post Widget](_images/menu-primary.png)
+![Single Post Widget](../_images/menu-primary.png)
 
 #### 2. Mobile Menu
 Mobile menu only will be displayed on screen size 1024px and smaller. If there's no menu assigned to Mobile Menu location, it will show the same menu assigned to __Primary Menu__ location.
 
-![Single Post Widget](_images/menu-mobile.png)
+![Single Post Widget](../_images/menu-mobile.png)
 
 #### 3. Footer Menu
-![Single Post Widget](_images/menu-footer.png)
+![Single Post Widget](../_images/menu-footer.png)
 
 #### 4. Top bar Menu
-![Single Post Widget](_images/menu-top.png)
+![Single Post Widget](../_images/menu-top.png)
 
 #### 5. Top bar CTA
-![Single Post Widget](_images/menu-top-cta.png)
+![Single Post Widget](../_images/menu-top-cta.png)

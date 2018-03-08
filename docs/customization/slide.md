@@ -29,19 +29,19 @@ To add a new slide to the slider, follow this steps:
 **Slide Type**  
 Defines the home page slide layout.
 
-![Contact Page Contact Info](_images/slide-type-image.png)
+![Contact Page Contact Info](../_images/slide-type-image.png)
 _Image only_
 
-![Contact Page Contact Info](_images/slide-type-image-center.png)
+![Contact Page Contact Info](../_images/slide-type-image-center.png)
 _Image with text in the middle_
 
-![Contact Page Contact Info](_images/slide-type-image-right.png)
+![Contact Page Contact Info](../_images/slide-type-image-right.png)
 _Image with text on left side_
 
-![Contact Page Contact Info](_images/slide-type-image-left.png)
+![Contact Page Contact Info](../_images/slide-type-image-left.png)
 _Image with text on right side_
 
-![Contact Page Contact Info](_images/slide-type-video.png)
+![Contact Page Contact Info](../_images/slide-type-video.png)
 _Video_
 
 **Foreground Image**  

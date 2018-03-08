@@ -32,7 +32,7 @@ You can publish sermons with text, audio, video and PDF content. Audio and video
 8. Optionally click __Set featured image__ to upload a sermon thumbnail.
 9. Click __Publish__.
 
-![Add a sermon](_images/sermons-add-new.png)
+![Add a sermon](../_images/sermons-add-new.png)
 
 ## Order
 -----

@@ -2,45 +2,45 @@
 
 Camden theme comes with Theme Options page. It allows users to change theme settings without modifying theme files.  Navigate to __Dashboard__ > __Theme Options__ to access the Theme Options.
 
-![Theme Options](_images/theme-options-menu.png)
+![Theme Options](../_images/theme-options-menu.png)
 
 ## General
 -----
 some desc
 
 - __Favicon__ —
-  ![Image](_images/a.png)
+  ![Image](../_images/a.png)
 
 - __Hide Sidebar__ —
-  ![Image](_images/a.png)
+  ![Image](../_images/a.png)
 
 - __Read More Text__ —
-  ![Image](_images/a.png)
+  ![Image](../_images/a.png)
 
 
 ### Navigation
 - __Sticky Navigation - Small__ —
 
-![Image](_images/a.png)
+![Image](../_images/a.png)
 
 
 - __Sticky Navigation - Large__ —
 
-![Image](_images/a.png)
+![Image](../_images/a.png)
 
 
 - __Child Pages Navigation__ —
 
-![Image](_images/a.png)
+![Image](../_images/a.png)
 
 
 - __Hide Post Navigation__ —
 
-![Image](_images/a.png)
+![Image](../_images/a.png)
 
 - __Hide Breadcrumbs__ —
 
-![Image](_images/a.png)
+![Image](../_images/a.png)
 
 
 ### Comments
@@ -88,21 +88,39 @@ some desc
 
 ## Custom Post Type
 -----
+!> The Custom Post Type (Ministry, Sermons, and People) in this theme requires [Church Theme Content](https://wordpress.org/plugins/church-theme-content ":target=_blank") plugin.
 
 ### Ministry Page
-- __Page Header Background__ —
-- __Page Heading__ —
-- __Page Subheading__ —
+Options for Ministry landing page.
+1. __Page Header Background__ — select page header background color or image. This will override __Page Hero Header Background Color__ (Theme Options > Style)
+
+- __Page Heading__ — ministry page title. Default: Ministry.
+
+- __Page Subheading__ — ministry page subheading.
+
+  ![Ministry Page](../_images/cpt-ministry.png)
 
 ### Sermons Page
-- __Page Header Background__ —
-- __Page Heading__ —
-- __Page Subheading__ —
+1. __Page Header Background__ — select page header background color or image. This will override __Page Hero Header Background Color__ (Theme Options > Style)
+
+- __Page Heading__ — sermons page title. Default: Sermons.
+
+- __Page Subheading__ — sermons page subheading.
+
+- __Featured Sermon__ 
+  - __Featured Sermon__  — enable Featured Sermon.
+  - __Background__ — select Featured Sermon background color or image.
+  
+  ![Sermons Page](../_images/cpt-sermons.png)
 
 ### People Page
-- __Page Header Background__ —
-- __Page Heading__ —
-- __Page Subheading__ —
+1. __Page Header Background__ — select page header background color or image. This will override __Page Hero Header Background Color__ (Theme Options > Style)
+
+- __Page Heading__ —— people page title. Default: People.
+
+- __Page Subheading__ —— people page subheading.
+
+  ![People Page](../_images/cpt-people.png)
 
 
 ## Style
@@ -115,25 +133,25 @@ The Style options offer users the ability to customize the default theme styling
 ### Typography
 1. __Body Font__ — body or main font properties.
 
-  ![Body Font](_images/style-typography-body-text-1.png)
-  ![Body Font](_images/style-typography-body-text-2.png)
+  ![Body Font](../_images/style-typography-body-text-1.png)
+  ![Body Font](../_images/style-typography-body-text-2.png)
 
 - __Primary Heading__ — primary heading (e.g., heading, post title, widget title) font properties.
 
-  ![Primary Heading](_images/style-typography-primary-heading-1.png)
-  ![Primary Heading](_images/style-typography-primary-heading-2.png)
+  ![Primary Heading](../_images/style-typography-primary-heading-1.png)
+  ![Primary Heading](../_images/style-typography-primary-heading-2.png)
 - __Secondary Heading__ — secondary heading (e.g., subheading, navigation, post metadata, caption, buttons ) font properties.
 
-  ![Secondary Heading](_images/style-typography-secondary-heading-1.png)
-  ![Secondary Heading](_images/style-typography-secondary-heading-2.png)
+  ![Secondary Heading](../_images/style-typography-secondary-heading-1.png)
+  ![Secondary Heading](../_images/style-typography-secondary-heading-2.png)
 - __Body Text Color__ — body or main font color.
 
 - __Primary Link Color__ — primary link color (e.g., link, read more button, post metadata, post title (on hover), main navigation (on hover) ).
-  ![Primary Link](_images/style-typography-primary-link.png)
+  ![Primary Link](../_images/style-typography-primary-link.png)
 
 - __Secondary Link Color__ — secondary link color (e.g., tags (on hover), homepage Twitter link (on hover), footer widget link (on hover) ).
-  ![Secondary Link](_images/style-typography-secondary-link-1.png)
-  ![Secondary Link](_images/style-typography-secondary-link-2.png)
+  ![Secondary Link](../_images/style-typography-secondary-link-1.png)
+  ![Secondary Link](../_images/style-typography-secondary-link-2.png)
 
 
 ### Backgrounds
@@ -146,21 +164,21 @@ The Style options offer users the ability to customize the default theme styling
 
 - __Secondary Header Button Color__ — button color of top bar CTA.
 
-  ![Body](_images/theme-options-style-background-body.png)
-  ![Header](_images/theme-options-style-background-header.png)
+  ![Body](../_images/theme-options-style-background-body.png)
+  ![Header](../_images/theme-options-style-background-header.png)
 - __Page Hero Header Background Color__ — background color of page header.
 
 - __Primary Sidebar Background Color__ — background color of page sidebar.
 
 - __Sidebar Child Page Navigation Background Color__ — background color of child page navigation on sidebar.
 
-  ![Sidebar](_images/theme-options-style-background-sidebar.png)
+  ![Sidebar](../_images/theme-options-style-background-sidebar.png)
   
 - __Footer CTA Background__ — background color or image of footer where CTA located.
 - __Footer Top Background__ — background color or image of footer where the widget area located.
 - __Footer Bottom Background__ — background color or image of footer where copyright note located.
 
-  ![Footer](_images/theme-options-style-background-footer.png)
+  ![Footer](../_images/theme-options-style-background-footer.png)
 
 ### Buttons
 
@@ -176,7 +194,7 @@ The Style options offer users the ability to customize the default theme styling
 
 - __Default Button Color — on Hover__ — default button background color on mouse hover.
 
-![Buttons](_images/theme-options-style-button.png)
+![Buttons](../_images/theme-options-style-button.png)
 
 ### CSS
 
@@ -190,7 +208,7 @@ The Style options offer users the ability to customize the default theme styling
 
 The Import / Export feature offers users the ability to back up and restore their Theme Options options data. Users can import/export the data in one of three ways: raw data, file, and URL.
 
-![Import/Export](_images/theme-options-export.png)
+![Import/Export](../_images/theme-options-export.png)
 
 ### How To Export Theme Settings
 You can save your theme options settings and restore the settings.

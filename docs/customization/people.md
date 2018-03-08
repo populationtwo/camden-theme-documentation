@@ -26,7 +26,7 @@ People can be filtered based on __Group__.
 8. Optionally click __Set featured image__ to upload a portrait of the person.
 9. Click __Publish__.
 
-![Add a Person](_images/people-add-new.png)
+![Add a Person](../_images/people-add-new.png)
 
 ## Order
 -----

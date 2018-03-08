@@ -6,14 +6,14 @@ Briefly, a shortcode is a special tag that you can enter into a post that gets r
 
 !> NOTE: The shortcodes features requires [Camden Add-ons](https://github.com/populationtwo/camden-add-ons ":target=_blank") plugin.
  
-![Shortcode Button](_images/shortcode-button.png)
+![Shortcode Button](../_images/shortcode-button.png)
 
 ## Grid
 -----
 
 The grid shortcode in Camden theme is based on 12-column [Foundation Grid system](https://foundation.zurb.com/sites/docs/grid.html ":target=_blank").
 
-![Shortcode Grid](_images/shortcode-grid.png)
+![Shortcode Grid](../_images/shortcode-grid.png)
 
 ### 2 Columns
 
@@ -76,7 +76,7 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 
 ### Checklist
 
-![Checklist](_images/shortcode-checklist.png)
+![Checklist](../_images/shortcode-checklist.png)
 
 ```html
 [checklist]
@@ -90,7 +90,7 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 
 ### Checklist Circle
 
-![Checklist Circle](_images/shortcode-checklist-circled.png)
+![Checklist Circle](../_images/shortcode-checklist-circled.png)
 
 ```html
 [checklist_circled]
@@ -104,7 +104,7 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 
 ### Left Pull Quote
 
-![Left Pull Quote](_images/shortcode-blockquote-left.png)
+![Left Pull Quote](../_images/shortcode-blockquote-left.png)
 
 ```html
 [pullquote_left] Lorem ipsum [/pullquote_left]
@@ -112,7 +112,7 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 
 ### Right Pull Quote
 
-![Right Pull Quote](_images/shortcode-blockquote-right.png)
+![Right Pull Quote](../_images/shortcode-blockquote-right.png)
 
 ```html
 [pullquote_right] Lorem ipsum [/pullquote_right]
@@ -120,7 +120,7 @@ Custom size grid offer more control of the grid layout. The sum of sizes of all 
 
 ### Blockquote
 
-![Blockquote](_images/shortcode-quote.png)
+![Blockquote](../_images/shortcode-quote.png)
 ```html
 [quote] Lorem ipsum [/quote]
 
@@ -136,7 +136,7 @@ This is a shortcode to create Orbit responsive slider.
 
 Placing `[orbit]` in your editor creates a responsive slider from all the images attached to the post or page
 
-![Orbit slider](_images/shortcode-orbit-slider.png)
+![Orbit slider](../_images/shortcode-orbit-slider.png)
 
 ```html
 [orbit] // Display all images attached to current post/page
@@ -162,7 +162,7 @@ How To Attach Image to Current Post/Page:
 ### Reveal
 Reveal shortcode displays simple modal windows on your site. A modal is a container where you can put any kind of content inside it, from text to forms to video.
 
-![Reveal modal](_images/shortcode-reveal.png)
+![Reveal modal](../_images/shortcode-reveal.png)
 
 ```html
 // Basic shortcode
@@ -186,7 +186,7 @@ Attributes:
 
 Accordions are elements that help you navigate multiple contents in a single container. They can be used for switching between items in the container.
 
-![Accordion](_images/shortcode-accordion.png)
+![Accordion](../_images/shortcode-accordion.png)
 
 ```html
 [accs class="optional-class"]
@@ -205,7 +205,7 @@ Attributes:
 
 Tabs are elements that help navigate multiple contents in a single container. They can be used for switching between items in the container.
 
-![Tabs](_images/shortcode-h-tab.png)
+![Tabs](../_images/shortcode-h-tab.png)
 
 ```html
 [tabs class="optional-class"]
@@ -225,7 +225,7 @@ Attributes:
 
 Tabs can be aligned vertically using Vertical Tabs.
 
-![Tabs](_images/shortcode-v-tab.png)
+![Tabs](../_images/shortcode-v-tab.png)
 
 ```html
 [vtabs class="optional-class"]
@@ -246,8 +246,8 @@ Attributes:
 
 Callout shortcode gives you and your editors and easy way to display panel or alert box with some additional options.
 
-![Shortcode Callout Dialog](_images/shortcode-callout-dialog.png)
-![Shortcode Callout](_images/shortcode-callout.png)
+![Shortcode Callout Dialog](../_images/shortcode-callout-dialog.png)
+![Shortcode Callout](../_images/shortcode-callout.png)
 
 ```html
 // Default callout
@@ -270,7 +270,7 @@ Attributes:
 
 This is a fairly simple shortcode that creates simple [Tooltip](https://foundation.zurb.com/sites/docs/tooltip.html ":target=_blank"). 
 
-![Shortcode Tooltip](_images/shortcode-tooltip.png)
+![Shortcode Tooltip](../_images/shortcode-tooltip.png)
 
 ```html
 [tooltip title="Tooltip content"]Lorem ipsum[/tooltip]
@@ -286,23 +286,23 @@ Attributes:
 ## Button
 -----
 
-![Shortcode Button Dialog](_images/shortcode-button-dialog.png)
+![Shortcode Button Dialog](../_images/shortcode-button-dialog.png)
 
 __Types__
 
-![Shortcode Button Types](_images/shortcode-button-type.png)
+![Shortcode Button Types](../_images/shortcode-button-type.png)
 
 __Color__
 
-![Shortcode Button Color](_images/shortcode-button-color.png)
+![Shortcode Button Color](../_images/shortcode-button-color.png)
 
 __Size__
 
-![Shortcode Button Size](_images/shortcode-button-sizes.png)
+![Shortcode Button Size](../_images/shortcode-button-sizes.png)
 
 __Arrow__
 
-![Shortcode Button Arrow](_images/shortcode-button-arrow.png)
+![Shortcode Button Arrow](../_images/shortcode-button-arrow.png)
 
 
 Minimal shortcode:

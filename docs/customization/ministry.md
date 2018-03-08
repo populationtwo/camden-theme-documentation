@@ -26,7 +26,7 @@ Ministry can be filtered based on the __Group__.
 8. Optionally click __Set featured image__ to upload the Featured Image.
 9. Click __Publish__.
 
-![Add a Ministry](_images/ministry-add-new.png)
+![Add a Ministry](../_images/ministry-add-new.png)
 
 ## Order
 -----

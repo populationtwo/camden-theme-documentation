@@ -15,4 +15,4 @@ Follow this steps to acquire a Google Fonts API Key
 6. Click __Create__. A modal window will appear with your API Key. Copy Key and __Close__.
 7. Go to __Theme Options__ > __Style__ > __Google API__ Key and add the API Key.
 
-![Single Post Widget](_images/google-api.png)
+![Single Post Widget](../_images/google-api.png)

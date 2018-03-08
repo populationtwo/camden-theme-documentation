@@ -8,4 +8,4 @@ If you have any issues or questions that are beyond the scope of this documentat
 
 We currently do not provide a theme customization. We've partnered with **WP Kraken**, who can help you with all your theme customization needs.
 
-[![Contact Page Contact Info](_images/wpkraken-468x60-dark.png)](https://wpkraken.io/?ref=population2)
+[![Contact Page Contact Info](../_images/wpkraken-468x60-dark.png)](https://wpkraken.io/?ref=population2)

@@ -12,7 +12,7 @@
 7. Select the page you just created as the **Front page**.
 8. Navigate to **Theme Options** > **Front Page** and [configure the settings]().
 
-![Reading Setting Front Page](_images/reading-setting-front-page.png)
+![Reading Setting Front Page](../_images/reading-setting-front-page.png)
 
 ## Setting Up Blog page
 -----
@@ -24,7 +24,7 @@
 5. Select **A static page** option for the **Front page displays**.
 6. Select the page you just created as the **Posts page**.
 
-![Reading Setting Post Page](_images/reading-setting-posts-page.png)
+![Reading Setting Post Page](../_images/reading-setting-posts-page.png)
 
 ## Page Templates
 -----
@@ -44,7 +44,7 @@ Camden theme comes with unique page templates which adds additional functionalit
 2. On the right hand side under **Page Attributes** you’ll see template. This is where users are able to access your global page templates.
 3. Select the Page Template.
 
-![Page Template Dropdown](_images/page-template-dropdown.png)
+![Page Template Dropdown](../_images/page-template-dropdown.png)
 
 ?>**Could not find the Page Attribute panel?**  
   If you do not see this panel, look to the top right of your screen for **Screen Options**. Click **Screen Options** and check the **Page Attributes** checkbox.
@@ -57,9 +57,9 @@ Camden theme comes with a Contact Page template to embed contact form in a singl
 2. Create a new Page and change the Template to Contact Page.
 3. Create your custom contact form. Check the Contact Form 7 guide for more details.
 4. Copy the Contact Form 7 embed code and add it to the contact page text editor.
-![Contact Page Embed Code](_images/contact-page-contact-embed-code.png) 
+![Contact Page Embed Code](../_images/contact-page-contact-embed-code.png) 
 5. Fill the Contact Info fields with additional info such as address and phone number. 
-![Contact Page Contact Info](_images/contact-page-contact-info.png)
+![Contact Page Contact Info](../_images/contact-page-contact-info.png)
 
 ### Times & Direction Page
 Camden theme comes with a Times & Direction template to display service times and map. Change page template to **Times & Direction** to enable it.
@@ -101,7 +101,7 @@ https://binged.it/2fAzbZF
 
 Page Options is available on all pages. You can assign header image and page subheading on any Pages.
 
-![Page Options](_images/page-options.png) 
+![Page Options](../_images/page-options.png) 
 
 **Page Header Image**  
 Define the header image. You can upload the image or enter a URL. It will display the default solid color (#212526) if there is no header image assigned. You can change the default color from Theme Options (**Theme Options** > **Style** > **Page Hero Header Background Color**).
@@ -119,7 +119,7 @@ How to assign Images:
 2. Upload an image. You can also drag and drop the image from your computer.
 3. Click Set __Featured Image__ .
 
-![Reading Setting Post Page](_images/featured-image.png)
+![Reading Setting Post Page](../_images/featured-image.png)
 
 ?> On blog posts, WordPress will automatically pull the first image to be used as the thumbnail if there is no Featured Image.
 

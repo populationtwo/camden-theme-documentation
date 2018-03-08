@@ -2,7 +2,7 @@
 
 Camden theme comes with several custom widgets. You can configure the Widgets in your sidebar by from the __Appearance Widgets Screen__.
 
-![Widgets](_images/widgets-page.png)
+![Widgets](../_images/widgets-page.png)
 
 ### Adding a widget
 - Click on __Appearance__ > __Widgets__ from the main navigation menu in your Dashboard.
@@ -24,7 +24,7 @@ Camden theme comes with several custom widgets. You can configure the Widgets in
 
 Displays list of the blog's most recent posts from certain categories.
 
-![Latest Post Widget](_images/widget-latest-post.png)
+![Latest Post Widget](../_images/widget-latest-post.png)
 
 Options:
 - __Title__  — a description that appears over the list of posts.
@@ -36,7 +36,7 @@ Options:
 
 Displays blog posts.
 
-![Single Post Widget](_images/widget-single-post.png)
+![Single Post Widget](../_images/widget-single-post.png)
 
 Options:
 - __Title__  — a description that appears over the post.
@@ -48,7 +48,7 @@ Options:
 
 Displays location and service hours info.
 
-![Contact Widget](_images/widget-contact.png)
+![Contact Widget](../_images/widget-contact.png)
 
 Options:
 - __Title__  — a description that appears over a widget.
@@ -63,7 +63,7 @@ Options:
 
 Displays list of sermons.
 
-![Recent Sermons Widget](_images/widget-sermon.png)
+![Recent Sermons Widget](../_images/widget-sermon.png)
 
 !> NOTE: Sermons Widget requires [Church Theme Content](https://wordpress.org/plugins/church-theme-content ":target=_blank") plugin.
 
@@ -77,7 +77,7 @@ Options:
 
 Displays list of Tweets from any username.
 
-![Twitter Widget](_images/widget-twitter.png)
+![Twitter Widget](../_images/widget-twitter.png)
 
 Options:
 - __Title__  — a description that appears over the Tweets.

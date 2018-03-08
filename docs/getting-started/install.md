@@ -71,7 +71,7 @@ To install the required plugins:
 1. Log in to the WordPress [Administration Panels](http://codex.wordpress.org/Administration_Panels ":target=_blank").
 2. Select **Begin installing plugins**. WordPress will download and install all the required plugins.
 
-![Required Plugin Install](_images/admin-panels-required-plugin-install.png ":target=_blank")
+![Required Plugin Install](../_images/admin-panels-required-plugin-install.png ":target=_blank")
 
 ## What’s Included in the Package
 -----
@@ -97,7 +97,7 @@ You can update your theme via FTP or WordPress Administration Panels. See the in
 1. Log into your Envato account and go to Downloads page under your profile name.
 2. Find Camden theme click **Download** button next to it and then click **Installable WordPress file only**.
 
-![Installable WordPress file only](_images/installable-wp-theme.png)
+![Installable WordPress file only](../_images/installable-wp-theme.png)
 
 Follow the instructions below for updating via FTP or WordPress Administration Panels.
 
@@ -107,7 +107,7 @@ The easiest way to update your theme is to upload it using **WordPress Administr
 
 But because you already have a theme folder on your server with the same name as the folder inside your ZIP file of updated theme, most likely you will get the following error:
 
-![failed install](_images/failed-install.png)
+![failed install](../_images/failed-install.png)
 
 To avoid this error you have several choices:
 
