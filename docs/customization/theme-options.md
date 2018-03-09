@@ -85,6 +85,15 @@ some desc
 
 ## Footer
 -----
+1. __Widgets Size__ — select the amount of footer widgets columns.
+- __Copyright Text__ — footer copyright notice text.
+- __Social Icons__ — add social URL (Facebook, Twitter, etc.) to display social icons.
+- __Show Call to Action__ — display Call to Action on page footer.
+- __Heading__ — Call to Action heading.
+- __Button Text__ — Call to Action button text.
+- __Button URL__ —  Call to Action URL.
+-----
+### Widgets Size
 
 ## Custom Post Type
 -----
