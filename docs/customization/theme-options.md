@@ -82,18 +82,25 @@ some desc
 
 ## Header
 -----
+1. __Layout__ — the amount of footer widgets columns.
+- __Main Logo__ — footer copyright notice text.
+- __Alternative Logo__ — add social URL (Facebook, Twitter, etc.) to display social icons. 
+- __Social Icon URLs__ — display Call to Action section on page footer.
+- __Search Bar - Header__ — Call to Action heading.
+- __Search Bar - Mobile Menu__ — Call to Action button text.
 
 ## Footer
 -----
-1. __Widgets Size__ — select the amount of footer widgets columns.
+1. __Widgets Size__ — the amount of footer widgets columns.
 - __Copyright Text__ — footer copyright notice text.
-- __Social Icons__ — add social URL (Facebook, Twitter, etc.) to display social icons.
-- __Show Call to Action__ — display Call to Action on page footer.
+- __Social Icons__ — add social URL (Facebook, Twitter, etc.) to display social icons. 
+- __Show Call to Action__ — display Call to Action section on page footer.
 - __Heading__ — Call to Action heading.
 - __Button Text__ — Call to Action button text.
 - __Button URL__ —  Call to Action URL.
------
-### Widgets Size
+
+![Footer](../_images/theme-options-footer.png)
+
 
 ## Custom Post Type
 -----

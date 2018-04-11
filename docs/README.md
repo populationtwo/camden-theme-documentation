@@ -22,7 +22,7 @@
     - Front Page
     - Header
     - Footer
-    - Custom Post Type
+    - ~~Custom Post Type~~
     - ~~Style~~
     - ~~Export Them eotpions https://.  sawwcom/documentation/backup-theme-settings/~~
 - ~~Menu~~
