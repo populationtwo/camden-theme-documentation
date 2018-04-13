@@ -82,12 +82,32 @@ some desc
 
 ## Header
 -----
-1. __Layout__ — the amount of footer widgets columns.
-- __Main Logo__ — footer copyright notice text.
-- __Alternative Logo__ — add social URL (Facebook, Twitter, etc.) to display social icons. 
-- __Social Icon URLs__ — display Call to Action section on page footer.
-- __Search Bar - Header__ — Call to Action heading.
-- __Search Bar - Mobile Menu__ — Call to Action button text.
+1. __Layout__ — page header layout.
+
+  ![Header Contain](../_images/theme-options-header-contain.png)
+  ![Header Full](../_images/theme-options-header-full.png)
+
+- __Main Logo__ — main logo image on page header.
+
+  ![Main Logo](../_images/theme-options-header-main-logo.png)
+
+- __Alternative Logo__ — alternative logo on smaller screen or mobile.
+
+  ![Alternative Logo](../_images/theme-options-header-alt-logo.png)
+
+- __Social Icon URLs__ — social media links. Add social media URL to display the icon.
+
+
+  ![Alternative Logo](../_images/theme-options-header-social.png)
+
+- __Search Bar - Header__ — enable search bar on page header.
+
+  ![Alternative Logo](../_images/theme-options-header-search.png)
+
+- __Search Bar - Mobile Menu__ — enable search bar on mobile menu.
+
+  ![Alternative Logo](../_images/theme-options-header-search-mobile.png)
+
 
 ## Footer
 -----
