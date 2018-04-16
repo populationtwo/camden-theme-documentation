@@ -20,8 +20,8 @@
 - Theme Options
     - General
     - Front Page
-    - Header
-    - Footer
+    - ~~Header~~
+    - ~~Footer~~
     - ~~Custom Post Type~~
     - ~~Style~~
     - ~~Export Them eotpions https://.  sawwcom/documentation/backup-theme-settings/~~

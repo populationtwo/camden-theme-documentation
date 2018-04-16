@@ -7,50 +7,29 @@ Camden theme comes with Theme Options page. It allows users to change theme sett
 ## General
 -----
 some desc
+  
+1. __Favicon__ — — select page header background color or image. This will override __Page Hero Header Background Color__ (Theme Options > Style)
 
-- __Favicon__ —
-  ![Image](../_images/a.png)
+- __Hide Sidebar__ — sermons page title. Default: Sermons.
 
-- __Hide Sidebar__ —
-  ![Image](../_images/a.png)
+- __Read More Text__ — sermons page subheading.
 
-- __Read More Text__ —
-  ![Image](../_images/a.png)
+- __Navigation__ 
+  - __Sticky Navigation - Small__  — enable Featured Sermon.
+  - __Sticky Navigation - Large__ — select Featured Sermon background color or image.
+  - __Child Pages Navigation__ — select Featured Sermon background color or image.
+  - __Hide Post Navigation__ — select Featured Sermon background color or image.
+  - __Hide Breadcrumbs__ — select Featured Sermon background color or image.
+  
+  ![Sermons Page](../_images/cpt-sermons.png)
+  
+- __Comments__ 
+  - __Post Comments__ — option to display comments on Post globally. Single Post Discussion settings will override this option. 
+  - __Sermon Comments__ — option to display comments on Sermon Post Type globally. Single Sermon Discussion settings will override this option. 
 
-
-### Navigation
-- __Sticky Navigation - Small__ —
-
-![Image](../_images/a.png)
-
-
-- __Sticky Navigation - Large__ —
-
-![Image](../_images/a.png)
-
-
-- __Child Pages Navigation__ —
-
-![Image](../_images/a.png)
-
-
-- __Hide Post Navigation__ —
-
-![Image](../_images/a.png)
-
-- __Hide Breadcrumbs__ —
-
-![Image](../_images/a.png)
-
-
-### Comments
-- __Post Comments__ — option to display comments on Post globally. Single Post Discussion settings will override this option. 
-- __Sermon Comments__ — option to display comments on Sermon Post Type globally. Single Sermon Discussion settings will override this option. 
-
-### Script
-- __Custom JS Snippet__ — use this field to add JavaScript snippet.
-- __Analytics Snippet__ — use this field to add tracking code such as Google Analytics.
-
+- __Script__ 
+  - __JavaScript Snippet__ — use this field to add JavaScript snippet.
+  - __Analytics Snippet__ — use this field to add tracking code such as Google Analytics.
 
 ## Front Page
 -----
