@@ -8,24 +8,25 @@ Camden theme comes with Theme Options page. It allows users to change theme sett
 -----
 some desc
   
-1. __Favicon__ — — select page header background color or image. This will override __Page Hero Header Background Color__ (Theme Options > Style)
+1. __Favicon__ — Upload image to override default favicon. Recommended format: .ICO.
 
-- __Hide Sidebar__ — sermons page title. Default: Sermons.
+- __Hide Sidebar__ — hide sidebar on certain pages or post types.
 
-- __Read More Text__ — sermons page subheading.
+- __Read More Text__ — replace default Read More text with different text.
 
 - __Navigation__ 
-  - __Sticky Navigation - Small__  — enable Featured Sermon.
-  - __Sticky Navigation - Large__ — select Featured Sermon background color or image.
-  - __Child Pages Navigation__ — select Featured Sermon background color or image.
-  - __Hide Post Navigation__ — select Featured Sermon background color or image.
-  - __Hide Breadcrumbs__ — select Featured Sermon background color or image.
-  
-  ![Sermons Page](../_images/cpt-sermons.png)
-  
+  - __Sticky Navigation - Small__  — enable sticky navigation on small screen. 
+  - __Sticky Navigation - Large__ — 	enable sticky navigation on large screen.
+  - __Child Pages Navigation__ — display child page items on the sidebar. It will only be displayed if the current page has any child page.
+    ![Post Navigation](../_images/theme-options-general-child-page.png) 
+  - __Hide Post Navigation__ — hide previous and next posts navigation.
+    ![Post Navigation](../_images/theme-options-general-post-nav.png)
+  - __Hide Breadcrumbs__ — hide breadcrumbs on certain post types. 
+    ![Breadcrumbs](../_images/theme-options-general-breadcrumbs.png)
+
 - __Comments__ 
-  - __Post Comments__ — option to display comments on Post globally. Single Post Discussion settings will override this option. 
-  - __Sermon Comments__ — option to display comments on Sermon Post Type globally. Single Sermon Discussion settings will override this option. 
+  - __Post Comments__ — option to display post comments on Post globally. Single Post Discussion settings will override this option. 
+  - __Sermon Comments__ — option to display post comments on Sermon Post Type globally. Single Sermon Discussion settings will override this option. 
 
 - __Script__ 
   - __JavaScript Snippet__ — use this field to add JavaScript snippet.
