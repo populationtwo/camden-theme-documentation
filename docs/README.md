@@ -18,7 +18,7 @@
     - ~~People~~ 
     - ~~Post formats~~
 - Theme Options
-    - General
+    - ~~General~~
     - Front Page
     - ~~Header~~
     - ~~Footer~~

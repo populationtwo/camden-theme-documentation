@@ -6,22 +6,28 @@ Camden theme comes with Theme Options page. It allows users to change theme sett
 
 ## General
 -----
-some desc
   
-1. __Favicon__ — Upload image to override default favicon. Recommended format: .ICO.
+1. __Favicon__ — upload image to replace the default favicon. Recommended format: .ICO.
 
 - __Hide Sidebar__ — hide sidebar on certain pages or post types.
 
-- __Read More Text__ — replace default Read More text with different text.
+- __Read More Text__ — replace default __Read More__ text with different text.
 
 - __Navigation__ 
-  - __Sticky Navigation - Small__  — enable sticky navigation on small screen. 
-  - __Sticky Navigation - Large__ — 	enable sticky navigation on large screen.
+  - __Sticky Navigation - Small__  — enable sticky navigation on small screen (< 1025px). 
+  
+  - __Sticky Navigation - Large__ — 	enable sticky navigation on large screen (> 1024px).
+  
   - __Child Pages Navigation__ — display child page items on the sidebar. It will only be displayed if the current page has any child page.
+  
     ![Post Navigation](../_images/theme-options-general-child-page.png) 
+    
   - __Hide Post Navigation__ — hide previous and next posts navigation.
+  
     ![Post Navigation](../_images/theme-options-general-post-nav.png)
+    
   - __Hide Breadcrumbs__ — hide breadcrumbs on certain post types. 
+  
     ![Breadcrumbs](../_images/theme-options-general-breadcrumbs.png)
 
 - __Comments__ 
@@ -36,7 +42,31 @@ some desc
 -----
 
 ### Layout
+Desc
+1. __Upper Section__ — Upper section of the homepage layout. It's located below the slider.
+                    
+- __Lower / Main Section__ — Lower section of the homepage layout. It contains most of the homepage content.
+  
 ### Slider
+Desc
+1. __Slider Transition__ — Upper section of the homepage layout. It's located below the slider.
+                    
+- __Transition Speed__ — Slide transition speed in milliseconds. This option only works when Slide transition is selected. Default: 400.
+
+- __Slideshow Speed__ — Slideshow transition speed between slides in milliseconds. Set to 0 to disable auto play. Default: 5000.
+
+- __Control Navigation__ — Display the slider bullet navigation.
+
+- __Direction Navigation__ — Display previous or next slider navigation.
+
+- __Auto Play__ — .
+
+- __Pause on Hover__ — Pause slider animation on mouse hover.
+
+- __Text Animation__ — Enable text animation when slider change.
+
+  
+  
 ### Call to Action Module
 ### Intro Module
 ### Content Module
