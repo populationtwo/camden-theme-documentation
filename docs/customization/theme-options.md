@@ -66,29 +66,153 @@ Desc
 - __Text Animation__ — Enable text animation when slider change.
 
   
-  
 ### Call to Action Module
+Desc
+1. __CTA Item__ — Add CTA title, description and image. Recommended image size: 280px x 280px.
+                    
+- __CTA Columns - Large__ — Slide transition speed in milliseconds. This option only works when Slide transition is selected. Default: 400.
+
+- __CTA Columns - Medium__ — Slideshow transition speed between slides in milliseconds. Set to 0 to disable auto play. Default: 5000.
+
+- __CTA Columns - Small__ — Display the slider bullet navigation.
+
+
 ### Intro Module
+Desc
+1. __Heading__ — Add CTA title, description and image. Recommended image size: 280px x 280px.
+                    
+- __Subheading__ — Slide transition speed in milliseconds. This option only works when Slide transition is selected. Default: 400.
+
+- __Content__ — HTML allowed.
+
+- __Layout__ 
+
+- __Buttons__ 
+  - __Button 1 Text__  — .
+  - __Button 1 URL__ — .
+  - __Button 2 Text__  — .
+  - __Button 2 URL__ — .
+
 ### Content Module
+Content module display the homepage content.
+
+1. __Background__ — Choose module background properties — image, color, etc..
+  
 ### Feature Module
+Feature Module display featured content on the homepage.
+
+1. __Amount of Posts__ — .
+
+- __Featured Content__ 
+  - __Heading__  — .
+  - __Content__ — .
+  - __Button Text__  — .
+  - __Button URL__ — .
+  - __Media__ — .
+  - __Image__ — .
+  - __Layout__ — .
+  - __Background__ — .
+  
 ### Video Module
+Desc
+1. __Heading__ — .
+                   
+- __Content__ — .
+
+- __Background Video__ 
+  - __Video (MP4)__  — .
+  - __Video (WebM)__ — .
+  - __Video (OGV)__  — .
+  - __Fallback Image__ — .
+
+- __Main Video__ 
+  - __Source__  — .
+  - __Video (MP4)__ — .
+  - __Video (WebM)__ — .
+  - __Video (OGV)__  — .
+  - __Fallback Image__ — .
+
 ### Posts Module
+Posts Module display WordPress Posts on the homepage.
+
+1. __Heading__ — .
+                   
+- __View All Page__ — Select where the View All button link to. Usually it's the Posts or Blog page.
+
+- __View All Button Text__ — Replace View All text with other text.
+
+- __Category__ — Display only Posts from these categories.
+
+- __Posts Amount__ — Maximum amount of posts to display. Default: 3.
+
+- __Grid Column__ — Amount of grid columns on large screen.
+
+- __Excerpt__ — Display Post excerpt.
+
+- __Background__ — Choose module background properties — image, color, etc.
 
 ### Twitter Module
+Desc
+1. __Heading__ — .
+                   
+- __Amount of Tweet__ — Maximum amount of tweet to display. Default: 6.
+
+- __Background__ — Choose module background properties — image, color, etc.
+
+- __Control Navigation__ — Display the slide bullet navigation.
+
+- __Twitter Token__  
+  - __Twitter User Name__  — .
+  - __Access Token__ — .
+  - __Access Token Secret__  — .
+  - __Consumer Key__ — .
+  - __Consumer Secret__ — .
 
 ### Ministry Module
+Desc
+1. __Heading__ — .
+                   
+- __Content__ — .
 
+- __View All Page__ — Select the Ministry parent page or where the View All button link to.
+
+- __View All Button Text__ — Replace View All text with other text.
+
+- __Amount of Posts__ — Maximum amount of Ministry to display. Default: 12.
+
+- __Background__ — Choose module background properties — image, color, etc.
 
 ### Sermons Module
+Desc
+1. __Heading__ — .
+                 
+- __View All Page__ — Select the Sermons parent page or where the View All button link to.
+
+- __View All Button Text__ — Replace View All text with other text.
+
+- __Background__ — Choose module background properties — image, color, etc.
 
 ### Events Module
+Desc
+1. __Heading__ — .
+                 
+- __Posts Amount__ — Maximum amount of upcoming events to display. Default: 12.
+
+- __Background__ — Choose module background properties — image, color, etc.
+
+- __Control Navigation__ — Display the previous / next events button.
 
 ### Gallery Module
+Desc
+1. __Heading__ — .
+                 
+- __Content__ — .Gallery Module content. HTML Allowed.
 
+- __Background__ — Choose module background properties — image, color, etc.
 
+- __Add/Edit Image__ — Create carousel by selecting existing or uploading new images using the WordPress native uploader
 
-
-
+- __Control Navigation__ — Display the previous / next images button.
 
 ## Header
 -----
