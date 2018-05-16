@@ -193,7 +193,10 @@ Desc
 - __Background__ — Choose module background properties — image, color, etc.
 
 ### Events Module
-Desc
+A section to display upcoming events.
+
+!> NOTE: Events Module requires [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/ ":target=_blank") plugin.
+   
 1. __Heading__ — .
                  
 - __Posts Amount__ — Maximum amount of upcoming events to display. Default: 12.
@@ -203,14 +206,18 @@ Desc
 - __Control Navigation__ — Display the previous / next events button.
 
 ### Gallery Module
-Desc
-1. __Heading__ — .
+
+A slideshow component for cycling through elements—images or slides of text—like a carousel.
+
+IMG
+
+1. __Heading__ — Gallery module heading.
                  
-- __Content__ — .Gallery Module content. HTML Allowed.
+- __Content__ — Gallery module content. HTML allowed.
 
-- __Background__ — Choose module background properties — image, color, etc.
+- __Background__ — Gallery module background properties — image, color, etc.
 
-- __Add/Edit Image__ — Create carousel by selecting existing or uploading new images using the WordPress native uploader
+- __Add/Edit Image__ — Select images to be displayed using the WordPress native uploader
 
 - __Control Navigation__ — Display the previous / next images button.
 
