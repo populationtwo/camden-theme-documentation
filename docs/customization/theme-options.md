@@ -183,10 +183,14 @@ Desc
 - __Background__ — Choose module background properties — image, color, etc.
 
 ### Sermons Module
-Desc
-1. __Heading__ — .
+
+A section to display the latest sermons.
+
+IMG 
+
+1. __Heading__ — Sermons module heading.
                  
-- __View All Page__ — Select the Sermons parent page or where the View All button link to.
+- __View All Page__ — Select the Sermons parent page where the View All button links to.
 
 - __View All Button Text__ — Replace View All text with other text.
 
@@ -195,13 +199,15 @@ Desc
 ### Events Module
 A section to display upcoming events.
 
+IMG
+
 !> NOTE: Events Module requires [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/ ":target=_blank") plugin.
    
-1. __Heading__ — .
+1. __Heading__ — Events module heading.
                  
 - __Posts Amount__ — Maximum amount of upcoming events to display. Default: 12.
 
-- __Background__ — Choose module background properties — image, color, etc.
+- __Background__ — Choose Events module background properties — image, color, etc.
 
 - __Control Navigation__ — Display the previous / next events button.
 
