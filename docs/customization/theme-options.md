@@ -42,14 +42,17 @@ Camden theme comes with Theme Options page. It allows users to change theme sett
 -----
 
 ### Layout
-Desc
+Drag and drop the layout item to organize how you want the layout to appear on the homepage. The page layout is divided into 2 section:
+
 1. __Upper Section__ — Upper section of the homepage layout. It's located below the slider.
                     
 - __Lower / Main Section__ — Lower section of the homepage layout. It contains most of the homepage content.
   
 ### Slider
-Desc
-1. __Slider Transition__ — Upper section of the homepage layout. It's located below the slider.
+
+Slider image on the homepage.
+
+1. __Slider Transition__ — Slider transition animation.
                     
 - __Transition Speed__ — Slide transition speed in milliseconds. This option only works when Slide transition is selected. Default: 400.
 
@@ -59,7 +62,7 @@ Desc
 
 - __Direction Navigation__ — Display previous or next slider navigation.
 
-- __Auto Play__ — .
+- __Auto Play__ — Enable / disable  auto play.
 
 - __Pause on Hover__ — Pause slider animation on mouse hover.
 
@@ -67,7 +70,10 @@ Desc
 
   
 ### Call to Action Module
-Desc
+A section to display Call to Action buttons.
+
+![CTA](../_images/theme-options-fp-cta.png)
+
 1. __CTA Item__ — Add CTA title, description and image. Recommended image size: 280px x 280px.
                     
 - __CTA Columns - Large__ — Slide transition speed in milliseconds. This option only works when Slide transition is selected. Default: 400.
@@ -169,12 +175,16 @@ Desc
   - __Consumer Secret__ — .
 
 ### Ministry Module
-Desc
-1. __Heading__ — .
-                   
-- __Content__ — .
 
-- __View All Page__ — Select the Ministry parent page or where the View All button link to.
+A section to display ministries.
+
+IMG
+
+1. __Heading__ — Ministry module heading.
+                   
+- __Content__ — Content below heading.
+
+- __View All Page__ — Select the ministry parent page or where the View All button link to. Default: `/ministries`.
 
 - __View All Button Text__ — Replace View All text with other text.
 
@@ -190,7 +200,7 @@ IMG
 
 1. __Heading__ — Sermons module heading.
                  
-- __View All Page__ — Select the Sermons parent page where the View All button links to.
+- __View All Page__ — Select the Sermons parent page where the View All button links to. Default: `/sermons`.
 
 - __View All Button Text__ — Replace View All text with other text.
 
