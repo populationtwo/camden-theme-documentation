@@ -76,48 +76,53 @@ A section to display Call to Action buttons.
 
 1. __CTA Item__ — Add CTA title, description and image. Recommended image size: 280px x 280px.
                     
-- __CTA Columns - Large__ — Slide transition speed in milliseconds. This option only works when Slide transition is selected. Default: 400.
+- __CTA Columns - Large__ — Amount of CTA columns on large screens (min-width 1025px).
 
-- __CTA Columns - Medium__ — Slideshow transition speed between slides in milliseconds. Set to 0 to disable auto play. Default: 5000.
+- __CTA Columns - Medium__ — Amount of CTA columns on medium screens (max-width 1024px).
 
-- __CTA Columns - Small__ — Display the slider bullet navigation.
+- __CTA Columns - Small__ — Amount of CTA columns on small screens (max-width 640px).
 
 
 ### Intro Module
-Desc
-1. __Heading__ — Add CTA title, description and image. Recommended image size: 280px x 280px.
+A section to display a brief information or introduction.
+
+![CTA](../_images/theme-options-fp-intro.png)
+
+1. __Heading__ — Intro module heading.
                     
-- __Subheading__ — Slide transition speed in milliseconds. This option only works when Slide transition is selected. Default: 400.
+- __Subheading__ — Intro module subheading.
 
-- __Content__ — HTML allowed.
+- __Content__ — Intro module content. 
 
-- __Layout__ 
+- __Layout__ — Intro module layout. 
 
 - __Buttons__ 
-  - __Button 1 Text__  — .
-  - __Button 1 URL__ — .
-  - __Button 2 Text__  — .
-  - __Button 2 URL__ — .
+  - __Button 1 Text__  — Intro module button text.
+  - __Button 1 URL__ — Intro module button URL.
+  - __Button 2 Text__ — Intro module button text.
+  - __Button 2 URL__ — Intro module button URL.
 
 ### Content Module
-Content module display the homepage content.
+A section to display the homepage content. This will display the content of the Page that is set as the homepage.
 
 1. __Background__ — Choose module background properties — image, color, etc..
   
 ### Feature Module
-Feature Module display featured content on the homepage.
+A section to display featured content on the homepage.
 
-1. __Amount of Posts__ — .
+![CTA](../_images/theme-options-fp-featured.png)
+
+1. __Amount of Posts__ — the amount of Posts to be displayed.
 
 - __Featured Content__ 
-  - __Heading__  — .
-  - __Content__ — .
-  - __Button Text__  — .
-  - __Button URL__ — .
-  - __Media__ — .
-  - __Image__ — .
-  - __Layout__ — .
-  - __Background__ — .
+  - __Heading__  — post heading.
+  - __Content__ — post content.
+  - __Button Text__  
+  - __Button URL__ 
+  - __Media__ — media type to be displayed.
+  - __Image__ — post image.
+  - __Layout__ — post layout.
+  - __Background__ — post background properties.
   
 ### Video Module
 Desc
