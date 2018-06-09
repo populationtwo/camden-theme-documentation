@@ -125,59 +125,65 @@ A section to display featured content on the homepage.
   - __Background__ — post background properties.
   
 ### Video Module
-Desc
-1. __Heading__ — .
+
+A section to display video in a background.
+
+![CTA](../_images/theme-options-fp-video.png)
+
+1. __Heading__ — video module heading.
                    
-- __Content__ — .
+- __Content__ — video module content.
 
 - __Background Video__ 
-  - __Video (MP4)__  — .
-  - __Video (WebM)__ — .
-  - __Video (OGV)__  — .
-  - __Fallback Image__ — .
+  - __Video (MP4)__  — background video in .MP4 format.
+  - __Video (WebM)__ — background video in .WebM format.
+  - __Video (OGV)__  — background video in .OGV format.
+  - __Fallback Image__ — image to be displayed if the browser does not support HTML5 video.
 
 - __Main Video__ 
-  - __Source__  — .
-  - __Video (MP4)__ — .
-  - __Video (WebM)__ — .
-  - __Video (OGV)__  — .
-  - __Fallback Image__ — .
+  - __Source__  — main video in .MP4 format.
+  - __Video (MP4)__ — main video in .WebM format.
+  - __Video (WebM)__ — main video in .OGV format.
+  - __Video (OGV)__  — main video in .OGV format.
+  - __Fallback Image__ — image to be displayed if the browser does not support HTML5 video.
 
 ### Posts Module
-Posts Module display WordPress Posts on the homepage.
+A section to Posts on the homepage.
 
-1. __Heading__ — .
+![CTA](../_images/theme-options-fp-posts.png)
+
+1. __Heading__ 
                    
-- __View All Page__ — Select where the View All button link to. Usually it's the Posts or Blog page.
+- __View All Page__ — select where the View All button link to. Usually it's the Posts or Blog page.
 
-- __View All Button Text__ — Replace View All text with other text.
+- __View All Button Text__ — replace __View All__ text with other text. Default: View All.
 
-- __Category__ — Display only Posts from these categories.
+- __Category__ — display only Posts from these categories.
 
-- __Posts Amount__ — Maximum amount of posts to display. Default: 3.
+- __Posts Amount__ — maximum amount of posts to display. Default: 3.
 
-- __Grid Column__ — Amount of grid columns on large screen.
+- __Grid Column__ — amount of grid columns on large screen.
 
-- __Excerpt__ — Display Post excerpt.
+- __Excerpt__ — display Post excerpt.
 
-- __Background__ — Choose module background properties — image, color, etc.
+- __Background__ — choose module background properties — image, color, etc.
 
 ### Twitter Module
-Desc
-1. __Heading__ — .
+
+A section to display Twitter feed.
+
+![CTA](../_images/theme-options-fp-twitter.png)
+
+1. __Heading__ —  Twitter module heading.
                    
-- __Amount of Tweet__ — Maximum amount of tweet to display. Default: 6.
+- __Amount of Tweet__ — amount of tweet to display. Default: 6.
 
-- __Background__ — Choose module background properties — image, color, etc.
+- __Background__ — module background properties — image, color, etc.
 
-- __Control Navigation__ — Display the slide bullet navigation.
+- __Control Navigation__ — display the slide bullet navigation.
 
-- __Twitter Token__  
-  - __Twitter User Name__  — .
-  - __Access Token__ — .
-  - __Access Token Secret__  — .
-  - __Consumer Key__ — .
-  - __Consumer Secret__ — .
+- __Twitter Token__ — enter Twitter Keys and Access Tokens. Generate it from [developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html)
+
 
 ### Ministry Module
 
