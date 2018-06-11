@@ -187,42 +187,42 @@ A section to display Twitter feed.
 
 ### Ministry Module
 
-A section to display ministries.
+A section to display Ministries.
 
-IMG
+![CTA](../_images/theme-options-fp-ministries.png)
 
-1. __Heading__ — Ministry module heading.
+1. __Heading__ — ministry module heading.
                    
-- __Content__ — Content below heading.
+- __Content__ — content below heading.
 
-- __View All Page__ — Select the ministry parent page or where the View All button link to. Default: `/ministries`.
+- __View All Page__ — select the ministry parent page or where the View All button link to. Default: `/ministries`.
 
-- __View All Button Text__ — Replace View All text with other text.
+- __View All Button Text__ — replace __View All__ text with other text.
 
-- __Amount of Posts__ — Maximum amount of Ministry to display. Default: 12.
+- __Amount of Posts__ — maximum amount of Ministry to display. Default: 12.
 
-- __Background__ — Choose module background properties — image, color, etc.
+- __Background__ — choose module background properties — image, color, etc.
 
 ### Sermons Module
 
 A section to display the latest sermons.
 
-IMG 
+![CTA](../_images/theme-options-fp-ministries.png) 
 
 1. __Heading__ — Sermons module heading.
                  
 - __View All Page__ — Select the Sermons parent page where the View All button links to. Default: `/sermons`.
 
-- __View All Button Text__ — Replace View All text with other text.
+- __View All Button Text__ — Replace __View All__ text with other text.
 
 - __Background__ — Choose module background properties — image, color, etc.
 
 ### Events Module
 A section to display upcoming events.
 
-IMG
-
 !> NOTE: Events Module requires [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/ ":target=_blank") plugin.
+
+![CTA](../_images/theme-options-fp-events.png) 
    
 1. __Heading__ — Events module heading.
                  
