@@ -236,7 +236,7 @@ A section to display upcoming events.
 
 A slideshow component for cycling through elements—images or slides of text—like a carousel.
 
-IMG
+![CTA](../_images/theme-options-fp-gallery.png) 
 
 1. __Heading__ — Gallery module heading.
                  
