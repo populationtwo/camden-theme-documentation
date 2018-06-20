@@ -17,7 +17,6 @@
 - Guide
   - [Translation](guide/translation.md)
   - [Google API](guide/google-api.md)  
-  - 
 
 - [Changelog](changelog.md)
 - [Support](support.md)
