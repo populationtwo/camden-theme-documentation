@@ -207,7 +207,7 @@ A section to display Ministries.
 
 A section to display the latest sermons.
 
-![CTA](../_images/theme-options-fp-ministries.png) 
+![CTA](../_images/theme-options-fp-sermon.png) 
 
 1. __Heading__ — Sermons module heading.
                  
@@ -283,7 +283,7 @@ A slideshow component for cycling through elements—images or slides of text—
 - __Copyright Text__ — footer copyright notice text.
 - __Social Icons__ — add social URL (Facebook, Twitter, etc.) to display social icons. 
 - __Show Call to Action__ — display Call to Action section on page footer.
-- __Heading__ — Call to Action heading.
+- __Heading__ — Call to Action heading. 
 - __Button Text__ — Call to Action button text.
 - __Button URL__ —  Call to Action URL.
 

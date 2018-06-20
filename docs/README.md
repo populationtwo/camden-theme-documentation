@@ -19,7 +19,7 @@
     - ~~Post formats~~
 - Theme Options
     - ~~General~~
-    - Front Page
+    - ~~Front Page~~
     - ~~Header~~
     - ~~Footer~~
     - ~~Custom Post Type~~
